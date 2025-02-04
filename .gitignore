@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Dataset
+U.S._Chronic_Disease_Indicators__CDI___2023_Release copy.csv
