@@ -7,12 +7,24 @@
 
 ### 1️⃣ Clone the repository
 ```bash
+# Clone the repository
 git clone <repo-url>
 cd Chronic_Disease_Indicators_Data_Visualization
 
+# Create a virtual environment
 python3 -m venv .venv
-source .venv/bin/activate  # For Linux/macOS
-.venv\Scripts\activate  # For WindowsOS
 
+# Activate the virtual environment:
+# For Linux/macOS
+source .venv/bin/activate
+
+# For Windows (Command Prompt)
+.venv\Scripts\activate
+
+# For Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+
+# Install dependencies
 pip install -r requirements.txt
+
 ```
