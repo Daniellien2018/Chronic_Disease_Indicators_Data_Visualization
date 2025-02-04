@@ -1,0 +1,21 @@
+# Core Scientific Libraries
+numpy
+pandas
+scipy
+
+# Machine Learning & Deep Learning
+# torch 
+# tensorflow
+
+# Data Visualization
+matplotlib
+seaborn
+plotly
+
+# Jupyter & Notebooks
+jupyter
+ipython
+
+# Data Processing & Utilities
+tqdm
+pyyaml  # For handling YAML configs
