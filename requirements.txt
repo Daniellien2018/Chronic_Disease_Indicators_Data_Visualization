@@ -21,3 +21,6 @@ ipython==8.12.3
 tqdm==4.67.1
 PyYAML==6.0.2
 # pyyaml  # For handling YAML configs
+
+# Modeling/Forecasting
+statsmodels==0.14.1 
