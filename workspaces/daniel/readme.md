@@ -1,3 +1,9 @@
+Goal: I am only looking at COPD prevalence by state, year, and stratification 
+
+
+
+
+
 Questions:
 
 1) COPD disease among adults (Q01)
