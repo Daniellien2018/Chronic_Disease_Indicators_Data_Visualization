@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from utils.model_evaluation import evaluate_model
 from utils.model_saving import save_model
-
+from utils.util import one_hot_encoding
 def load_data(file_path):
     """Load dataset from CSV."""
     return pd.read_csv(file_path)
@@ -19,14 +19,6 @@ def train_linear_regression(train_df):
     
     return model
 
-def one_hot_encoding(df):
-    #Check for categorical Columns
-    categorical_cols = df.select_dtypes(include=['object']).columns
-    # Perform One-Hot Encoding on categorical Columns
-    # Drop first to avoid the Dummy Variable Trap to avoid multicollinearity
-    df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
-    return df
-
 def main():
     # Load train and test datasets
     train_df = load_data('data/processed/train.csv')
@@ -40,7 +32,7 @@ def main():
     model = train_linear_regression(train_df)
     
     save_model(model, "linear_regression")
-    
+
     # Evaluate the model
     mae, mse, rmse, r2 = evaluate_model(model, test_df)
     
