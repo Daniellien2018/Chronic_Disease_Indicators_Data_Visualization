@@ -4,7 +4,6 @@ from sklearn.linear_model import LinearRegression
 from sklearn.pipeline import make_pipeline
 from utils.model_evaluation import evaluate_model
 from utils.model_saving import save_model
-from utils.util import one_hot_encoding
 
 
 def train_polynomial_regression(train_df, degree=2):
@@ -28,10 +27,6 @@ def main():
     # Load pre-processed data
     train_df = pd.read_csv('data/processed/train.csv')
     test_df = pd.read_csv('data/processed/test.csv')
-
-    #Encode Train and Test
-    train_df = one_hot_encoding(train_df)
-    test_df = one_hot_encoding(test_df)
 
     # Train polynomial regression model
     degree = 2  # Experiment with different polynomial degrees
