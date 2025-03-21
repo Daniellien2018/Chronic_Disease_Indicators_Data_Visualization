@@ -20,6 +20,17 @@ Folder Structure:
         - data_prep.py
         - {model}_training.py
         
+
+Process:
+RUN EVERYTHING IN /project/workspaces/daniel
+- src/data_prep.py 
+    - one-hot encoding
+    - prepare train.csv and test.csv
+- src/linear_regression.py # train a linear regression model
+    - save to models/{model}.pkl
+- src/model_comparison.py
+    - Compare model outputs
+
 Questions:
 
 

@@ -1,6 +1,7 @@
 # Data Cleaning, Splitting, Preprocessing
 import pandas as pd
 from sklearn.model_selection import train_test_split
+from utils.util import one_hot_encoding
 
 def load_data(file_path):
     """Load dataset from CSV."""
@@ -27,12 +28,15 @@ def save_splits(train_df, test_df, train_file='data/processed/train.csv', test_f
 
 if __name__ == "__main__":
     # Load data
-    file_path = 'data/raw/COPD2_0.csv'  # Change this path to your dataset location
+    file_path = 'data/raw/COPD2_0.csv'  
     df = load_data(file_path)
     
-    # Preprocess data
+    # Preprocess data - Currently empty
     df = preprocess_data(df)
-    
+
+    # Apply one-hot encoding to categorical columns
+    df = one_hot_encoding(df)
+
     # Split data (80% train, 20% test)
     train_df, test_df = random_split(df, test_size=0.2)
     

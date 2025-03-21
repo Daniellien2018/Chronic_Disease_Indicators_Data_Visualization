@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from utils.model_evaluation import evaluate_model
 from utils.model_saving import save_model
-from utils.util import one_hot_encoding
+
 def load_data(file_path):
     """Load dataset from CSV."""
     return pd.read_csv(file_path)
@@ -24,10 +24,6 @@ def main():
     train_df = load_data('data/processed/train.csv')
     test_df = load_data('data/processed/test.csv')
     
-    #Encode Train and Test
-    train_df = one_hot_encoding(train_df)
-    test_df = one_hot_encoding(test_df)
-
     # Train the Linear Regression model
     model = train_linear_regression(train_df)
     
