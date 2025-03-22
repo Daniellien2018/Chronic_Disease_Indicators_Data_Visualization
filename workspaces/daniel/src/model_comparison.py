@@ -1,12 +1,15 @@
-
+import os
 import pdb
+import glob
+from pathlib import Path
 import pandas as pd
 from utils.model_saving import load_model
 from utils.model_evaluation import evaluate_model
 
 """
-NOT WORKING YET 3/18
+Compares the MAE, MSE, RMSE, R^2 for all models 
 """
+
 def compare_models(model_names, test_df, model_dir='../daniel/models'):
     """Compare multiple models on the same test set."""
     results = []
@@ -41,12 +44,12 @@ def compare_models(model_names, test_df, model_dir='../daniel/models'):
 
 def main():
     # Load the test dataset
-    # this test df is not one-hot coded
-    # the model i read in is one-hot coded 
     test_df = pd.read_csv('data/processed/test.csv')
 
-    # List of model names (use the names you saved them with)
-    model_names = ['linear_regression', 'polynomial_regression']
+    # List of model names - Need to separate from paths
+    model_dir = Path('models/')
+    # model_names = ['linear_regression', 'polynomial_regression', 'etc']
+    model_names = [model.stem for model in model_dir.glob('*.pkl')]
 
     # Compare all models
     compare_models(model_names, test_df)

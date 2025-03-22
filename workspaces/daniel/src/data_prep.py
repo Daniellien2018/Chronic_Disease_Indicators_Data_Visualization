@@ -3,6 +3,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from utils.util import one_hot_encoding
 
+"""
+Randomly splits the processed data into Train/Test using sklearn
+"""
 def load_data(file_path):
     """Load dataset from CSV."""
     df = pd.read_csv(file_path)
@@ -28,7 +31,7 @@ def save_splits(train_df, test_df, train_file='data/processed/train.csv', test_f
 
 if __name__ == "__main__":
     # Load data
-    file_path = 'data/raw/COPD2_0.csv'  
+    file_path = 'data/raw/COPD2_0.csv'      
     df = load_data(file_path)
     
     # Preprocess data - Currently empty
