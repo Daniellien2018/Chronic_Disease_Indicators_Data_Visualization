@@ -31,7 +31,7 @@ def save_splits(train_df, test_df, train_file='data/processed/train.csv', test_f
 
 if __name__ == "__main__":
     # Load data
-    file_path = 'data/raw/COPD2_0.csv'  
+    file_path = 'data/raw/COPD2_0.csv'      
     df = load_data(file_path)
     
     # Preprocess data - Currently empty
