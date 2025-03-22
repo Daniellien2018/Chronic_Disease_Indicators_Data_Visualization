@@ -22,16 +22,38 @@
 - Higher R2 is better.
 
 
+## Results
+
 3/21 - Random Train/Test Split, One-Hot
-Model,MAE,MSE,RMSE,R²
-polynomial_regression,17922.470924333746,75262541897.96758,274340.1937339251,-8735090082.721975
-gradient_descent,759579378838567.6,5.7696220498025544e+29,759580282116548.5,-6.69631493743303e+28
-linear_regression,1.0348039165311231,2.555497212314177,1.598592259556569,0.7034049369668243
-random_forest,1.0013167938931296,2.744908190839693,1.6567764456436762,0.6814215981299654
+|Model|MAE|MSE|RMSE|R^2|
+|---|---|---|---|---|
+|Linear Regression|1.0348|2.555|1.598|0.703|
+|Polynomial Regression|1.79e^4|7.52e^10|2.74e^5|-8.73e^9|
+|Random Forest|1.001|2.744|1.656|0.681|
+|Gradient Descent|7.59e^14|5.77e+29|7.59e^14|-6.69e+28|
+|Ridge Regression|1.046|2.634|1.623|0.694|
+|Lasso Regression|1.834|6.298|2.509|0.269|
+|Elastic Net Regression|1.838|6.331|2.516|0.265|
 
 Takeaways:
 - Linear Regression leads with lowest MSE, RMSE, and Higher R2
+- Ridge Regression performs quite well, with R2=69, and only slightly higher MAE,MSE,RMSE
 - Random Forest is close second with marginally better MAE, but lower R2
+- Polynomial and GD both have extreme errors and very negative R2, indicating overfit/unstable
+- Lasso and Elastic have higher MAE,MSE,RMSE, and very low R2 
 
 3/21 - Ordinal Train/Test Split, One-hot
 
+|Model|MAE|MSE|RMSE|R^2|
+|---|---|---|---|---|
+|Linear Regression|1.153|3.033|1.741|0.611|
+|Polynomial Regression|1.373|18.94|4.352|-1.431|
+|Random Forest|1.167|3.461|1.860|0.556|
+|Gradient Descent|9.39*e^11|8.8*e^24|9.39*e^11|-1.1*e^27|
+|Ridge Regression|1.163|3.046|1.745|0.608|
+|Lasso Regression|1.924|5.995|2.448|0.231|
+|Elastic Net Regression|1.941|5.964|2.442|0.235|
+
+Takeaways:
+- Linear and Ridge still perform the best, both explaining 61% of the variance 
+- Random Forest still performs well, but with a drop in 

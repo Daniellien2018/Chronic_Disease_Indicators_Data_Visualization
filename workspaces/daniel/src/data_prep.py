@@ -3,6 +3,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from utils.util import one_hot_encoding
 
+"""
+Randomly splits the processed data into Train/Test using sklearn
+"""
 def load_data(file_path):
     """Load dataset from CSV."""
     df = pd.read_csv(file_path)

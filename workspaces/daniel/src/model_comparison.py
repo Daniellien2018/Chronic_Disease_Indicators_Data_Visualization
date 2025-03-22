@@ -7,8 +7,9 @@ from utils.model_saving import load_model
 from utils.model_evaluation import evaluate_model
 
 """
-Change to take all .pkl - use glob
+Compares the MAE, MSE, RMSE, R^2 for all models 
 """
+
 def compare_models(model_names, test_df, model_dir='../daniel/models'):
     """Compare multiple models on the same test set."""
     results = []
