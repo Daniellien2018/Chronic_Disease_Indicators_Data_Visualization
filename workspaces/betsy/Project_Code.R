@@ -208,6 +208,7 @@ head(modified_df, 5)
 
 # split data into training and testing sets
 # training data uses data from 2010 - 2017 and testing data uses data from 2018 - 2020
+set.seed(123)
 train_df <- modified_df %>% filter(Year >= 2010 & Year <= 2017)
 test_df <- modified_df %>% filter(Year >= 2018 & Year <= 2020)
 
