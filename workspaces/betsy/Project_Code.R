@@ -222,16 +222,12 @@ rf_model <- randomForest(Number_Diagnosed ~ State + Year + Stratification1 + Med
 # gradient boosting regression
 gbm_model <- gbm(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df, distribution = "gaussian", n.trees = 100, interaction.depth = 3, shrinkage = 0.01, cv.folds = 5)
 
-# evaluate models
-rmse <- function(actual, predicted) {
-  sqrt(mean((actual - predicted)^2))
-}
-
 # predictions
 test_df$lm_pred <- predict(lm_model, test_df)
 test_df$rf_pred <- predict(rf_model, test_df)
 test_df$gbm_pred <- predict(gbm_model, test_df, n.trees = 100)
 
+# evaluate models
 # calculate mae
 mae <- function(actual, predicted) {
   mean(abs(actual - predicted))
@@ -291,13 +287,10 @@ cat("MSE:", gbm_mse) # 2165246
 cat("RMSE:", gbm_rmse) # 1471.478
 cat("R-squared:", gbm_r2) # 0.63076
 
-# generate predictions on testing dataset
-test_df$rf_pred <- predict(rf_model, test_df)
-
 # view first 5 rows for actuals vs. predictions
 head(test_df[, c("Number_Diagnosed", "rf_pred")], 5)
 
-# generate predictions using the random forest model
+# generate predictions on testing dataset using the random forest model
 test_df$rf_pred <- predict(rf_model, test_df)
 
 # generate predictions from 2021 - 2025
