@@ -21,9 +21,9 @@ colnames(df)
 # filter data to show only rows where 'datavaluetype = number'
 # did not include rates/prevalence as these are calculated values and total population/distribution not provided
 # then filter by 'stratificationcategory1 = gender' and 'stratificationcategory1 = race/ethnicity'
-# did not include 'stratificationcategory1 = overall' since this would double count number diagnosed with ckd and not a specific enough predictor
+# did not include 'stratificationcategory1 = overall' since this would double count the number of deaths from ckd and not a specific enough predictor
 # filtering by gender and race/ethnicity sets stratification1 to male, female, hispanic, asian, etc.
-# by using both gender and race/ethnicity, may be double counting number diagnosed as well (something to keep in mind)
+# by using both gender and race/ethnicity, may be double counting number of deaths as well (something to keep in mind)
 # select relevant columns only and rename them (decided to leave out question col)
 filtered_df <- df %>%
   filter(DataValueType == 'Number' & 
@@ -33,21 +33,21 @@ filtered_df <- df %>%
     Year = YearStart,
     State = LocationDesc,
     Disease = Topic,
-    Number_Diagnosed = DataValue
+    Mortality_Count = DataValue
   ) %>%
   mutate(Year = as.numeric(Year)) %>%
   arrange(Year, State) %>%
-  mutate(Number_Diagnosed = as.numeric(Number_Diagnosed))
+  mutate(Mortality_Count = as.numeric(Mortality_Count))
 
 # view first 5 rows
 head(filtered_df, 5)
 
-# remove rows with na in 'number_diagnosed'
+# remove rows with na in 'Mortality_Count'
 # convert year to int
 cdc_df <- filtered_df %>%
-  filter(!is.na(Number_Diagnosed)) %>%
+  filter(!is.na(Mortality_Count)) %>%
   mutate(Year = as.integer(Year)) %>%
-  mutate(Number_Diagnosed = as.integer(Number_Diagnosed))
+  mutate(Mortality_Count = as.integer(Mortality_Count))
 
 # view the first 5 rows of the cleaned data and last 5 rows
 # data from 2010 through 2020
@@ -144,15 +144,15 @@ head(final_df, 5)
 # summary stats for numeric columns
 summary(Filter(is.numeric, final_df))
 
-# average of number_diagnosed by race and gender
+# average of Mortality_Count by race and gender
 final_df %>%
   group_by(Stratification1) %>%
-  summarise(average = mean(Number_Diagnosed, na.rm = TRUE))
+  summarise(average = mean(Mortality_Count, na.rm = TRUE))
 
 # summary stats by state
 final_df %>%
   group_by(State) %>%
-  summarise(across(c(Medicaid_Expenses, Number_Diagnosed, Median_Income), list(mean = mean, median = median)))
+  summarise(across(c(Medicaid_Expenses, Mortality_Count, Median_Income), list(mean = mean, median = median)))
 
 # medicaid expenses frequency distribution
 ggplot(final_df, aes(x = Medicaid_Expenses)) +
@@ -172,25 +172,25 @@ gender <- final_df %>%
 race <- final_df %>%
   filter(StratificationCategory1 == 'Race/Ethnicity')
 
-# number diagnosed by gender
-ggplot(gender, aes(x = Stratification1, y = Number_Diagnosed)) +
+# mortality count by gender
+ggplot(gender, aes(x = Stratification1, y = Mortality_Count)) +
   geom_boxplot(fill = "orange") +
-  labs(title = "Boxplot by Gender", x = "Gender", y = "Number Diagnosed")
+  labs(title = "Boxplot by Gender", x = "Gender", y = "Mortality Count")
 
-# number diagnosed by race/ethnicity
-ggplot(race, aes(x = Stratification1, y = Number_Diagnosed)) +
+# mortality count by race/ethnicity
+ggplot(race, aes(x = Stratification1, y = Mortality_Count)) +
   geom_boxplot(fill = "orange") +
-  labs(title = "Boxplot by Race/Ethnicity", x = "Race/Ethnicity", y = "Number Diagnosed")
+  labs(title = "Boxplot by Race/Ethnicity", x = "Race/Ethnicity", y = "Mortality Count")
 
-# scatterplot showing number diagnosed against median income
-ggplot(final_df, aes(x = Median_Income, y = Number_Diagnosed)) +
+# scatterplot showing mortality count against median income
+ggplot(final_df, aes(x = Median_Income, y = Mortality_Count)) +
   geom_point(color = "red") +
-  labs(title = "Scatter Plot for Number Diagnosed vs. Median Income", x = "Median Income (in thousands)", y = "Number Diagnosed")
+  labs(title = "Scatter Plot for Mortality Count vs. Median Income", x = "Median Income (in thousands)", y = "Mortality Count")
 
-# scatterplot showing number diagnosed against medicaid expenses
-ggplot(final_df, aes(x = Medicaid_Expenses, y = Number_Diagnosed)) +
+# scatterplot showing mortality count against medicaid expenses
+ggplot(final_df, aes(x = Medicaid_Expenses, y = Mortality_Count)) +
   geom_point(color = "red") +
-  labs(title = "Scatter Plot for Number Diagnosed vs. Medicaid Expenses", x = "Medicaid Expenses (in millions)", y = "Number Diagnosed")
+  labs(title = "Scatter Plot for Mortality Count vs. Medicaid Expenses", x = "Medicaid Expenses (in millions)", y = "Mortality Count")
 
 # correlation analysis
 cor_matrix <- final_df %>%
@@ -214,13 +214,13 @@ test_df <- modified_df %>% filter(Year >= 2018 & Year <= 2020)
 
 # train models
 # linear regression
-lm_model <- lm(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df)
+lm_model <- lm(Mortality_Count ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df)
 
 # random forest regression
-rf_model <- randomForest(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df, ntree = 100)
+rf_model <- randomForest(Mortality_Count ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df, ntree = 100)
 
 # gradient boosting regression
-gbm_model <- gbm(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df, distribution = "gaussian", n.trees = 100, interaction.depth = 3, shrinkage = 0.01, cv.folds = 5)
+gbm_model <- gbm(Mortality_Count ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df, distribution = "gaussian", n.trees = 100, interaction.depth = 3, shrinkage = 0.01, cv.folds = 5)
 
 # predictions
 test_df$lm_pred <- predict(lm_model, test_df)
@@ -251,22 +251,22 @@ r_squared <- function(actual, predicted) {
 }
 
 # metrics for linear regression model
-lm_mae <- mae(test_df$Number_Diagnosed, test_df$lm_pred)
-lm_mse <- mse(test_df$Number_Diagnosed, test_df$lm_pred)
-lm_rmse <- rmse(test_df$Number_Diagnosed, test_df$lm_pred)
-lm_r2 <- r_squared(test_df$Number_Diagnosed, test_df$lm_pred)
+lm_mae <- mae(test_df$Mortality_Count, test_df$lm_pred)
+lm_mse <- mse(test_df$Mortality_Count, test_df$lm_pred)
+lm_rmse <- rmse(test_df$Mortality_Count, test_df$lm_pred)
+lm_r2 <- r_squared(test_df$Mortality_Count, test_df$lm_pred)
 
 # metrics for random forest model
-rf_mae <- mae(test_df$Number_Diagnosed, test_df$rf_pred)
-rf_mse <- mse(test_df$Number_Diagnosed, test_df$rf_pred)
-rf_rmse <- rmse(test_df$Number_Diagnosed, test_df$rf_pred)
-rf_r2 <- r_squared(test_df$Number_Diagnosed, test_df$rf_pred)
+rf_mae <- mae(test_df$Mortality_Count, test_df$rf_pred)
+rf_mse <- mse(test_df$Mortality_Count, test_df$rf_pred)
+rf_rmse <- rmse(test_df$Mortality_Count, test_df$rf_pred)
+rf_r2 <- r_squared(test_df$Mortality_Count, test_df$rf_pred)
 
 # metric for gradient boosting
-gbm_mae <- mae(test_df$Number_Diagnosed, test_df$gbm_pred)
-gbm_mse <- mse(test_df$Number_Diagnosed, test_df$gbm_pred)
-gbm_rmse <- rmse(test_df$Number_Diagnosed, test_df$gbm_pred)
-gbm_r2 <- r_squared(test_df$Number_Diagnosed, test_df$gbm_pred)
+gbm_mae <- mae(test_df$Mortality_Count, test_df$gbm_pred)
+gbm_mse <- mse(test_df$Mortality_Count, test_df$gbm_pred)
+gbm_rmse <- rmse(test_df$Mortality_Count, test_df$gbm_pred)
+gbm_r2 <- r_squared(test_df$Mortality_Count, test_df$gbm_pred)
 
 # results
 cat("Linear Regression Metrics:")
@@ -288,7 +288,7 @@ cat("RMSE:", gbm_rmse) # 1471.478
 cat("R-squared:", gbm_r2) # 0.63076
 
 # view first 5 rows for actuals vs. predictions
-head(test_df[, c("Number_Diagnosed", "rf_pred")], 5)
+head(test_df[, c("Mortality_Count", "rf_pred")], 5)
 
 # generate predictions on testing dataset using the random forest model
 test_df$rf_pred <- predict(rf_model, test_df)
