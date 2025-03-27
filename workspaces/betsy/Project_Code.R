@@ -213,7 +213,7 @@ train_df <- modified_df %>% filter(Year >= 2010 & Year <= 2017)
 test_df <- modified_df %>% filter(Year >= 2018 & Year <= 2020)
 
 # train models
-# linear regression
+# multiple linear regression
 lm_model <- lm(Mortality_Count ~ State + Year + Stratification1 + Medicaid_Expenses + Median_Income, data = train_df)
 
 # random forest regression
@@ -250,7 +250,7 @@ r_squared <- function(actual, predicted) {
   1 - (ss_residual / ss_total)
 }
 
-# metrics for linear regression model
+# metrics for multiple linear regression model
 lm_mae <- mae(test_df$Mortality_Count, test_df$lm_pred)
 lm_mse <- mse(test_df$Mortality_Count, test_df$lm_pred)
 lm_rmse <- rmse(test_df$Mortality_Count, test_df$lm_pred)
@@ -269,7 +269,7 @@ gbm_rmse <- rmse(test_df$Mortality_Count, test_df$gbm_pred)
 gbm_r2 <- r_squared(test_df$Mortality_Count, test_df$gbm_pred)
 
 # results
-cat("Linear Regression Metrics:")
+cat("Multiple Linear Regression Metrics:")
 cat("MAE:", lm_mae) # 899.1009
 cat("MSE:", lm_mse) # 1884827
 cat("RMSE:", lm_rmse) # 1372.89
