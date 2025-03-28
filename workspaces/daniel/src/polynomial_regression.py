@@ -14,8 +14,8 @@ def train_polynomial_regression(train_df, degree=2):
     :return: Trained model
     """
     # Separate features and target
-    X_train = train_df.drop('Prevalence', axis=1)
-    y_train = train_df['Prevalence']
+    X_train = train_df.drop('Mortality', axis=1)
+    y_train = train_df['Mortality']
 
     # Create a polynomial regression pipeline
     model = make_pipeline(PolynomialFeatures(degree), LinearRegression())

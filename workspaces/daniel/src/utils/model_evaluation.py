@@ -3,8 +3,8 @@ import numpy as np
 
 def evaluate_model(model, test_df):
     """Evaluate the model on the test set and return metrics."""
-    X_test = test_df.drop('Prevalence', axis=1)
-    y_test = test_df['Prevalence']
+    X_test = test_df.drop('Mortality', axis=1)
+    y_test = test_df['Mortality']
     # Generate predictions
     y_pred = model.predict(X_test)
 
