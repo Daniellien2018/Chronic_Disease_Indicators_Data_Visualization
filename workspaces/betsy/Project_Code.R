@@ -270,22 +270,22 @@ gbm_r2 <- r_squared(test_df$Mortality_Count, test_df$gbm_pred)
 
 # results
 cat("Multiple Linear Regression Metrics:")
-cat("MAE:", lm_mae) # 899.1009
-cat("MSE:", lm_mse) # 1884827
-cat("RMSE:", lm_rmse) # 1372.89
-cat("R-squared:", lm_r2) # 0.67858
+cat("MAE:", lm_mae) # 907.112
+cat("MSE:", lm_mse) # 1927114
+cat("RMSE:", lm_rmse) # 1388.205
+cat("R-squared:", lm_r2) # 0.6713687
 
 cat("Random Forest Metrics:")
-cat("MAE:", rf_mae) # 598.3433
-cat("MSE:", rf_mse) # 1032967
-cat("RMSE:", rf_rmse) # 1016.35
-cat("R-squared:", rf_r2) # 0.8238479
+cat("MAE:", rf_mae) # 614.7755
+cat("MSE:", rf_mse) # 1011148
+cat("RMSE:", rf_rmse) # 1005.559
+cat("R-squared:", rf_r2) # 0.8275687
 
 cat("Gradient Boosting Metrics:")
-cat("MAE:", gbm_mae) # 1064.362
-cat("MSE:", gbm_mse) # 2165246
-cat("RMSE:", gbm_rmse) # 1471.478
-cat("R-squared:", gbm_r2) # 0.63076
+cat("MAE:", gbm_mae) # 1064.458
+cat("MSE:", gbm_mse) # 2174330
+cat("RMSE:", gbm_rmse) # 1474.561
+cat("R-squared:", gbm_r2) # 0.629211
 
 # view first 5 rows for actuals vs. predictions
 head(test_df[, c("Mortality_Count", "rf_pred")], 5)
