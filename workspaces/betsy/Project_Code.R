@@ -207,9 +207,9 @@ modified_df <- final_df %>%
 head(modified_df, 5)
 
 # split data into training and testing sets
-# training data uses data from 2010 - 2017 and testing data uses data from 2018 - 2020
+# training data uses data from 2011 - 2017 and testing data uses data from 2018 - 2020
 set.seed(123)
-train_df <- modified_df %>% filter(Year >= 2010 & Year <= 2017)
+train_df <- modified_df %>% filter(Year >= 2011 & Year <= 2017)
 test_df <- modified_df %>% filter(Year >= 2018 & Year <= 2020)
 
 # train models
@@ -364,7 +364,7 @@ head(new_data)
 # write predictions to excel file to be used for interactive dashboard on tableau
 write.xlsx(
   new_data,
-  file = "predictions_2021_2050_with_state_2.xlsx",
+  file = "predictions_2021_2050.xlsx",
   sheetName = "Predictions",
   rowNames = FALSE
 )
