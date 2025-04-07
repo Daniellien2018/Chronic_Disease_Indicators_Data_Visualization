@@ -350,7 +350,9 @@ final_df %>%
 
 ```{r}
 
-colnames(final_df)
+final_df%>%
+  group_by(Stratification1)
+  
 
 ```
 
@@ -432,18 +434,35 @@ head(modified_df, 5)
 
 ```
 
+```{r}
+# correlation analysis
+cor_matrix <- final_df %>%
+  select(where(is.numeric)) %>%
+  cor(use = "complete.obs")
+
+corrplot::corrplot(cor_matrix, method = "circle")
+
+# only factor categorical columns used in modeling
+modified_df <- final_df %>%
+  mutate(State=as.factor(State),
+         Stratification1=as.factor(Stratification1))
+
+# view first 5 rows
+head(modified_df, 5)
+
+```
 
 
 ```{r}
 
 # split data into training and testing sets
-# training data uses data from 2010 - 2017 and testing data uses data from 2018 - 2020
+# training data uses data from 2010 - 2018 and testing data uses data from 2019 - 2020
 set.seed(101) # Set Seed so that same sample can be reproduced in future also
 
 train_df <-modified_df %>% 
-  filter(Year>=2010 &Year<=2017)
+  filter(Year>=2010 &Year<=2018)
 
-test_df <-modified_df %>% filter(Year>=2018)
+test_df <-modified_df %>% filter(Year>=2019)
 
 
 ```
@@ -583,29 +602,30 @@ xgboost_r2 <- r_squared(test_df$Number_Diagnosed, test_df$xgboost_pred)
 
 # results
 cat("Linear Regression Metrics:")
-cat("MAE:", lm_mae) # 1030.976
-cat("MSE:", lm_mse) # 2908552
-cat("RMSE:", lm_rmse) # 1705.448
-cat("R-squared:", lm_r2) # 0.6649183
+cat("MAE:", lm_mae) # 1095.441
+cat("MSE:", lm_mse) # 3373635
+cat("RMSE:", lm_rmse) # 1836.746
+cat("R-squared:", lm_r2) # 0.6529305
 
 cat("Random Forest Metrics:")
-cat("MAE:", rf_mae) # 653.355
-cat("MSE:", rf_mse) # 1580913
-cat("RMSE:", rf_rmse) # 1257.344
-cat("R-squared:", rf_r2) # 0.8178699
+cat("MAE:", rf_mae) # 812.3302
+cat("MSE:", rf_mse) # 2729004
+cat("RMSE:", rf_rmse) # 1651.97
+cat("R-squared:", rf_r2) # 0.7192483
 
 cat("Gradient Boosting Metrics:")
-cat("MAE:", gbm_mae) # 1198.239
-cat("MSE:", gbm_mse) # 4029757
-cat("RMSE:", gbm_rmse) # 2007.425
-cat("R-squared:", gbm_r2) # 0.5357491
+cat("MAE:", gbm_mae) # 1288.843
+cat("MSE:", gbm_mse) # 4783762
+cat("RMSE:", gbm_rmse) # 2187.181
+cat("R-squared:", gbm_r2) # 0.5078609
+
 
 
 cat("XGBoost Metrics:")
-cat("MAE:", xgboost_mae) # 421.7741
-cat("MSE:", xgboost_mse) # 840817.9
-cat("RMSE:", xgboost_rmse) # 916.9612
-cat("R-squared:", xgboost_r2) # 0.903133
+cat("MAE:", xgboost_mae) # 484.5806
+cat("MSE:", xgboost_mse) # 1070304
+cat("RMSE:", xgboost_rmse) # 1034.555
+cat("R-squared:", xgboost_r2) # 0.8898903
 
 ```
 
