@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from utils.util import one_hot_encoding
 
 """
+Delete --> Not used 
 Randomly splits the processed data into Train/Test using sklearn
 """
 def load_data(file_path):
