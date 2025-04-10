@@ -19,8 +19,9 @@ ipython==8.12.3
 
 # Data Processing & Utilities
 tqdm==4.67.1
-PyYAML==6.0.2
+openpyxl==3.1.5 
 # pyyaml  # For handling YAML configs
+PyYAML==6.0.2
 
 # Modeling/Forecasting
 statsmodels==0.14.1 

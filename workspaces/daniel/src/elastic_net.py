@@ -9,8 +9,8 @@ def load_data(file_path):
 
 def train_elastic_net(train_df):
     """Train an Elastic Net regression model."""
-    X_train = train_df.drop('Prevalence', axis=1)
-    y_train = train_df['Prevalence']
+    X_train = train_df.drop('Mortality', axis=1)
+    y_train = train_df['Mortality']
     
     model = ElasticNet(alpha=0.1, l1_ratio=0.5)  # l1_ratio controls L1 vs. L2 mix
     model.fit(X_train, y_train)

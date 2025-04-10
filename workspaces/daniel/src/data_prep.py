@@ -1,27 +1,21 @@
-# Data Cleaning, Splitting, Preprocessing
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from utils.util import one_hot_encoding
 
 """
-Randomly splits the processed data into Train/Test using sklearn
+Splits the data into Train/Test based on year
+2011-2018 - Training Data
+2019-2020 - Testing Data
 """
+
 def load_data(file_path):
     """Load dataset from CSV."""
     df = pd.read_csv(file_path)
     return df
 
-#Data is already processed 
-def preprocess_data(df):
-    """Preprocess the data (e.g., handle missing values, drop columns)."""
-    # Example: Drop rows with missing target variable
-    # df.dropna(subset=['Crude Prevalence (%)'], inplace=True)
-    # You can add other preprocessing steps here as needed
-    return df
-
-def random_split(df, test_size=0.2, random_state=42):
-    """Randomly split the data into training and testing sets."""
-    train_df, test_df = train_test_split(df, test_size=test_size, random_state=random_state)
+def time_based_split(df):
+    """Split data into train (2011-2018) and test (2019-2020) based on the 'year' column."""
+    train_df = df[(df['Year'] >= 2011) & (df['Year'] <= 2018)]
+    test_df = df[(df['Year'] >= 2019) & (df['Year'] <= 2020)]
     return train_df, test_df
 
 def save_splits(train_df, test_df, train_file='data/processed/train.csv', test_file='data/processed/test.csv'):
@@ -31,19 +25,16 @@ def save_splits(train_df, test_df, train_file='data/processed/train.csv', test_f
 
 if __name__ == "__main__":
     # Load data
-    file_path = 'data/raw/COPD2_0.csv'      
+    file_path = 'data/raw/merged_raw_data.csv'
     df = load_data(file_path)
-    
-    # Preprocess data - Currently empty
-    df = preprocess_data(df)
 
     # Apply one-hot encoding to categorical columns
     df = one_hot_encoding(df)
 
-    # Split data (80% train, 20% test)
-    train_df, test_df = random_split(df, test_size=0.2)
-    
+    # Perform time-based split
+    train_df, test_df = time_based_split(df)
+
     # Save the splits to CSV
     save_splits(train_df, test_df)
-    
-    print("Data split and saved successfully!")
+
+    print("Raw Data processed and split into Train/Test based on Year")

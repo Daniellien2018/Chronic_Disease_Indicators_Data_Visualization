@@ -1,0 +1,3750 @@
+Year,State,Stratification,Medicaid_Spending,Median_Income,Mortality
+2011,Alabama,Male,8852,42590,2585.0
+2011,Alabama,"Black, non-Hispanic",8852,42590,564.0
+2011,Alabama,Female,8852,42590,2296.0
+2011,Alabama,"White, non-Hispanic",8852,42590,4296.0
+2011,Alabama,Overall,8852,42590,4881.0
+2012,Alabama,Male,9533,43460,2577.0
+2012,Alabama,"Black, non-Hispanic",9533,43460,509.0
+2012,Alabama,Overall,9533,43460,4876.0
+2012,Alabama,"White, non-Hispanic",9533,43460,4342.0
+2012,Alabama,Female,9533,43460,2299.0
+2013,Alabama,Overall,9340,47320,5112.0
+2013,Alabama,Overall,9340,41380,5112.0
+2013,Alabama,Female,9340,47320,2374.0
+2013,Alabama,Female,9340,41380,2374.0
+2013,Alabama,"Black, non-Hispanic",9340,47320,575.0
+2013,Alabama,"Black, non-Hispanic",9340,41380,575.0
+2013,Alabama,"White, non-Hispanic",9340,47320,4511.0
+2013,Alabama,"White, non-Hispanic",9340,41380,4511.0
+2013,Alabama,Male,9340,47320,2738.0
+2013,Alabama,Male,9340,41380,2738.0
+2014,Alabama,Female,9979,42280,2275.0
+2014,Alabama,"White, non-Hispanic",9979,42280,4255.0
+2014,Alabama,Overall,9979,42280,4805.0
+2014,Alabama,Male,9979,42280,2530.0
+2014,Alabama,"Black, non-Hispanic",9979,42280,511.0
+2015,Alabama,Male,10087,44510,2631.0
+2015,Alabama,"Black, non-Hispanic",10087,44510,545.0
+2015,Alabama,Overall,10087,44510,4959.0
+2015,Alabama,Female,10087,44510,2328.0
+2015,Alabama,"White, non-Hispanic",10087,44510,4388.0
+2016,Alabama,Male,9636,47220,2678.0
+2016,Alabama,Female,9636,47220,2460.0
+2016,Alabama,"White, non-Hispanic",9636,47220,4490.0
+2016,Alabama,"Black, non-Hispanic",9636,47220,620.0
+2016,Alabama,Overall,9636,47220,5138.0
+2017,Alabama,Overall,10380,50870,5248.0
+2017,Alabama,Overall,10380,51110,5248.0
+2017,Alabama,Female,10380,50870,2508.0
+2017,Alabama,Female,10380,51110,2508.0
+2017,Alabama,"White, non-Hispanic",10380,50870,4597.0
+2017,Alabama,"White, non-Hispanic",10380,51110,4597.0
+2017,Alabama,"Black, non-Hispanic",10380,50870,620.0
+2017,Alabama,"Black, non-Hispanic",10380,51110,620.0
+2017,Alabama,Male,10380,50870,2740.0
+2017,Alabama,Male,10380,51110,2740.0
+2018,Alabama,Female,10700,49940,2652.0
+2018,Alabama,Male,10700,49940,2805.0
+2018,Alabama,"White, non-Hispanic",10700,49940,4780.0
+2018,Alabama,Overall,10700,49940,5457.0
+2018,Alabama,"Black, non-Hispanic",10700,49940,636.0
+2019,Alabama,"White, non-Hispanic",11297,56200,4720.0
+2019,Alabama,Male,11297,56200,2807.0
+2019,Alabama,"Black, non-Hispanic",11297,56200,678.0
+2019,Alabama,Overall,11297,56200,5428.0
+2019,Alabama,Female,11297,56200,2621.0
+2020,Alabama,Female,11463,54690,2874.0
+2020,Alabama,"Black, non-Hispanic",11463,54690,821.0
+2020,Alabama,Overall,11463,54690,6027.0
+2020,Alabama,"White, non-Hispanic",11463,54690,5172.0
+2020,Alabama,Male,11463,54690,3153.0
+2011,Alaska,Overall,2459,57430,400.0
+2011,Alaska,American Indian or Alaska Native,2459,57430,92.0
+2011,Alaska,Female,2459,57430,193.0
+2011,Alaska,Male,2459,57430,207.0
+2011,Alaska,"White, non-Hispanic",2459,57430,291.0
+2012,Alaska,"White, non-Hispanic",2606,63650,276.0
+2012,Alaska,Male,2606,63650,232.0
+2012,Alaska,American Indian or Alaska Native,2606,63650,94.0
+2012,Alaska,Female,2606,63650,177.0
+2012,Alaska,Overall,2606,63650,409.0
+2013,Alaska,"White, non-Hispanic",2533,72470,318.0
+2013,Alaska,"White, non-Hispanic",2533,61140,318.0
+2013,Alaska,Male,2533,72470,220.0
+2013,Alaska,Male,2533,61140,220.0
+2013,Alaska,American Indian or Alaska Native,2533,72470,82.0
+2013,Alaska,American Indian or Alaska Native,2533,61140,82.0
+2013,Alaska,Overall,2533,72470,415.0
+2013,Alaska,Overall,2533,61140,415.0
+2013,Alaska,Female,2533,72470,195.0
+2013,Alaska,Female,2533,61140,195.0
+2014,Alaska,Male,2677,67630,223.0
+2014,Alaska,Female,2677,67630,168.0
+2014,Alaska,American Indian or Alaska Native,2677,67630,90.0
+2014,Alaska,"White, non-Hispanic",2677,67630,282.0
+2014,Alaska,Overall,2677,67630,391.0
+2015,Alaska,American Indian or Alaska Native,2911,75110,87.0
+2015,Alaska,Overall,2911,75110,412.0
+2015,Alaska,Male,2911,75110,222.0
+2015,Alaska,"White, non-Hispanic",2911,75110,297.0
+2015,Alaska,Female,2911,75110,190.0
+2016,Alaska,Overall,3719,75720,452.0
+2016,Alaska,Male,3719,75720,251.0
+2016,Alaska,Female,3719,75720,201.0
+2016,Alaska,"White, non-Hispanic",3719,75720,317.0
+2016,Alaska,American Indian or Alaska Native,3719,75720,106.0
+2017,Alaska,"White, non-Hispanic",3917,77990,288.0
+2017,Alaska,"White, non-Hispanic",3917,72230,288.0
+2017,Alaska,Male,3917,77990,224.0
+2017,Alaska,Male,3917,72230,224.0
+2017,Alaska,Female,3917,77990,165.0
+2017,Alaska,Female,3917,72230,165.0
+2017,Alaska,Overall,3917,77990,389.0
+2017,Alaska,Overall,3917,72230,389.0
+2017,Alaska,American Indian or Alaska Native,3917,77990,89.0
+2017,Alaska,American Indian or Alaska Native,3917,72230,89.0
+2018,Alaska,Male,4014,68730,236.0
+2018,Alaska,Female,4014,68730,180.0
+2018,Alaska,"White, non-Hispanic",4014,68730,291.0
+2018,Alaska,American Indian or Alaska Native,4014,68730,108.0
+2018,Alaska,Overall,4014,68730,416.0
+2019,Alaska,Male,4254,78390,207.0
+2019,Alaska,Female,4254,78390,201.0
+2019,Alaska,"White, non-Hispanic",4254,78390,288.0
+2019,Alaska,American Indian or Alaska Native,4254,78390,95.0
+2019,Alaska,Overall,4254,78390,408.0
+2020,Alaska,American Indian or Alaska Native,3883,74750,112.0
+2020,Alaska,Female,3883,74750,188.0
+2020,Alaska,Overall,3883,74750,445.0
+2020,Alaska,"White, non-Hispanic",3883,74750,307.0
+2020,Alaska,Male,3883,74750,257.0
+2011,Arizona,Female,14344,48620,2472.0
+2011,Arizona,Hispanic,14344,48620,247.0
+2011,Arizona,"White, non-Hispanic",14344,48620,4663.0
+2011,Arizona,Male,14344,48620,2589.0
+2011,Arizona,"Black, non-Hispanic",14344,48620,72.0
+2011,Arizona,Asian or Pacific Islander,14344,48620,27.0
+2011,Arizona,Overall,14344,48620,5061.0
+2011,Arizona,American Indian or Alaska Native,14344,48620,52.0
+2012,Arizona,"White, non-Hispanic",14181,47040,4771.0
+2012,Arizona,American Indian or Alaska Native,14181,47040,52.0
+2012,Arizona,Overall,14181,47040,5269.0
+2012,Arizona,Asian or Pacific Islander,14181,47040,25.0
+2012,Arizona,Hispanic,14181,47040,294.0
+2012,Arizona,Male,14181,47040,2743.0
+2012,Arizona,"Black, non-Hispanic",14181,47040,104.0
+2012,Arizona,Female,14181,47040,2526.0
+2013,Arizona,American Indian or Alaska Native,14681,52610,49.0
+2013,Arizona,American Indian or Alaska Native,14681,50600,49.0
+2013,Arizona,Hispanic,14681,52610,314.0
+2013,Arizona,Hispanic,14681,50600,314.0
+2013,Arizona,"White, non-Hispanic",14681,52610,4944.0
+2013,Arizona,"White, non-Hispanic",14681,50600,4944.0
+2013,Arizona,Overall,14681,52610,5472.0
+2013,Arizona,Overall,14681,50600,5472.0
+2013,Arizona,Female,14681,52610,2642.0
+2013,Arizona,Female,14681,50600,2642.0
+2013,Arizona,Asian or Pacific Islander,14681,52610,30.0
+2013,Arizona,Asian or Pacific Islander,14681,50600,30.0
+2013,Arizona,"Black, non-Hispanic",14681,52610,104.0
+2013,Arizona,"Black, non-Hispanic",14681,50600,104.0
+2013,Arizona,Male,14681,52610,2830.0
+2013,Arizona,Male,14681,50600,2830.0
+2014,Arizona,Hispanic,16747,49250,329.0
+2014,Arizona,"White, non-Hispanic",16747,49250,4965.0
+2014,Arizona,"Black, non-Hispanic",16747,49250,115.0
+2014,Arizona,Asian or Pacific Islander,16747,49250,36.0
+2014,Arizona,Male,16747,49250,2972.0
+2014,Arizona,Overall,16747,49250,5556.0
+2014,Arizona,Female,16747,49250,2584.0
+2014,Arizona,American Indian or Alaska Native,16747,49250,60.0
+2015,Arizona,"Black, non-Hispanic",18044,52250,116.0
+2015,Arizona,Female,18044,52250,2932.0
+2015,Arizona,Asian or Pacific Islander,18044,52250,32.0
+2015,Arizona,Overall,18044,52250,6116.0
+2015,Arizona,Male,18044,52250,3184.0
+2015,Arizona,Hispanic,18044,52250,399.0
+2015,Arizona,American Indian or Alaska Native,18044,52250,60.0
+2015,Arizona,"White, non-Hispanic",18044,52250,5434.0
+2016,Arizona,American Indian or Alaska Native,18911,57100,71.0
+2016,Arizona,"White, non-Hispanic",18911,57100,5760.0
+2016,Arizona,Overall,18911,57100,6520.0
+2016,Arizona,Hispanic,18911,57100,367.0
+2016,Arizona,Female,18911,57100,3136.0
+2016,Arizona,"Black, non-Hispanic",18911,57100,159.0
+2016,Arizona,Male,18911,57100,3384.0
+2016,Arizona,Asian or Pacific Islander,18911,57100,31.0
+2017,Arizona,"White, non-Hispanic",20712,59700,5752.0
+2017,Arizona,"White, non-Hispanic",20712,61130,5752.0
+2017,Arizona,Hispanic,20712,59700,369.0
+2017,Arizona,Hispanic,20712,61130,369.0
+2017,Arizona,American Indian or Alaska Native,20712,59700,90.0
+2017,Arizona,American Indian or Alaska Native,20712,61130,90.0
+2017,Arizona,Asian or Pacific Islander,20712,59700,52.0
+2017,Arizona,Asian or Pacific Islander,20712,61130,52.0
+2017,Arizona,Overall,20712,59700,6490.0
+2017,Arizona,Overall,20712,61130,6490.0
+2017,Arizona,Female,20712,59700,3136.0
+2017,Arizona,Female,20712,61130,3136.0
+2017,Arizona,"Black, non-Hispanic",20712,59700,110.0
+2017,Arizona,"Black, non-Hispanic",20712,61130,110.0
+2017,Arizona,Male,20712,59700,3354.0
+2017,Arizona,Male,20712,61130,3354.0
+2018,Arizona,Hispanic,20841,62280,384.0
+2018,Arizona,Male,20841,62280,3235.0
+2018,Arizona,"White, non-Hispanic",20841,62280,5563.0
+2018,Arizona,"Black, non-Hispanic",20841,62280,158.0
+2018,Arizona,Overall,20841,62280,6332.0
+2018,Arizona,Asian or Pacific Islander,20841,62280,43.0
+2018,Arizona,American Indian or Alaska Native,20841,62280,74.0
+2018,Arizona,Female,20841,62280,3097.0
+2019,Arizona,Overall,22929,70670,6144.0
+2019,Arizona,"Black, non-Hispanic",22929,70670,148.0
+2019,Arizona,"White, non-Hispanic",22929,70670,5355.0
+2019,Arizona,Female,22929,70670,2941.0
+2019,Arizona,Male,22929,70670,3203.0
+2019,Arizona,Hispanic,22929,70670,400.0
+2019,Arizona,Asian or Pacific Islander,22929,70670,43.0
+2019,Arizona,American Indian or Alaska Native,22929,70670,80.0
+2020,Arizona,Male,25520,67090,3790.0
+2020,Arizona,Asian or Pacific Islander,25520,67090,51.0
+2020,Arizona,American Indian or Alaska Native,25520,67090,102.0
+2020,Arizona,Overall,25520,67090,7126.0
+2020,Arizona,Hispanic,25520,67090,518.0
+2020,Arizona,"White, non-Hispanic",25520,67090,6176.0
+2020,Arizona,Female,25520,67090,3336.0
+2020,Arizona,"Black, non-Hispanic",25520,67090,169.0
+2011,Arkansas,Male,7639,41300,1736.0
+2011,Arkansas,Female,7639,41300,1499.0
+2011,Arkansas,"White, non-Hispanic",7639,41300,3028.0
+2011,Arkansas,Overall,7639,41300,3235.0
+2011,Arkansas,"Black, non-Hispanic",7639,41300,190.0
+2012,Arkansas,"Black, non-Hispanic",7848,39020,175.0
+2012,Arkansas,Female,7848,39020,1540.0
+2012,Arkansas,"White, non-Hispanic",7848,39020,3010.0
+2012,Arkansas,Male,7848,39020,1669.0
+2012,Arkansas,Overall,7848,39020,3209.0
+2013,Arkansas,"Black, non-Hispanic",8084,39380,174.0
+2013,Arkansas,"Black, non-Hispanic",8084,39920,174.0
+2013,Arkansas,"White, non-Hispanic",8084,39380,3109.0
+2013,Arkansas,"White, non-Hispanic",8084,39920,3109.0
+2013,Arkansas,Male,8084,39380,1742.0
+2013,Arkansas,Male,8084,39920,1742.0
+2013,Arkansas,Overall,8084,39380,3340.0
+2013,Arkansas,Overall,8084,39920,3340.0
+2013,Arkansas,Female,8084,39380,1598.0
+2013,Arkansas,Female,8084,39920,1598.0
+2014,Arkansas,Female,9913,44920,1676.0
+2014,Arkansas,"White, non-Hispanic",9913,44920,3182.0
+2014,Arkansas,"Black, non-Hispanic",9913,44920,195.0
+2014,Arkansas,Male,9913,44920,1740.0
+2014,Arkansas,Overall,9913,44920,3416.0
+2015,Arkansas,"White, non-Hispanic",10386,42800,3499.0
+2015,Arkansas,"Black, non-Hispanic",10386,42800,211.0
+2015,Arkansas,Overall,10386,42800,3760.0
+2015,Arkansas,Male,10386,42800,1939.0
+2015,Arkansas,Female,10386,42800,1821.0
+2016,Arkansas,Overall,11417,45910,3732.0
+2016,Arkansas,"White, non-Hispanic",11417,45910,3461.0
+2016,Arkansas,Male,11417,45910,1983.0
+2016,Arkansas,Female,11417,45910,1749.0
+2016,Arkansas,"Black, non-Hispanic",11417,45910,225.0
+2017,Arkansas,Male,11773,49750,2030.0
+2017,Arkansas,Male,11773,48830,2030.0
+2017,Arkansas,"Black, non-Hispanic",11773,49750,301.0
+2017,Arkansas,"Black, non-Hispanic",11773,48830,301.0
+2017,Arkansas,Overall,11773,49750,4065.0
+2017,Arkansas,Overall,11773,48830,4065.0
+2017,Arkansas,Female,11773,49750,2035.0
+2017,Arkansas,Female,11773,48830,2035.0
+2017,Arkansas,"White, non-Hispanic",11773,49750,3718.0
+2017,Arkansas,"White, non-Hispanic",11773,48830,3718.0
+2018,Arkansas,Female,12382,49780,2010.0
+2018,Arkansas,Male,12382,49780,2140.0
+2018,Arkansas,"White, non-Hispanic",12382,49780,3840.0
+2018,Arkansas,"Black, non-Hispanic",12382,49780,280.0
+2018,Arkansas,Overall,12382,49780,4150.0
+2019,Arkansas,"White, non-Hispanic",12222,54540,3960.0
+2019,Arkansas,"Black, non-Hispanic",12222,54540,279.0
+2019,Arkansas,Overall,12222,54540,4269.0
+2019,Arkansas,Male,12222,54540,2237.0
+2019,Arkansas,Female,12222,54540,2032.0
+2020,Arkansas,Overall,12231,50780,4544.0
+2020,Arkansas,"Black, non-Hispanic",12231,50780,327.0
+2020,Arkansas,Female,12231,50780,2236.0
+2020,Arkansas,Male,12231,50780,2308.0
+2020,Arkansas,"White, non-Hispanic",12231,50780,4180.0
+2011,California,Male,89338,53370,13037.0
+2011,California,Overall,89338,53370,25857.0
+2011,California,American Indian or Alaska Native,89338,53370,147.0
+2011,California,"Black, non-Hispanic",89338,53370,1647.0
+2011,California,Female,89338,53370,12820.0
+2011,California,Asian or Pacific Islander,89338,53370,1462.0
+2011,California,"White, non-Hispanic",89338,53370,20406.0
+2011,California,Hispanic,89338,53370,2182.0
+2012,California,Male,101763,57020,13180.0
+2012,California,"White, non-Hispanic",101763,57020,20129.0
+2012,California,"Black, non-Hispanic",101763,57020,1552.0
+2012,California,Female,101763,57020,12396.0
+2012,California,American Indian or Alaska Native,101763,57020,146.0
+2012,California,Overall,101763,57020,25576.0
+2012,California,Hispanic,101763,57020,2251.0
+2012,California,Asian or Pacific Islander,101763,57020,1479.0
+2013,California,Overall,110445,60790,26851.0
+2013,California,Overall,110445,57530,26851.0
+2013,California,American Indian or Alaska Native,110445,60790,183.0
+2013,California,American Indian or Alaska Native,110445,57530,183.0
+2013,California,"White, non-Hispanic",110445,60790,20903.0
+2013,California,"White, non-Hispanic",110445,57530,20903.0
+2013,California,Asian or Pacific Islander,110445,60790,1625.0
+2013,California,Asian or Pacific Islander,110445,57530,1625.0
+2013,California,Male,110445,60790,13745.0
+2013,California,Male,110445,57530,13745.0
+2013,California,Female,110445,60790,13106.0
+2013,California,Female,110445,57530,13106.0
+2013,California,Hispanic,110445,60790,2404.0
+2013,California,Hispanic,110445,57530,2404.0
+2013,California,"Black, non-Hispanic",110445,60790,1711.0
+2013,California,"Black, non-Hispanic",110445,57530,1711.0
+2014,California,Female,120943,60490,12280.0
+2014,California,"White, non-Hispanic",120943,60490,19601.0
+2014,California,American Indian or Alaska Native,120943,60490,177.0
+2014,California,Hispanic,120943,60490,2273.0
+2014,California,"Black, non-Hispanic",120943,60490,1650.0
+2014,California,Male,120943,60490,12999.0
+2014,California,Asian or Pacific Islander,120943,60490,1530.0
+2014,California,Overall,120943,60490,25279.0
+2015,California,Hispanic,149401,63640,2418.0
+2015,California,"White, non-Hispanic",149401,63640,20314.0
+2015,California,"Black, non-Hispanic",149401,63640,1753.0
+2015,California,Female,149401,63640,13006.0
+2015,California,American Indian or Alaska Native,149401,63640,200.0
+2015,California,Asian or Pacific Islander,149401,63640,1580.0
+2015,California,Overall,149401,63640,26322.0
+2015,California,Male,149401,63640,13316.0
+2016,California,Male,155929,66640,13434.0
+2016,California,Asian or Pacific Islander,155929,66640,1550.0
+2016,California,Female,155929,66640,12955.0
+2016,California,"White, non-Hispanic",155929,66640,20227.0
+2016,California,American Indian or Alaska Native,155929,66640,193.0
+2016,California,"Black, non-Hispanic",155929,66640,1781.0
+2016,California,Overall,155929,66640,26389.0
+2016,California,Hispanic,155929,66640,2563.0
+2017,California,Overall,145118,70040,26643.0
+2017,California,Overall,145118,69760,26643.0
+2017,California,"White, non-Hispanic",145118,70040,20160.0
+2017,California,"White, non-Hispanic",145118,69760,20160.0
+2017,California,American Indian or Alaska Native,145118,70040,206.0
+2017,California,American Indian or Alaska Native,145118,69760,206.0
+2017,California,Asian or Pacific Islander,145118,70040,1715.0
+2017,California,Asian or Pacific Islander,145118,69760,1715.0
+2017,California,Male,145118,70040,13540.0
+2017,California,Male,145118,69760,13540.0
+2017,California,Female,145118,70040,13103.0
+2017,California,Female,145118,69760,13103.0
+2017,California,Hispanic,145118,70040,2607.0
+2017,California,Hispanic,145118,69760,2607.0
+2017,California,"Black, non-Hispanic",145118,70040,1859.0
+2017,California,"Black, non-Hispanic",145118,69760,1859.0
+2018,California,Female,147283,70490,12756.0
+2018,California,Overall,147283,70490,26356.0
+2018,California,Asian or Pacific Islander,147283,70490,1725.0
+2018,California,"White, non-Hispanic",147283,70490,19778.0
+2018,California,Hispanic,147283,70490,2713.0
+2018,California,American Indian or Alaska Native,147283,70490,179.0
+2018,California,Male,147283,70490,13600.0
+2018,California,"Black, non-Hispanic",147283,70490,1861.0
+2019,California,"Black, non-Hispanic",156678,78100,1858.0
+2019,California,"White, non-Hispanic",156678,78100,19164.0
+2019,California,Overall,156678,78100,25593.0
+2019,California,Hispanic,156678,78100,2647.0
+2019,California,Asian or Pacific Islander,156678,78100,1618.0
+2019,California,Male,156678,78100,13243.0
+2019,California,American Indian or Alaska Native,156678,78100,197.0
+2019,California,Female,156678,78100,12350.0
+2020,California,Asian or Pacific Islander,174123,77650,1988.0
+2020,California,"White, non-Hispanic",174123,77650,19881.0
+2020,California,Male,174123,77650,14481.0
+2020,California,Hispanic,174123,77650,3201.0
+2020,California,"Black, non-Hispanic",174123,77650,2234.0
+2020,California,American Indian or Alaska Native,174123,77650,216.0
+2020,California,Female,174123,77650,13130.0
+2020,California,Overall,174123,77650,27611.0
+2011,Colorado,Female,8404,58630,1815.0
+2011,Colorado,"White, non-Hispanic",8404,58630,3375.0
+2011,Colorado,"Black, non-Hispanic",8404,58630,94.0
+2011,Colorado,Hispanic,8404,58630,256.0
+2011,Colorado,Male,8404,58630,1954.0
+2011,Colorado,Overall,8404,58630,3769.0
+2011,Colorado,Asian or Pacific Islander,8404,58630,27.0
+2012,Colorado,"White, non-Hispanic",9182,57260,3574.0
+2012,Colorado,Female,9182,57260,1911.0
+2012,Colorado,"Black, non-Hispanic",9182,57260,115.0
+2012,Colorado,Overall,9182,57260,4020.0
+2012,Colorado,Hispanic,9182,57260,281.0
+2012,Colorado,Asian or Pacific Islander,9182,57260,31.0
+2012,Colorado,Male,9182,57260,2109.0
+2013,Colorado,Male,9875,67910,2279.0
+2013,Colorado,Male,9875,63370,2279.0
+2013,Colorado,American Indian or Alaska Native,9875,67910,20.0
+2013,Colorado,American Indian or Alaska Native,9875,63370,20.0
+2013,Colorado,"Black, non-Hispanic",9875,67910,130.0
+2013,Colorado,"Black, non-Hispanic",9875,63370,130.0
+2013,Colorado,Asian or Pacific Islander,9875,67910,30.0
+2013,Colorado,Asian or Pacific Islander,9875,63370,30.0
+2013,Colorado,"White, non-Hispanic",9875,67910,3823.0
+2013,Colorado,"White, non-Hispanic",9875,63370,3823.0
+2013,Colorado,Hispanic,9875,67910,300.0
+2013,Colorado,Hispanic,9875,63370,300.0
+2013,Colorado,Overall,9875,67910,4304.0
+2013,Colorado,Overall,9875,63370,4304.0
+2013,Colorado,Female,9875,67910,2025.0
+2013,Colorado,Female,9875,63370,2025.0
+2014,Colorado,Male,12094,60940,2350.0
+2014,Colorado,Overall,12094,60940,4553.0
+2014,Colorado,"Black, non-Hispanic",12094,60940,138.0
+2014,Colorado,Hispanic,12094,60940,316.0
+2014,Colorado,Asian or Pacific Islander,12094,60940,33.0
+2014,Colorado,Female,12094,60940,2203.0
+2014,Colorado,American Indian or Alaska Native,12094,60940,31.0
+2014,Colorado,"White, non-Hispanic",12094,60940,4034.0
+2015,Colorado,"Black, non-Hispanic",14356,66600,172.0
+2015,Colorado,Female,14356,66600,2338.0
+2015,Colorado,American Indian or Alaska Native,14356,66600,22.0
+2015,Colorado,"White, non-Hispanic",14356,66600,4267.0
+2015,Colorado,Overall,14356,66600,4878.0
+2015,Colorado,Asian or Pacific Islander,14356,66600,32.0
+2015,Colorado,Male,14356,66600,2540.0
+2015,Colorado,Hispanic,14356,66600,373.0
+2016,Colorado,"White, non-Hispanic",14817,70570,4589.0
+2016,Colorado,"Black, non-Hispanic",14817,70570,176.0
+2016,Colorado,Female,14817,70570,2521.0
+2016,Colorado,Asian or Pacific Islander,14817,70570,47.0
+2016,Colorado,Hispanic,14817,70570,414.0
+2016,Colorado,Overall,14817,70570,5267.0
+2016,Colorado,American Indian or Alaska Native,14817,70570,29.0
+2016,Colorado,Male,14817,70570,2746.0
+2017,Colorado,"Black, non-Hispanic",15815,74980,166.0
+2017,Colorado,"Black, non-Hispanic",15815,74170,166.0
+2017,Colorado,"White, non-Hispanic",15815,74980,5032.0
+2017,Colorado,"White, non-Hispanic",15815,74170,5032.0
+2017,Colorado,Female,15815,74980,2768.0
+2017,Colorado,Female,15815,74170,2768.0
+2017,Colorado,American Indian or Alaska Native,15815,74980,37.0
+2017,Colorado,American Indian or Alaska Native,15815,74170,37.0
+2017,Colorado,Asian or Pacific Islander,15815,74980,52.0
+2017,Colorado,Asian or Pacific Islander,15815,74170,52.0
+2017,Colorado,Male,15815,74980,2966.0
+2017,Colorado,Male,15815,74170,2966.0
+2017,Colorado,Hispanic,15815,74980,429.0
+2017,Colorado,Hispanic,15815,74170,429.0
+2017,Colorado,Overall,15815,74980,5734.0
+2017,Colorado,Overall,15815,74170,5734.0
+2018,Colorado,American Indian or Alaska Native,18193,73030,33.0
+2018,Colorado,"Black, non-Hispanic",18193,73030,212.0
+2018,Colorado,Overall,18193,73030,5840.0
+2018,Colorado,Asian or Pacific Islander,18193,73030,49.0
+2018,Colorado,Hispanic,18193,73030,457.0
+2018,Colorado,Female,18193,73030,2762.0
+2018,Colorado,Male,18193,73030,3078.0
+2018,Colorado,"White, non-Hispanic",18193,73030,5063.0
+2019,Colorado,Overall,18509,72500,5680.0
+2019,Colorado,Asian or Pacific Islander,18509,72500,47.0
+2019,Colorado,"Black, non-Hispanic",18509,72500,169.0
+2019,Colorado,Female,18509,72500,2709.0
+2019,Colorado,Hispanic,18509,72500,480.0
+2019,Colorado,"White, non-Hispanic",18509,72500,4935.0
+2019,Colorado,Male,18509,72500,2971.0
+2019,Colorado,American Indian or Alaska Native,18509,72500,27.0
+2020,Colorado,"Black, non-Hispanic",18353,83780,262.0
+2020,Colorado,American Indian or Alaska Native,18353,83780,42.0
+2020,Colorado,Overall,18353,83780,6516.0
+2020,Colorado,"White, non-Hispanic",18353,83780,5533.0
+2020,Colorado,Asian or Pacific Islander,18353,83780,67.0
+2020,Colorado,Female,18353,83780,3074.0
+2020,Colorado,Male,18353,83780,3442.0
+2020,Colorado,Hispanic,18353,83780,577.0
+2011,Connecticut,Overall,11390,65420,2718.0
+2011,Connecticut,Male,11390,65420,1224.0
+2011,Connecticut,Female,11390,65420,1494.0
+2011,Connecticut,"White, non-Hispanic",11390,65420,2534.0
+2011,Connecticut,"Black, non-Hispanic",11390,65420,115.0
+2011,Connecticut,Hispanic,11390,65420,55.0
+2012,Connecticut,Female,13171,64250,1400.0
+2012,Connecticut,"Black, non-Hispanic",13171,64250,111.0
+2012,Connecticut,Overall,13171,64250,2662.0
+2012,Connecticut,Hispanic,13171,64250,52.0
+2012,Connecticut,"White, non-Hispanic",13171,64250,2486.0
+2012,Connecticut,Male,13171,64250,1262.0
+2013,Connecticut,Overall,13040,69290,2630.0
+2013,Connecticut,Overall,13040,67780,2630.0
+2013,Connecticut,Female,13040,69290,1418.0
+2013,Connecticut,Female,13040,67780,1418.0
+2013,Connecticut,"White, non-Hispanic",13040,69290,2451.0
+2013,Connecticut,"White, non-Hispanic",13040,67780,2451.0
+2013,Connecticut,"Black, non-Hispanic",13040,69290,104.0
+2013,Connecticut,"Black, non-Hispanic",13040,67780,104.0
+2013,Connecticut,Male,13040,69290,1212.0
+2013,Connecticut,Male,13040,67780,1212.0
+2013,Connecticut,Hispanic,13040,69290,66.0
+2013,Connecticut,Hispanic,13040,67780,66.0
+2014,Connecticut,"White, non-Hispanic",14173,70160,2386.0
+2014,Connecticut,"Black, non-Hispanic",14173,70160,125.0
+2014,Connecticut,Male,14173,70160,1229.0
+2014,Connecticut,Overall,14173,70160,2602.0
+2014,Connecticut,Female,14173,70160,1373.0
+2014,Connecticut,Hispanic,14173,70160,69.0
+2015,Connecticut,Hispanic,14786,72890,75.0
+2015,Connecticut,"Black, non-Hispanic",14786,72890,131.0
+2015,Connecticut,Overall,14786,72890,2619.0
+2015,Connecticut,Female,14786,72890,1440.0
+2015,Connecticut,Male,14786,72890,1179.0
+2015,Connecticut,"White, non-Hispanic",14786,72890,2399.0
+2016,Connecticut,"Black, non-Hispanic",15200,75920,126.0
+2016,Connecticut,Female,15200,75920,1432.0
+2016,Connecticut,Hispanic,15200,75920,68.0
+2016,Connecticut,Overall,15200,75920,2681.0
+2016,Connecticut,Male,15200,75920,1249.0
+2016,Connecticut,"White, non-Hispanic",15200,75920,2472.0
+2017,Connecticut,Hispanic,15586,74300,71.0
+2017,Connecticut,Hispanic,15586,72780,71.0
+2017,Connecticut,Overall,15586,74300,2783.0
+2017,Connecticut,Overall,15586,72780,2783.0
+2017,Connecticut,"Black, non-Hispanic",15586,74300,140.0
+2017,Connecticut,"Black, non-Hispanic",15586,72780,140.0
+2017,Connecticut,"White, non-Hispanic",15586,74300,2554.0
+2017,Connecticut,"White, non-Hispanic",15586,72780,2554.0
+2017,Connecticut,Female,15586,74300,1497.0
+2017,Connecticut,Female,15586,72780,1497.0
+2017,Connecticut,Male,15586,74300,1286.0
+2017,Connecticut,Male,15586,72780,1286.0
+2018,Connecticut,Male,16571,72810,1254.0
+2018,Connecticut,"Black, non-Hispanic",16571,72810,144.0
+2018,Connecticut,"White, non-Hispanic",16571,72810,2440.0
+2018,Connecticut,Overall,16571,72810,2684.0
+2018,Connecticut,Female,16571,72810,1430.0
+2018,Connecticut,Hispanic,16571,72810,90.0
+2019,Connecticut,Female,16344,87290,1489.0
+2019,Connecticut,Male,16344,87290,1227.0
+2019,Connecticut,"Black, non-Hispanic",16344,87290,125.0
+2019,Connecticut,"White, non-Hispanic",16344,87290,2476.0
+2019,Connecticut,Hispanic,16344,87290,101.0
+2019,Connecticut,Overall,16344,87290,2716.0
+2020,Connecticut,Overall,16687,79430,3009.0
+2020,Connecticut,Female,16687,79430,1590.0
+2020,Connecticut,Male,16687,79430,1419.0
+2020,Connecticut,Hispanic,16687,79430,120.0
+2020,Connecticut,"White, non-Hispanic",16687,79430,2674.0
+2020,Connecticut,"Black, non-Hispanic",16687,79430,188.0
+2011,Delaware,Overall,2554,54660,870.0
+2011,Delaware,Male,2554,54660,424.0
+2011,Delaware,"White, non-Hispanic",2554,54660,760.0
+2011,Delaware,"Black, non-Hispanic",2554,54660,99.0
+2011,Delaware,Female,2554,54660,446.0
+2012,Delaware,Overall,2896,48970,824.0
+2012,Delaware,Male,2896,48970,386.0
+2012,Delaware,"White, non-Hispanic",2896,48970,699.0
+2012,Delaware,"Black, non-Hispanic",2896,48970,108.0
+2012,Delaware,Female,2896,48970,438.0
+2013,Delaware,Male,2896,54090,411.0
+2013,Delaware,Male,2896,52220,411.0
+2013,Delaware,Female,2896,54090,453.0
+2013,Delaware,Female,2896,52220,453.0
+2013,Delaware,"Black, non-Hispanic",2896,54090,100.0
+2013,Delaware,"Black, non-Hispanic",2896,52220,100.0
+2013,Delaware,Overall,2896,54090,864.0
+2013,Delaware,Overall,2896,52220,864.0
+2013,Delaware,"White, non-Hispanic",2896,54090,748.0
+2013,Delaware,"White, non-Hispanic",2896,52220,748.0
+2014,Delaware,"White, non-Hispanic",3043,57520,738.0
+2014,Delaware,"Black, non-Hispanic",3043,57520,98.0
+2014,Delaware,Male,3043,57520,418.0
+2014,Delaware,Overall,3043,57520,862.0
+2014,Delaware,Female,3043,57520,444.0
+2015,Delaware,Female,3172,57760,434.0
+2015,Delaware,Male,3172,57760,478.0
+2015,Delaware,Overall,3172,57760,912.0
+2015,Delaware,"White, non-Hispanic",3172,57760,784.0
+2015,Delaware,"Black, non-Hispanic",3172,57760,112.0
+2016,Delaware,Male,3316,58050,461.0
+2016,Delaware,Overall,3316,58050,974.0
+2016,Delaware,Female,3316,58050,513.0
+2016,Delaware,"Black, non-Hispanic",3316,58050,126.0
+2016,Delaware,"White, non-Hispanic",3316,58050,827.0
+2017,Delaware,Male,3775,64960,482.0
+2017,Delaware,Male,3775,62320,482.0
+2017,Delaware,"Black, non-Hispanic",3775,64960,113.0
+2017,Delaware,"Black, non-Hispanic",3775,62320,113.0
+2017,Delaware,Female,3775,64960,493.0
+2017,Delaware,Female,3775,62320,493.0
+2017,Delaware,Overall,3775,64960,975.0
+2017,Delaware,Overall,3775,62320,975.0
+2017,Delaware,"White, non-Hispanic",3775,64960,846.0
+2017,Delaware,"White, non-Hispanic",3775,62320,846.0
+2018,Delaware,Male,3802,65010,448.0
+2018,Delaware,"Black, non-Hispanic",3802,65010,124.0
+2018,Delaware,"White, non-Hispanic",3802,65010,822.0
+2018,Delaware,Female,3802,65010,517.0
+2018,Delaware,Overall,3802,65010,965.0
+2019,Delaware,Male,3988,74190,432.0
+2019,Delaware,Female,3988,74190,441.0
+2019,Delaware,"Black, non-Hispanic",3988,74190,108.0
+2019,Delaware,"White, non-Hispanic",3988,74190,752.0
+2019,Delaware,Overall,3988,74190,873.0
+2020,Delaware,Male,4115,70020,542.0
+2020,Delaware,Overall,4115,70020,1099.0
+2020,Delaware,"Black, non-Hispanic",4115,70020,133.0
+2020,Delaware,"White, non-Hispanic",4115,70020,951.0
+2020,Delaware,Female,4115,70020,557.0
+2011,Florida,Overall,32319,45110,18287.0
+2011,Florida,Asian or Pacific Islander,32319,45110,39.0
+2011,Florida,Male,32319,45110,9523.0
+2011,Florida,Hispanic,32319,45110,1461.0
+2011,Florida,"White, non-Hispanic",32319,45110,15716.0
+2011,Florida,"Black, non-Hispanic",32319,45110,986.0
+2011,Florida,Female,32319,45110,8764.0
+2012,Florida,American Indian or Alaska Native,33151,46070,30.0
+2012,Florida,Male,33151,46070,9651.0
+2012,Florida,"White, non-Hispanic",33151,46070,16193.0
+2012,Florida,Female,33151,46070,9235.0
+2012,Florida,"Black, non-Hispanic",33151,46070,1046.0
+2012,Florida,Asian or Pacific Islander,33151,46070,61.0
+2012,Florida,Hispanic,33151,46070,1508.0
+2012,Florida,Overall,33151,46070,18886.0
+2013,Florida,Hispanic,33769,48530,1647.0
+2013,Florida,Hispanic,33769,47890,1647.0
+2013,Florida,Overall,33769,48530,20299.0
+2013,Florida,Overall,33769,47890,20299.0
+2013,Florida,Female,33769,48530,9975.0
+2013,Florida,Female,33769,47890,9975.0
+2013,Florida,American Indian or Alaska Native,33769,48530,44.0
+2013,Florida,American Indian or Alaska Native,33769,47890,44.0
+2013,Florida,"Black, non-Hispanic",33769,48530,1162.0
+2013,Florida,"Black, non-Hispanic",33769,47890,1162.0
+2013,Florida,"White, non-Hispanic",33769,48530,17315.0
+2013,Florida,"White, non-Hispanic",33769,47890,17315.0
+2013,Florida,Asian or Pacific Islander,33769,48530,71.0
+2013,Florida,Asian or Pacific Islander,33769,47890,71.0
+2013,Florida,Male,33769,48530,10324.0
+2013,Florida,Male,33769,47890,10324.0
+2014,Florida,Asian or Pacific Islander,36619,46140,78.0
+2014,Florida,Female,36619,46140,9977.0
+2014,Florida,"White, non-Hispanic",36619,46140,17129.0
+2014,Florida,American Indian or Alaska Native,36619,46140,30.0
+2014,Florida,Male,36619,46140,10248.0
+2014,Florida,Overall,36619,46140,20225.0
+2014,Florida,Hispanic,36619,46140,1680.0
+2014,Florida,"Black, non-Hispanic",36619,46140,1232.0
+2015,Florida,Male,34908,48830,10819.0
+2015,Florida,Overall,34908,48830,21341.0
+2015,Florida,Asian or Pacific Islander,34908,48830,90.0
+2015,Florida,"White, non-Hispanic",34908,48830,18079.0
+2015,Florida,"Black, non-Hispanic",34908,48830,1254.0
+2015,Florida,Hispanic,34908,48830,1778.0
+2015,Florida,Female,34908,48830,10522.0
+2015,Florida,American Indian or Alaska Native,34908,48830,38.0
+2016,Florida,Male,36522,51180,11550.0
+2016,Florida,Asian or Pacific Islander,36522,51180,92.0
+2016,Florida,Overall,36522,51180,22546.0
+2016,Florida,American Indian or Alaska Native,36522,51180,36.0
+2016,Florida,Female,36522,51180,10996.0
+2016,Florida,"Black, non-Hispanic",36522,51180,1445.0
+2016,Florida,"White, non-Hispanic",36522,51180,19034.0
+2016,Florida,Hispanic,36522,51180,1938.0
+2017,Florida,Hispanic,38645,53090,2115.0
+2017,Florida,Hispanic,38645,53680,2115.0
+2017,Florida,Overall,38645,53090,23906.0
+2017,Florida,Overall,38645,53680,23906.0
+2017,Florida,"Black, non-Hispanic",38645,53090,1518.0
+2017,Florida,"Black, non-Hispanic",38645,53680,1518.0
+2017,Florida,American Indian or Alaska Native,38645,53090,54.0
+2017,Florida,American Indian or Alaska Native,38645,53680,54.0
+2017,Florida,"White, non-Hispanic",38645,53090,19998.0
+2017,Florida,"White, non-Hispanic",38645,53680,19998.0
+2017,Florida,Female,38645,53090,11708.0
+2017,Florida,Female,38645,53680,11708.0
+2017,Florida,Asian or Pacific Islander,38645,53090,115.0
+2017,Florida,Asian or Pacific Islander,38645,53680,115.0
+2017,Florida,Male,38645,53090,12198.0
+2017,Florida,Male,38645,53680,12198.0
+2018,Florida,Asian or Pacific Islander,39414,54640,107.0
+2018,Florida,Female,39414,54640,11507.0
+2018,Florida,Male,39414,54640,12129.0
+2018,Florida,"White, non-Hispanic",39414,54640,19995.0
+2018,Florida,Hispanic,39414,54640,2001.0
+2018,Florida,American Indian or Alaska Native,39414,54640,28.0
+2018,Florida,Overall,39414,54640,23636.0
+2018,Florida,"Black, non-Hispanic",39414,54640,1475.0
+2019,Florida,Hispanic,39895,58370,2079.0
+2019,Florida,Female,39895,58370,11518.0
+2019,Florida,American Indian or Alaska Native,39895,58370,31.0
+2019,Florida,"Black, non-Hispanic",39895,58370,1469.0
+2019,Florida,"White, non-Hispanic",39895,58370,20153.0
+2019,Florida,Overall,39895,58370,23863.0
+2019,Florida,Male,39895,58370,12345.0
+2019,Florida,Asian or Pacific Islander,39895,58370,125.0
+2020,Florida,"Black, non-Hispanic",43064,57760,1959.0
+2020,Florida,Overall,43064,57760,27227.0
+2020,Florida,Asian or Pacific Islander,43064,57760,133.0
+2020,Florida,American Indian or Alaska Native,43064,57760,36.0
+2020,Florida,"White, non-Hispanic",43064,57760,22242.0
+2020,Florida,Hispanic,43064,57760,2852.0
+2020,Florida,Female,43064,57760,12954.0
+2020,Florida,Male,43064,57760,14273.0
+2011,Georgia,"White, non-Hispanic",15156,45970,5465.0
+2011,Georgia,"Black, non-Hispanic",15156,45970,863.0
+2011,Georgia,Overall,15156,45970,6375.0
+2011,Georgia,Male,15156,45970,3168.0
+2011,Georgia,Female,15156,45970,3207.0
+2012,Georgia,Asian or Pacific Islander,15592,48120,28.0
+2012,Georgia,Overall,15592,48120,6634.0
+2012,Georgia,Hispanic,15592,48120,25.0
+2012,Georgia,Male,15592,48120,3380.0
+2012,Georgia,"White, non-Hispanic",15592,48120,5615.0
+2012,Georgia,"Black, non-Hispanic",15592,48120,955.0
+2012,Georgia,Female,15592,48120,3254.0
+2013,Georgia,Male,16271,46990,3551.0
+2013,Georgia,Male,16271,47440,3551.0
+2013,Georgia,Hispanic,16271,46990,20.0
+2013,Georgia,Hispanic,16271,47440,20.0
+2013,Georgia,Overall,16271,46990,6916.0
+2013,Georgia,Overall,16271,47440,6916.0
+2013,Georgia,Asian or Pacific Islander,16271,46990,28.0
+2013,Georgia,Asian or Pacific Islander,16271,47440,28.0
+2013,Georgia,Female,16271,46990,3365.0
+2013,Georgia,Female,16271,47440,3365.0
+2013,Georgia,"Black, non-Hispanic",16271,46990,1049.0
+2013,Georgia,"Black, non-Hispanic",16271,47440,1049.0
+2013,Georgia,"White, non-Hispanic",16271,46990,5813.0
+2013,Georgia,"White, non-Hispanic",16271,47440,5813.0
+2014,Georgia,"Black, non-Hispanic",17552,49560,1021.0
+2014,Georgia,Female,17552,49560,3394.0
+2014,Georgia,Overall,17552,49560,6761.0
+2014,Georgia,Asian or Pacific Islander,17552,49560,36.0
+2014,Georgia,Hispanic,17552,49560,38.0
+2014,Georgia,Male,17552,49560,3367.0
+2014,Georgia,"White, non-Hispanic",17552,49560,5664.0
+2015,Georgia,Female,17562,50770,3412.0
+2015,Georgia,"White, non-Hispanic",17562,50770,5882.0
+2015,Georgia,Asian or Pacific Islander,17562,50770,29.0
+2015,Georgia,"Black, non-Hispanic",17562,50770,1055.0
+2015,Georgia,Overall,17562,50770,7008.0
+2015,Georgia,Male,17562,50770,3596.0
+2015,Georgia,Hispanic,17562,50770,37.0
+2016,Georgia,Hispanic,17962,53530,40.0
+2016,Georgia,Male,17962,53530,3820.0
+2016,Georgia,Asian or Pacific Islander,17962,53530,37.0
+2016,Georgia,Overall,17962,53530,7566.0
+2016,Georgia,Female,17962,53530,3746.0
+2016,Georgia,"Black, non-Hispanic",17962,53530,1170.0
+2016,Georgia,"White, non-Hispanic",17962,53530,6312.0
+2017,Georgia,Male,18900,57990,3939.0
+2017,Georgia,Male,18900,57020,3939.0
+2017,Georgia,Hispanic,18900,57990,57.0
+2017,Georgia,Hispanic,18900,57020,57.0
+2017,Georgia,Overall,18900,57990,7837.0
+2017,Georgia,Overall,18900,57020,7837.0
+2017,Georgia,Asian or Pacific Islander,18900,57990,44.0
+2017,Georgia,Asian or Pacific Islander,18900,57020,44.0
+2017,Georgia,"Black, non-Hispanic",18900,57990,1249.0
+2017,Georgia,"Black, non-Hispanic",18900,57020,1249.0
+2017,Georgia,"White, non-Hispanic",18900,57990,6480.0
+2017,Georgia,"White, non-Hispanic",18900,57020,6480.0
+2017,Georgia,Female,18900,57990,3898.0
+2017,Georgia,Female,18900,57020,3898.0
+2018,Georgia,Female,19783,55820,4028.0
+2018,Georgia,Overall,19783,55820,8125.0
+2018,Georgia,"Black, non-Hispanic",19783,55820,1306.0
+2018,Georgia,Hispanic,19783,55820,50.0
+2018,Georgia,Male,19783,55820,4097.0
+2018,Georgia,"White, non-Hispanic",19783,55820,6716.0
+2018,Georgia,Asian or Pacific Islander,19783,55820,43.0
+2019,Georgia,Hispanic,19902,56630,67.0
+2019,Georgia,"Black, non-Hispanic",19902,56630,1341.0
+2019,Georgia,Female,19902,56630,4006.0
+2019,Georgia,Asian or Pacific Islander,19902,56630,36.0
+2019,Georgia,Overall,19902,56630,7934.0
+2019,Georgia,"White, non-Hispanic",19902,56630,6480.0
+2019,Georgia,Male,19902,56630,3928.0
+2020,Georgia,"Black, non-Hispanic",20197,59270,1573.0
+2020,Georgia,Male,20197,59270,4418.0
+2020,Georgia,Asian or Pacific Islander,20197,59270,53.0
+2020,Georgia,Female,20197,59270,4294.0
+2020,Georgia,Overall,20197,59270,8712.0
+2020,Georgia,Hispanic,20197,59270,55.0
+2020,Georgia,"White, non-Hispanic",20197,59270,7028.0
+2011,Hawaii,Asian or Pacific Islander,2764,59050,324.0
+2011,Hawaii,Female,2764,59050,236.0
+2011,Hawaii,Overall,2764,59050,594.0
+2011,Hawaii,Male,2764,59050,358.0
+2011,Hawaii,Hispanic,2764,59050,30.0
+2011,Hawaii,"White, non-Hispanic",2764,59050,230.0
+2012,Hawaii,"White, non-Hispanic",2476,56260,198.0
+2012,Hawaii,Overall,2476,56260,551.0
+2012,Hawaii,Female,2476,56260,217.0
+2012,Hawaii,Male,2476,56260,334.0
+2012,Hawaii,Asian or Pacific Islander,2476,56260,299.0
+2012,Hawaii,Hispanic,2476,56260,36.0
+2013,Hawaii,Hispanic,2855,64240,33.0
+2013,Hawaii,Hispanic,2855,61410,33.0
+2013,Hawaii,Asian or Pacific Islander,2855,64240,309.0
+2013,Hawaii,Asian or Pacific Islander,2855,61410,309.0
+2013,Hawaii,Overall,2855,64240,569.0
+2013,Hawaii,Overall,2855,61410,569.0
+2013,Hawaii,Female,2855,64240,220.0
+2013,Hawaii,Female,2855,61410,220.0
+2013,Hawaii,"White, non-Hispanic",2855,64240,216.0
+2013,Hawaii,"White, non-Hispanic",2855,61410,216.0
+2013,Hawaii,Male,2855,64240,349.0
+2013,Hawaii,Male,2855,61410,349.0
+2014,Hawaii,Hispanic,3438,71220,23.0
+2014,Hawaii,Male,3438,71220,349.0
+2014,Hawaii,Asian or Pacific Islander,3438,71220,310.0
+2014,Hawaii,"White, non-Hispanic",3438,71220,242.0
+2014,Hawaii,Overall,3438,71220,589.0
+2014,Hawaii,Female,3438,71220,240.0
+2015,Hawaii,Hispanic,3431,64510,31.0
+2015,Hawaii,Asian or Pacific Islander,3431,64510,366.0
+2015,Hawaii,Female,3431,64510,272.0
+2015,Hawaii,Overall,3431,64510,685.0
+2015,Hawaii,Male,3431,64510,413.0
+2015,Hawaii,"White, non-Hispanic",3431,64510,272.0
+2016,Hawaii,Asian or Pacific Islander,3767,72130,362.0
+2016,Hawaii,"White, non-Hispanic",3767,72130,254.0
+2016,Hawaii,Male,3767,72130,402.0
+2016,Hawaii,Female,3767,72130,272.0
+2016,Hawaii,Overall,3767,72130,674.0
+2016,Hawaii,Hispanic,3767,72130,41.0
+2017,Hawaii,Hispanic,3857,73600,44.0
+2017,Hawaii,Hispanic,3857,73580,44.0
+2017,Hawaii,Asian or Pacific Islander,3857,73600,369.0
+2017,Hawaii,Asian or Pacific Islander,3857,73580,369.0
+2017,Hawaii,Overall,3857,73600,710.0
+2017,Hawaii,Overall,3857,73580,710.0
+2017,Hawaii,"White, non-Hispanic",3857,73600,284.0
+2017,Hawaii,"White, non-Hispanic",3857,73580,284.0
+2017,Hawaii,Female,3857,73600,295.0
+2017,Hawaii,Female,3857,73580,295.0
+2017,Hawaii,Male,3857,73600,415.0
+2017,Hawaii,Male,3857,73580,415.0
+2018,Hawaii,Hispanic,3706,80110,39.0
+2018,Hawaii,Male,3706,80110,451.0
+2018,Hawaii,"White, non-Hispanic",3706,80110,251.0
+2018,Hawaii,Female,3706,80110,272.0
+2018,Hawaii,Overall,3706,80110,723.0
+2018,Hawaii,Asian or Pacific Islander,3706,80110,416.0
+2019,Hawaii,Female,3805,88010,264.0
+2019,Hawaii,Male,3805,88010,419.0
+2019,Hawaii,"White, non-Hispanic",3805,88010,245.0
+2019,Hawaii,Overall,3805,88010,683.0
+2019,Hawaii,Asian or Pacific Islander,3805,88010,381.0
+2019,Hawaii,Hispanic,3805,88010,35.0
+2020,Hawaii,"White, non-Hispanic",3974,80830,255.0
+2020,Hawaii,Asian or Pacific Islander,3974,80830,394.0
+2020,Hawaii,Female,3974,80830,280.0
+2020,Hawaii,Male,3974,80830,439.0
+2020,Hawaii,Overall,3974,80830,719.0
+2020,Hawaii,Hispanic,3974,80830,39.0
+2011,Idaho,"White, non-Hispanic",2571,47460,1460.0
+2011,Idaho,Male,2571,47460,801.0
+2011,Idaho,Female,2571,47460,686.0
+2011,Idaho,Overall,2571,47460,1487.0
+2012,Idaho,Overall,3010,47920,1363.0
+2012,Idaho,Female,3010,47920,608.0
+2012,Idaho,Male,3010,47920,755.0
+2012,Idaho,Hispanic,3010,47920,21.0
+2012,Idaho,"White, non-Hispanic",3010,47920,1327.0
+2013,Idaho,Overall,3216,48470,1420.0
+2013,Idaho,Overall,3216,51770,1420.0
+2013,Idaho,Female,3216,48470,674.0
+2013,Idaho,Female,3216,51770,674.0
+2013,Idaho,"White, non-Hispanic",3216,48470,1388.0
+2013,Idaho,"White, non-Hispanic",3216,51770,1388.0
+2013,Idaho,Male,3216,48470,746.0
+2013,Idaho,Male,3216,51770,746.0
+2014,Idaho,"White, non-Hispanic",3110,53440,1473.0
+2014,Idaho,Female,3110,53440,719.0
+2014,Idaho,Overall,3110,53440,1513.0
+2014,Idaho,Hispanic,3110,53440,21.0
+2014,Idaho,Male,3110,53440,794.0
+2015,Idaho,Male,3262,51620,797.0
+2015,Idaho,"White, non-Hispanic",3262,51620,1430.0
+2015,Idaho,Hispanic,3262,51620,24.0
+2015,Idaho,Overall,3262,51620,1472.0
+2015,Idaho,Female,3262,51620,675.0
+2016,Idaho,Overall,3263,56560,1582.0
+2016,Idaho,Female,3263,56560,728.0
+2016,Idaho,Hispanic,3263,56560,21.0
+2016,Idaho,Male,3263,56560,854.0
+2016,Idaho,"White, non-Hispanic",3263,56560,1544.0
+2017,Idaho,Overall,3487,59500,1689.0
+2017,Idaho,Overall,3487,60210,1689.0
+2017,Idaho,"White, non-Hispanic",3487,59500,1640.0
+2017,Idaho,"White, non-Hispanic",3487,60210,1640.0
+2017,Idaho,Female,3487,59500,793.0
+2017,Idaho,Female,3487,60210,793.0
+2017,Idaho,Male,3487,59500,896.0
+2017,Idaho,Male,3487,60210,896.0
+2017,Idaho,Hispanic,3487,59500,26.0
+2017,Idaho,Hispanic,3487,60210,26.0
+2018,Idaho,Female,3772,58730,776.0
+2018,Idaho,"White, non-Hispanic",3772,58730,1666.0
+2018,Idaho,Hispanic,3772,58730,20.0
+2018,Idaho,Overall,3772,58730,1713.0
+2018,Idaho,Male,3772,58730,937.0
+2019,Idaho,American Indian or Alaska Native,4018,65990,22.0
+2019,Idaho,Overall,4018,65990,1896.0
+2019,Idaho,Male,4018,65990,1001.0
+2019,Idaho,"White, non-Hispanic",4018,65990,1826.0
+2019,Idaho,Female,4018,65990,895.0
+2019,Idaho,Hispanic,4018,65990,33.0
+2020,Idaho,Male,4871,66730,1059.0
+2020,Idaho,Overall,4871,66730,1933.0
+2020,Idaho,Hispanic,4871,66730,33.0
+2020,Idaho,Female,4871,66730,874.0
+2020,Idaho,"White, non-Hispanic",4871,66730,1867.0
+2011,Illinois,Male,25620,50640,4762.0
+2011,Illinois,"Black, non-Hispanic",25620,50640,888.0
+2011,Illinois,Asian or Pacific Islander,25620,50640,72.0
+2011,Illinois,Overall,25620,50640,9728.0
+2011,Illinois,Hispanic,25620,50640,145.0
+2011,Illinois,"White, non-Hispanic",25620,50640,8600.0
+2011,Illinois,Female,25620,50640,4966.0
+2012,Illinois,Asian or Pacific Islander,26387,51740,67.0
+2012,Illinois,Overall,26387,51740,9609.0
+2012,Illinois,Hispanic,26387,51740,154.0
+2012,Illinois,Male,26387,51740,4726.0
+2012,Illinois,"Black, non-Hispanic",26387,51740,900.0
+2012,Illinois,Female,26387,51740,4883.0
+2012,Illinois,"White, non-Hispanic",26387,51740,8455.0
+2013,Illinois,Asian or Pacific Islander,31008,53940,80.0
+2013,Illinois,Asian or Pacific Islander,31008,57200,80.0
+2013,Illinois,Hispanic,31008,53940,163.0
+2013,Illinois,Hispanic,31008,57200,163.0
+2013,Illinois,Male,31008,53940,4894.0
+2013,Illinois,Male,31008,57200,4894.0
+2013,Illinois,"Black, non-Hispanic",31008,53940,912.0
+2013,Illinois,"Black, non-Hispanic",31008,57200,912.0
+2013,Illinois,Overall,31008,53940,9892.0
+2013,Illinois,Overall,31008,57200,9892.0
+2013,Illinois,Female,31008,53940,4998.0
+2013,Illinois,Female,31008,57200,4998.0
+2013,Illinois,"White, non-Hispanic",31008,53940,8711.0
+2013,Illinois,"White, non-Hispanic",31008,57200,8711.0
+2014,Illinois,Asian or Pacific Islander,30843,54920,73.0
+2014,Illinois,Male,30843,54920,4825.0
+2014,Illinois,"Black, non-Hispanic",30843,54920,934.0
+2014,Illinois,Female,30843,54920,5117.0
+2014,Illinois,"White, non-Hispanic",30843,54920,8753.0
+2014,Illinois,Overall,30843,54920,9942.0
+2014,Illinois,Hispanic,30843,54920,161.0
+2015,Illinois,Asian or Pacific Islander,33862,60410,77.0
+2015,Illinois,Female,33862,60410,5129.0
+2015,Illinois,Male,33862,60410,4837.0
+2015,Illinois,"Black, non-Hispanic",33862,60410,1022.0
+2015,Illinois,Overall,33862,60410,9966.0
+2015,Illinois,Hispanic,33862,60410,160.0
+2015,Illinois,"White, non-Hispanic",33862,60410,8680.0
+2016,Illinois,Hispanic,31825,61390,160.0
+2016,Illinois,Asian or Pacific Islander,31825,61390,73.0
+2016,Illinois,Overall,31825,61390,9985.0
+2016,Illinois,"Black, non-Hispanic",31825,61390,1016.0
+2016,Illinois,Male,31825,61390,5019.0
+2016,Illinois,Female,31825,61390,4966.0
+2016,Illinois,"White, non-Hispanic",31825,61390,8713.0
+2017,Illinois,Asian or Pacific Islander,34249,65970,77.0
+2017,Illinois,Asian or Pacific Islander,34249,64610,77.0
+2017,Illinois,Male,34249,65970,5052.0
+2017,Illinois,Male,34249,64610,5052.0
+2017,Illinois,Hispanic,34249,65970,168.0
+2017,Illinois,Hispanic,34249,64610,168.0
+2017,Illinois,Overall,34249,65970,10341.0
+2017,Illinois,Overall,34249,64610,10341.0
+2017,Illinois,"Black, non-Hispanic",34249,65970,1011.0
+2017,Illinois,"Black, non-Hispanic",34249,64610,1011.0
+2017,Illinois,"White, non-Hispanic",34249,65970,9063.0
+2017,Illinois,"White, non-Hispanic",34249,64610,9063.0
+2017,Illinois,Female,34249,65970,5289.0
+2017,Illinois,Female,34249,64610,5289.0
+2018,Illinois,Overall,33755,70150,10268.0
+2018,Illinois,Male,33755,70150,4893.0
+2018,Illinois,"Black, non-Hispanic",33755,70150,1119.0
+2018,Illinois,Asian or Pacific Islander,33755,70150,80.0
+2018,Illinois,Female,33755,70150,5375.0
+2018,Illinois,"White, non-Hispanic",33755,70150,8864.0
+2018,Illinois,Hispanic,33755,70150,181.0
+2019,Illinois,Male,34300,74400,4854.0
+2019,Illinois,Asian or Pacific Islander,34300,74400,91.0
+2019,Illinois,Female,34300,74400,5071.0
+2019,Illinois,"Black, non-Hispanic",34300,74400,1121.0
+2019,Illinois,Hispanic,34300,74400,185.0
+2019,Illinois,Overall,34300,74400,9925.0
+2019,Illinois,"White, non-Hispanic",34300,74400,8512.0
+2020,Illinois,Male,43904,74330,5864.0
+2020,Illinois,Female,43904,74330,5848.0
+2020,Illinois,Hispanic,43904,74330,342.0
+2020,Illinois,"White, non-Hispanic",43904,74330,9543.0
+2020,Illinois,"Black, non-Hispanic",43904,74330,1653.0
+2020,Illinois,Asian or Pacific Islander,43904,74330,130.0
+2020,Illinois,Overall,43904,74330,11712.0
+2011,Indiana,Male,11525,44450,4050.0
+2011,Indiana,"Black, non-Hispanic",11525,44450,380.0
+2011,Indiana,Overall,11525,44450,7894.0
+2011,Indiana,Hispanic,11525,44450,30.0
+2011,Indiana,"White, non-Hispanic",11525,44450,7464.0
+2011,Indiana,Female,11525,44450,3844.0
+2012,Indiana,Overall,15417,46160,7946.0
+2012,Indiana,"Black, non-Hispanic",15417,46160,397.0
+2012,Indiana,Female,15417,46160,3881.0
+2012,Indiana,Male,15417,46160,4065.0
+2012,Indiana,Hispanic,15417,46160,36.0
+2012,Indiana,"White, non-Hispanic",15417,46160,7497.0
+2013,Indiana,Overall,14373,49460,8479.0
+2013,Indiana,Overall,14373,50550,8479.0
+2013,Indiana,"Black, non-Hispanic",14373,49460,434.0
+2013,Indiana,"Black, non-Hispanic",14373,50550,434.0
+2013,Indiana,Hispanic,14373,49460,32.0
+2013,Indiana,Hispanic,14373,50550,32.0
+2013,Indiana,"White, non-Hispanic",14373,49460,7995.0
+2013,Indiana,"White, non-Hispanic",14373,50550,7995.0
+2013,Indiana,Female,14373,49460,4131.0
+2013,Indiana,Female,14373,50550,4131.0
+2013,Indiana,Male,14373,49460,4348.0
+2013,Indiana,Male,14373,50550,4348.0
+2014,Indiana,Overall,17767,48060,8283.0
+2014,Indiana,Male,17767,48060,4272.0
+2014,Indiana,"White, non-Hispanic",17767,48060,7790.0
+2014,Indiana,Female,17767,48060,4011.0
+2014,Indiana,"Black, non-Hispanic",17767,48060,424.0
+2014,Indiana,Hispanic,17767,48060,48.0
+2015,Indiana,Female,17430,51980,4246.0
+2015,Indiana,Male,17430,51980,4255.0
+2015,Indiana,"Black, non-Hispanic",17430,51980,401.0
+2015,Indiana,Overall,17430,51980,8501.0
+2015,Indiana,"White, non-Hispanic",17430,51980,8038.0
+2015,Indiana,Hispanic,17430,51980,42.0
+2016,Indiana,"Black, non-Hispanic",19097,56090,437.0
+2016,Indiana,Overall,19097,56090,8534.0
+2016,Indiana,Female,19097,56090,4120.0
+2016,Indiana,Hispanic,19097,56090,42.0
+2016,Indiana,Male,19097,56090,4414.0
+2016,Indiana,"White, non-Hispanic",19097,56090,8024.0
+2017,Indiana,Overall,20350,58770,8988.0
+2017,Indiana,Overall,20350,58870,8988.0
+2017,Indiana,"Black, non-Hispanic",20350,58770,450.0
+2017,Indiana,"Black, non-Hispanic",20350,58870,450.0
+2017,Indiana,"White, non-Hispanic",20350,58770,8448.0
+2017,Indiana,"White, non-Hispanic",20350,58870,8448.0
+2017,Indiana,Hispanic,20350,58770,54.0
+2017,Indiana,Hispanic,20350,58870,54.0
+2017,Indiana,Male,20350,58770,4466.0
+2017,Indiana,Male,20350,58870,4466.0
+2017,Indiana,Female,20350,58770,4522.0
+2017,Indiana,Female,20350,58870,4522.0
+2018,Indiana,Overall,20912,59890,9325.0
+2018,Indiana,Male,20912,59890,4624.0
+2018,Indiana,Female,20912,59890,4701.0
+2018,Indiana,"White, non-Hispanic",20912,59890,8727.0
+2018,Indiana,"Black, non-Hispanic",20912,59890,512.0
+2018,Indiana,Hispanic,20912,59890,56.0
+2019,Indiana,Male,23172,66690,4818.0
+2019,Indiana,"White, non-Hispanic",23172,66690,8946.0
+2019,Indiana,Hispanic,23172,66690,53.0
+2019,Indiana,Female,23172,66690,4723.0
+2019,Indiana,Overall,23172,66690,9541.0
+2019,Indiana,"Black, non-Hispanic",23172,66690,517.0
+2020,Indiana,Hispanic,25744,66810,74.0
+2020,Indiana,Male,25744,66810,5373.0
+2020,Indiana,Female,25744,66810,5188.0
+2020,Indiana,"White, non-Hispanic",25744,66810,9816.0
+2020,Indiana,Overall,25744,66810,10561.0
+2020,Indiana,"Black, non-Hispanic",25744,66810,635.0
+2011,Iowa,Male,6431,50220,1829.0
+2011,Iowa,"Black, non-Hispanic",6431,50220,37.0
+2011,Iowa,Overall,6431,50220,3459.0
+2011,Iowa,"White, non-Hispanic",6431,50220,3392.0
+2011,Iowa,Female,6431,50220,1630.0
+2012,Iowa,Overall,6865,53440,3576.0
+2012,Iowa,"Black, non-Hispanic",6865,53440,37.0
+2012,Iowa,Female,6865,53440,1670.0
+2012,Iowa,Male,6865,53440,1906.0
+2012,Iowa,"White, non-Hispanic",6865,53440,3503.0
+2013,Iowa,Overall,7012,60160,3618.0
+2013,Iowa,Overall,7012,54860,3618.0
+2013,Iowa,Female,7012,60160,1705.0
+2013,Iowa,Female,7012,54860,1705.0
+2013,Iowa,"White, non-Hispanic",7012,60160,3547.0
+2013,Iowa,"White, non-Hispanic",7012,54860,3547.0
+2013,Iowa,"Black, non-Hispanic",7012,60160,48.0
+2013,Iowa,"Black, non-Hispanic",7012,54860,48.0
+2013,Iowa,Male,7012,60160,1913.0
+2013,Iowa,Male,7012,54860,1913.0
+2014,Iowa,"White, non-Hispanic",7995,57810,3579.0
+2014,Iowa,Overall,7995,57810,3657.0
+2014,Iowa,"Black, non-Hispanic",7995,57810,52.0
+2014,Iowa,Female,7995,57810,1723.0
+2014,Iowa,Male,7995,57810,1934.0
+2015,Iowa,Male,8692,60860,2080.0
+2015,Iowa,"Black, non-Hispanic",8692,60860,59.0
+2015,Iowa,Overall,8692,60860,3916.0
+2015,Iowa,"White, non-Hispanic",8692,60860,3833.0
+2015,Iowa,Female,8692,60860,1836.0
+2016,Iowa,"Black, non-Hispanic",8247,59090,63.0
+2016,Iowa,Overall,8247,59090,3946.0
+2016,Iowa,Female,8247,59090,1850.0
+2016,Iowa,Male,8247,59090,2096.0
+2016,Iowa,"White, non-Hispanic",8247,59090,3843.0
+2017,Iowa,Overall,7450,63470,4054.0
+2017,Iowa,Overall,7450,63480,4054.0
+2017,Iowa,"White, non-Hispanic",7450,63470,3966.0
+2017,Iowa,"White, non-Hispanic",7450,63480,3966.0
+2017,Iowa,Female,7450,63470,1828.0
+2017,Iowa,Female,7450,63480,1828.0
+2017,Iowa,"Black, non-Hispanic",7450,63470,56.0
+2017,Iowa,"Black, non-Hispanic",7450,63480,56.0
+2017,Iowa,Male,7450,63470,2226.0
+2017,Iowa,Male,7450,63480,2226.0
+2018,Iowa,"White, non-Hispanic",8695,68720,3803.0
+2018,Iowa,"Black, non-Hispanic",8695,68720,57.0
+2018,Iowa,Overall,8695,68720,3894.0
+2018,Iowa,Female,8695,68720,1831.0
+2018,Iowa,Male,8695,68720,2063.0
+2019,Iowa,Female,9492,66050,1829.0
+2019,Iowa,Male,9492,66050,2177.0
+2019,Iowa,"White, non-Hispanic",9492,66050,3918.0
+2019,Iowa,Overall,9492,66050,4006.0
+2019,Iowa,"Black, non-Hispanic",9492,66050,62.0
+2020,Iowa,Female,9241,68820,1981.0
+2020,Iowa,"Black, non-Hispanic",9241,68820,68.0
+2020,Iowa,Male,9241,68820,2377.0
+2020,Iowa,"White, non-Hispanic",9241,68820,4247.0
+2020,Iowa,Overall,9241,68820,4358.0
+2020,Iowa,Hispanic,9241,68820,22.0
+2011,Kansas,Hispanic,4988,46150,24.0
+2011,Kansas,American Indian or Alaska Native,4988,46150,31.0
+2011,Kansas,"White, non-Hispanic",4988,46150,2624.0
+2011,Kansas,"Black, non-Hispanic",4988,46150,69.0
+2011,Kansas,Female,4988,46150,1358.0
+2011,Kansas,Male,4988,46150,1401.0
+2011,Kansas,Overall,4988,46150,2759.0
+2012,Kansas,Hispanic,4889,50000,25.0
+2012,Kansas,"White, non-Hispanic",4889,50000,2648.0
+2012,Kansas,American Indian or Alaska Native,4889,50000,37.0
+2012,Kansas,Male,4889,50000,1490.0
+2012,Kansas,"Black, non-Hispanic",4889,50000,88.0
+2012,Kansas,Female,4889,50000,1318.0
+2012,Kansas,Overall,4889,50000,2808.0
+2013,Kansas,"Black, non-Hispanic",4735,47820,116.0
+2013,Kansas,"Black, non-Hispanic",4735,51490,116.0
+2013,Kansas,Male,4735,47820,1429.0
+2013,Kansas,Male,4735,51490,1429.0
+2013,Kansas,Hispanic,4735,47820,27.0
+2013,Kansas,Hispanic,4735,51490,27.0
+2013,Kansas,American Indian or Alaska Native,4735,47820,36.0
+2013,Kansas,American Indian or Alaska Native,4735,51490,36.0
+2013,Kansas,Overall,4735,47820,2774.0
+2013,Kansas,Overall,4735,51490,2774.0
+2013,Kansas,Female,4735,47820,1345.0
+2013,Kansas,Female,4735,51490,1345.0
+2013,Kansas,"White, non-Hispanic",4735,47820,2575.0
+2013,Kansas,"White, non-Hispanic",4735,51490,2575.0
+2014,Kansas,Female,4750,53440,1391.0
+2014,Kansas,American Indian or Alaska Native,4750,53440,43.0
+2014,Kansas,Male,4750,53440,1506.0
+2014,Kansas,Hispanic,4750,53440,31.0
+2014,Kansas,"White, non-Hispanic",4750,53440,2704.0
+2014,Kansas,Overall,4750,53440,2897.0
+2014,Kansas,"Black, non-Hispanic",4750,53440,105.0
+2015,Kansas,"White, non-Hispanic",5101,54870,2769.0
+2015,Kansas,American Indian or Alaska Native,5101,54870,30.0
+2015,Kansas,"Black, non-Hispanic",5101,54870,95.0
+2015,Kansas,Hispanic,5101,54870,33.0
+2015,Kansas,Male,5101,54870,1477.0
+2015,Kansas,Female,5101,54870,1472.0
+2015,Kansas,Overall,5101,54870,2949.0
+2016,Kansas,Hispanic,5493,56810,35.0
+2016,Kansas,"White, non-Hispanic",5493,56810,2772.0
+2016,Kansas,"Black, non-Hispanic",5493,56810,108.0
+2016,Kansas,American Indian or Alaska Native,5493,56810,33.0
+2016,Kansas,Male,5493,56810,1519.0
+2016,Kansas,Female,5493,56810,1453.0
+2016,Kansas,Overall,5493,56810,2972.0
+2017,Kansas,"Black, non-Hispanic",5616,56900,116.0
+2017,Kansas,"Black, non-Hispanic",5616,57870,116.0
+2017,Kansas,Male,5616,56900,1705.0
+2017,Kansas,Male,5616,57870,1705.0
+2017,Kansas,American Indian or Alaska Native,5616,56900,34.0
+2017,Kansas,American Indian or Alaska Native,5616,57870,34.0
+2017,Kansas,Hispanic,5616,56900,41.0
+2017,Kansas,Hispanic,5616,57870,41.0
+2017,Kansas,Overall,5616,56900,3217.0
+2017,Kansas,Overall,5616,57870,3217.0
+2017,Kansas,"White, non-Hispanic",5616,56900,2993.0
+2017,Kansas,"White, non-Hispanic",5616,57870,2993.0
+2017,Kansas,Female,5616,56900,1512.0
+2017,Kansas,Female,5616,57870,1512.0
+2018,Kansas,Overall,5839,63940,3213.0
+2018,Kansas,Female,5839,63940,1553.0
+2018,Kansas,Male,5839,63940,1660.0
+2018,Kansas,Hispanic,5839,63940,32.0
+2018,Kansas,American Indian or Alaska Native,5839,63940,39.0
+2018,Kansas,"Black, non-Hispanic",5839,63940,118.0
+2018,Kansas,"White, non-Hispanic",5839,63940,2987.0
+2019,Kansas,Hispanic,6279,73150,31.0
+2019,Kansas,American Indian or Alaska Native,6279,73150,35.0
+2019,Kansas,Overall,6279,73150,3195.0
+2019,Kansas,Male,6279,73150,1580.0
+2019,Kansas,"Black, non-Hispanic",6279,73150,97.0
+2019,Kansas,Female,6279,73150,1615.0
+2019,Kansas,"White, non-Hispanic",6279,73150,2995.0
+2020,Kansas,Male,6413,73080,1829.0
+2020,Kansas,Female,6413,73080,1612.0
+2020,Kansas,American Indian or Alaska Native,6413,73080,46.0
+2020,Kansas,Hispanic,6413,73080,56.0
+2020,Kansas,Overall,6413,73080,3441.0
+2020,Kansas,"White, non-Hispanic",6413,73080,3138.0
+2020,Kansas,"Black, non-Hispanic",6413,73080,153.0
+2011,Kentucky,Female,10462,39860,2848.0
+2011,Kentucky,Male,10462,39860,2919.0
+2011,Kentucky,Overall,10462,39860,5767.0
+2011,Kentucky,"White, non-Hispanic",10462,39860,5536.0
+2011,Kentucky,"Black, non-Hispanic",10462,39860,205.0
+2012,Kentucky,Male,10232,41090,2996.0
+2012,Kentucky,"Black, non-Hispanic",10232,41090,213.0
+2012,Kentucky,"White, non-Hispanic",10232,41090,5799.0
+2012,Kentucky,Female,10232,41090,3031.0
+2012,Kentucky,Overall,10232,41090,6027.0
+2013,Kentucky,"Black, non-Hispanic",10620,44880,198.0
+2013,Kentucky,"Black, non-Hispanic",10620,42160,198.0
+2013,Kentucky,Overall,10620,44880,5991.0
+2013,Kentucky,Overall,10620,42160,5991.0
+2013,Kentucky,Female,10620,44880,2877.0
+2013,Kentucky,Female,10620,42160,2877.0
+2013,Kentucky,"White, non-Hispanic",10620,44880,5774.0
+2013,Kentucky,"White, non-Hispanic",10620,42160,5774.0
+2013,Kentucky,Male,10620,44880,3114.0
+2013,Kentucky,Male,10620,42160,3114.0
+2014,Kentucky,Overall,15078,42790,6134.0
+2014,Kentucky,Male,15078,42790,3130.0
+2014,Kentucky,"Black, non-Hispanic",15078,42790,212.0
+2014,Kentucky,"White, non-Hispanic",15078,42790,5880.0
+2014,Kentucky,Female,15078,42790,3004.0
+2015,Kentucky,Male,16875,42390,3439.0
+2015,Kentucky,Overall,16875,42390,6815.0
+2015,Kentucky,Female,16875,42390,3376.0
+2015,Kentucky,"White, non-Hispanic",16875,42390,6494.0
+2015,Kentucky,"Black, non-Hispanic",16875,42390,284.0
+2016,Kentucky,"Black, non-Hispanic",16123,45370,278.0
+2016,Kentucky,Male,16123,45370,3601.0
+2016,Kentucky,"White, non-Hispanic",16123,45370,6777.0
+2016,Kentucky,Overall,16123,45370,7079.0
+2016,Kentucky,Female,16123,45370,3478.0
+2017,Kentucky,"Black, non-Hispanic",17328,49670,283.0
+2017,Kentucky,"Black, non-Hispanic",17328,51350,283.0
+2017,Kentucky,Male,17328,49670,3587.0
+2017,Kentucky,Male,17328,51350,3587.0
+2017,Kentucky,Overall,17328,49670,7120.0
+2017,Kentucky,Overall,17328,51350,7120.0
+2017,Kentucky,"White, non-Hispanic",17328,49670,6809.0
+2017,Kentucky,"White, non-Hispanic",17328,51350,6809.0
+2017,Kentucky,Female,17328,49670,3533.0
+2017,Kentucky,Female,17328,51350,3533.0
+2018,Kentucky,Overall,17613,54560,7427.0
+2018,Kentucky,"Black, non-Hispanic",17613,54560,307.0
+2018,Kentucky,Male,17613,54560,3760.0
+2018,Kentucky,Female,17613,54560,3667.0
+2018,Kentucky,"White, non-Hispanic",17613,54560,7088.0
+2019,Kentucky,Female,18287,55660,3785.0
+2019,Kentucky,"White, non-Hispanic",18287,55660,7386.0
+2019,Kentucky,Male,18287,55660,4016.0
+2019,Kentucky,Hispanic,18287,55660,22.0
+2019,Kentucky,Overall,18287,55660,7801.0
+2019,Kentucky,"Black, non-Hispanic",18287,55660,373.0
+2020,Kentucky,Female,20285,56760,4012.0
+2020,Kentucky,Hispanic,20285,56760,20.0
+2020,Kentucky,"Black, non-Hispanic",20285,56760,392.0
+2020,Kentucky,Male,20285,56760,4144.0
+2020,Kentucky,"White, non-Hispanic",20285,56760,7716.0
+2020,Kentucky,Overall,20285,56760,8156.0
+2011,Louisiana,"White, non-Hispanic",12680,40660,2593.0
+2011,Louisiana,Female,12680,40660,1547.0
+2011,Louisiana,Male,12680,40660,1691.0
+2011,Louisiana,"Black, non-Hispanic",12680,40660,613.0
+2011,Louisiana,Overall,12680,40660,3238.0
+2012,Louisiana,Male,13251,39090,1797.0
+2012,Louisiana,"Black, non-Hispanic",13251,39090,652.0
+2012,Louisiana,"White, non-Hispanic",13251,39090,2870.0
+2012,Louisiana,Female,13251,39090,1758.0
+2012,Louisiana,Hispanic,13251,39090,23.0
+2012,Louisiana,Overall,13251,39090,3555.0
+2013,Louisiana,"Black, non-Hispanic",14086,46430,712.0
+2013,Louisiana,"Black, non-Hispanic",14086,39620,712.0
+2013,Louisiana,Overall,14086,46430,3864.0
+2013,Louisiana,Overall,14086,39620,3864.0
+2013,Louisiana,Female,14086,46430,1906.0
+2013,Louisiana,Female,14086,39620,1906.0
+2013,Louisiana,"White, non-Hispanic",14086,46430,3099.0
+2013,Louisiana,"White, non-Hispanic",14086,39620,3099.0
+2013,Louisiana,Hispanic,14086,46430,31.0
+2013,Louisiana,Hispanic,14086,39620,31.0
+2013,Louisiana,Male,14086,46430,1958.0
+2013,Louisiana,Male,14086,39620,1958.0
+2014,Louisiana,Female,14186,42410,1835.0
+2014,Louisiana,Male,14186,42410,2020.0
+2014,Louisiana,"White, non-Hispanic",14186,42410,3078.0
+2014,Louisiana,Hispanic,14186,42410,30.0
+2014,Louisiana,Overall,14186,42410,3855.0
+2014,Louisiana,"Black, non-Hispanic",14186,42410,729.0
+2015,Louisiana,"White, non-Hispanic",15108,45920,3104.0
+2015,Louisiana,Hispanic,15108,45920,25.0
+2015,Louisiana,Male,15108,45920,1954.0
+2015,Louisiana,Female,15108,45920,1922.0
+2015,Louisiana,Overall,15108,45920,3876.0
+2015,Louisiana,"Black, non-Hispanic",15108,45920,732.0
+2016,Louisiana,Male,16626,42200,2007.0
+2016,Louisiana,"Black, non-Hispanic",16626,42200,742.0
+2016,Louisiana,Female,16626,42200,1899.0
+2016,Louisiana,"White, non-Hispanic",16626,42200,3119.0
+2016,Louisiana,Hispanic,16626,42200,22.0
+2016,Louisiana,Overall,16626,42200,3906.0
+2017,Louisiana,"Black, non-Hispanic",19108,43570,858.0
+2017,Louisiana,"Black, non-Hispanic",19108,43900,858.0
+2017,Louisiana,Hispanic,19108,43570,33.0
+2017,Louisiana,Hispanic,19108,43900,33.0
+2017,Louisiana,Overall,19108,43570,4440.0
+2017,Louisiana,Overall,19108,43900,4440.0
+2017,Louisiana,"White, non-Hispanic",19108,43570,3507.0
+2017,Louisiana,"White, non-Hispanic",19108,43900,3507.0
+2017,Louisiana,Female,19108,43570,2186.0
+2017,Louisiana,Female,19108,43900,2186.0
+2017,Louisiana,Male,19108,43570,2254.0
+2017,Louisiana,Male,19108,43900,2254.0
+2018,Louisiana,Female,19630,49970,2157.0
+2018,Louisiana,"White, non-Hispanic",19630,49970,3446.0
+2018,Louisiana,Male,19630,49970,2210.0
+2018,Louisiana,Hispanic,19630,49970,24.0
+2018,Louisiana,Overall,19630,49970,4367.0
+2018,Louisiana,"Black, non-Hispanic",19630,49970,864.0
+2019,Louisiana,Hispanic,20871,51710,30.0
+2019,Louisiana,Overall,20871,51710,4270.0
+2019,Louisiana,"Black, non-Hispanic",20871,51710,1000.0
+2019,Louisiana,Female,20871,51710,2101.0
+2019,Louisiana,"White, non-Hispanic",20871,51710,3206.0
+2019,Louisiana,Male,20871,51710,2169.0
+2020,Louisiana,Hispanic,22174,51190,44.0
+2020,Louisiana,Overall,22174,51190,5173.0
+2020,Louisiana,"Black, non-Hispanic",22174,51190,1129.0
+2020,Louisiana,Male,22174,51190,2610.0
+2020,Louisiana,Female,22174,51190,2563.0
+2020,Louisiana,"White, non-Hispanic",22174,51190,3964.0
+2011,Maine,Female,4562,49690,730.0
+2011,Maine,"White, non-Hispanic",4562,49690,1481.0
+2011,Maine,Male,4562,49690,773.0
+2011,Maine,Overall,4562,49690,1503.0
+2012,Maine,Overall,4617,49160,1521.0
+2012,Maine,Male,4617,49160,783.0
+2012,Maine,"White, non-Hispanic",4617,49160,1493.0
+2012,Maine,Female,4617,49160,738.0
+2013,Maine,Male,5008,54960,884.0
+2013,Maine,Male,5008,50120,884.0
+2013,Maine,Overall,5008,54960,1647.0
+2013,Maine,Overall,5008,50120,1647.0
+2013,Maine,Female,5008,54960,763.0
+2013,Maine,Female,5008,50120,763.0
+2013,Maine,"White, non-Hispanic",5008,54960,1625.0
+2013,Maine,"White, non-Hispanic",5008,50120,1625.0
+2014,Maine,Female,4716,51710,737.0
+2014,Maine,"White, non-Hispanic",4716,51710,1565.0
+2014,Maine,Overall,4716,51710,1584.0
+2014,Maine,Male,4716,51710,847.0
+2015,Maine,Female,4811,50760,921.0
+2015,Maine,"White, non-Hispanic",4811,50760,1840.0
+2015,Maine,Male,4811,50760,949.0
+2015,Maine,Overall,4811,50760,1870.0
+2016,Maine,"White, non-Hispanic",4864,50860,1693.0
+2016,Maine,Overall,4864,50860,1713.0
+2016,Maine,Male,4864,50860,915.0
+2016,Maine,Female,4864,50860,798.0
+2017,Maine,Overall,5146,53320,1751.0
+2017,Maine,Overall,5146,51660,1751.0
+2017,Maine,Male,5146,53320,900.0
+2017,Maine,Male,5146,51660,900.0
+2017,Maine,"White, non-Hispanic",5146,53320,1731.0
+2017,Maine,"White, non-Hispanic",5146,51660,1731.0
+2017,Maine,Female,5146,53320,851.0
+2017,Maine,Female,5146,51660,851.0
+2018,Maine,Female,5326,58660,810.0
+2018,Maine,"White, non-Hispanic",5326,58660,1698.0
+2018,Maine,Overall,5326,58660,1722.0
+2018,Maine,Male,5326,58660,912.0
+2019,Maine,"White, non-Hispanic",5758,66550,1737.0
+2019,Maine,Male,5758,66550,948.0
+2019,Maine,Female,5758,66550,825.0
+2019,Maine,Overall,5758,66550,1773.0
+2020,Maine,Overall,6210,63690,1761.0
+2020,Maine,Female,6210,63690,854.0
+2020,Maine,"White, non-Hispanic",6210,63690,1735.0
+2020,Maine,Male,6210,63690,907.0
+2011,Maryland,Male,13791,68880,1887.0
+2011,Maryland,Overall,13791,68880,4049.0
+2011,Maryland,Hispanic,13791,68880,24.0
+2011,Maryland,Female,13791,68880,2162.0
+2011,Maryland,"White, non-Hispanic",13791,68880,3351.0
+2011,Maryland,"Black, non-Hispanic",13791,68880,631.0
+2011,Maryland,Asian or Pacific Islander,13791,68880,30.0
+2012,Maryland,Male,13959,71840,1802.0
+2012,Maryland,"Black, non-Hispanic",13959,71840,622.0
+2012,Maryland,Female,13959,71840,2022.0
+2012,Maryland,Overall,13959,71840,3824.0
+2012,Maryland,Asian or Pacific Islander,13959,71840,27.0
+2012,Maryland,Hispanic,13959,71840,20.0
+2012,Maryland,"White, non-Hispanic",13959,71840,3145.0
+2013,Maryland,Overall,14531,69350,3974.0
+2013,Maryland,Overall,14531,65260,3974.0
+2013,Maryland,Asian or Pacific Islander,14531,69350,36.0
+2013,Maryland,Asian or Pacific Islander,14531,65260,36.0
+2013,Maryland,Female,14531,69350,2120.0
+2013,Maryland,Female,14531,65260,2120.0
+2013,Maryland,"White, non-Hispanic",14531,69350,3215.0
+2013,Maryland,"White, non-Hispanic",14531,65260,3215.0
+2013,Maryland,"Black, non-Hispanic",14531,69350,676.0
+2013,Maryland,"Black, non-Hispanic",14531,65260,676.0
+2013,Maryland,Hispanic,14531,69350,26.0
+2013,Maryland,Hispanic,14531,65260,26.0
+2013,Maryland,Male,14531,69350,1854.0
+2013,Maryland,Male,14531,65260,1854.0
+2014,Maryland,"Black, non-Hispanic",17555,76170,663.0
+2014,Maryland,"White, non-Hispanic",17555,76170,3112.0
+2014,Maryland,Female,17555,76170,2023.0
+2014,Maryland,Overall,17555,76170,3838.0
+2014,Maryland,Asian or Pacific Islander,17555,76170,28.0
+2014,Maryland,Male,17555,76170,1815.0
+2015,Maryland,Overall,17337,73590,3993.0
+2015,Maryland,Female,17337,73590,2149.0
+2015,Maryland,"White, non-Hispanic",17337,73590,3191.0
+2015,Maryland,Hispanic,17337,73590,30.0
+2015,Maryland,"Black, non-Hispanic",17337,73590,726.0
+2015,Maryland,Male,17337,73590,1844.0
+2015,Maryland,Asian or Pacific Islander,17337,73590,36.0
+2016,Maryland,"White, non-Hispanic",19698,73760,3229.0
+2016,Maryland,Female,19698,73760,2142.0
+2016,Maryland,Male,19698,73760,1892.0
+2016,Maryland,Overall,19698,73760,4034.0
+2016,Maryland,Hispanic,19698,73760,22.0
+2016,Maryland,Asian or Pacific Islander,19698,73760,40.0
+2016,Maryland,"Black, non-Hispanic",19698,73760,731.0
+2017,Maryland,Hispanic,20185,82090,34.0
+2017,Maryland,Hispanic,20185,81080,34.0
+2017,Maryland,Overall,20185,82090,4357.0
+2017,Maryland,Overall,20185,81080,4357.0
+2017,Maryland,Asian or Pacific Islander,20185,82090,31.0
+2017,Maryland,Asian or Pacific Islander,20185,81080,31.0
+2017,Maryland,"White, non-Hispanic",20185,82090,3448.0
+2017,Maryland,"White, non-Hispanic",20185,81080,3448.0
+2017,Maryland,Female,20185,82090,2360.0
+2017,Maryland,Female,20185,81080,2360.0
+2017,Maryland,"Black, non-Hispanic",20185,82090,833.0
+2017,Maryland,"Black, non-Hispanic",20185,81080,833.0
+2017,Maryland,Male,20185,82090,1997.0
+2017,Maryland,Male,20185,81080,1997.0
+2018,Maryland,"Black, non-Hispanic",20916,86220,904.0
+2018,Maryland,"White, non-Hispanic",20916,86220,3736.0
+2018,Maryland,Overall,20916,86220,4733.0
+2018,Maryland,Female,20916,86220,2487.0
+2018,Maryland,Asian or Pacific Islander,20916,86220,50.0
+2018,Maryland,Male,20916,86220,2246.0
+2018,Maryland,Hispanic,20916,86220,35.0
+2019,Maryland,Hispanic,21723,95570,28.0
+2019,Maryland,Male,21723,95570,2310.0
+2019,Maryland,Asian or Pacific Islander,21723,95570,68.0
+2019,Maryland,"Black, non-Hispanic",21723,95570,921.0
+2019,Maryland,Female,21723,95570,2483.0
+2019,Maryland,"White, non-Hispanic",21723,95570,3764.0
+2019,Maryland,Overall,21723,95570,4793.0
+2020,Maryland,"Black, non-Hispanic",22020,94790,1246.0
+2020,Maryland,Overall,22020,94790,5651.0
+2020,Maryland,"White, non-Hispanic",22020,94790,4279.0
+2020,Maryland,Male,22020,94790,2703.0
+2020,Maryland,Hispanic,22020,94790,41.0
+2020,Maryland,Asian or Pacific Islander,22020,94790,67.0
+2020,Maryland,Female,22020,94790,2948.0
+2011,Massachusetts,Hispanic,23207,63310,57.0
+2011,Massachusetts,Male,23207,63310,2098.0
+2011,Massachusetts,"White, non-Hispanic",23207,63310,4313.0
+2011,Massachusetts,Female,23207,63310,2392.0
+2011,Massachusetts,Asian or Pacific Islander,23207,63310,33.0
+2011,Massachusetts,"Black, non-Hispanic",23207,63310,85.0
+2011,Massachusetts,Overall,23207,63310,4490.0
+2012,Massachusetts,Hispanic,24754,63660,65.0
+2012,Massachusetts,Male,24754,63660,1870.0
+2012,Massachusetts,"White, non-Hispanic",24754,63660,4015.0
+2012,Massachusetts,"Black, non-Hispanic",24754,63660,78.0
+2012,Massachusetts,Female,24754,63660,2323.0
+2012,Massachusetts,Overall,24754,63660,4193.0
+2012,Massachusetts,Asian or Pacific Islander,24754,63660,33.0
+2013,Massachusetts,Female,25186,62530,2338.0
+2013,Massachusetts,Female,25186,62960,2338.0
+2013,Massachusetts,Male,25186,62530,2017.0
+2013,Massachusetts,Male,25186,62960,2017.0
+2013,Massachusetts,"Black, non-Hispanic",25186,62530,97.0
+2013,Massachusetts,"Black, non-Hispanic",25186,62960,97.0
+2013,Massachusetts,Asian or Pacific Islander,25186,62530,34.0
+2013,Massachusetts,Asian or Pacific Islander,25186,62960,34.0
+2013,Massachusetts,Overall,25186,62530,4355.0
+2013,Massachusetts,Overall,25186,62960,4355.0
+2013,Massachusetts,Hispanic,25186,62530,72.0
+2013,Massachusetts,Hispanic,25186,62960,72.0
+2013,Massachusetts,"White, non-Hispanic",25186,62530,4143.0
+2013,Massachusetts,"White, non-Hispanic",25186,62960,4143.0
+2014,Massachusetts,"White, non-Hispanic",27863,63150,4092.0
+2014,Massachusetts,Female,27863,63150,2338.0
+2014,Massachusetts,"Black, non-Hispanic",27863,63150,119.0
+2014,Massachusetts,Hispanic,27863,63150,58.0
+2014,Massachusetts,Overall,27863,63150,4363.0
+2014,Massachusetts,Asian or Pacific Islander,27863,63150,50.0
+2014,Massachusetts,Male,27863,63150,2025.0
+2015,Massachusetts,Male,30292,67860,2138.0
+2015,Massachusetts,"White, non-Hispanic",30292,67860,4352.0
+2015,Massachusetts,Hispanic,30292,67860,79.0
+2015,Massachusetts,Asian or Pacific Islander,30292,67860,42.0
+2015,Massachusetts,Female,30292,67860,2596.0
+2015,Massachusetts,Overall,30292,67860,4734.0
+2015,Massachusetts,"Black, non-Hispanic",30292,67860,100.0
+2016,Massachusetts,Male,31917,72270,2176.0
+2016,Massachusetts,Hispanic,31917,72270,79.0
+2016,Massachusetts,"White, non-Hispanic",31917,72270,4283.0
+2016,Massachusetts,"Black, non-Hispanic",31917,72270,121.0
+2016,Massachusetts,Overall,31917,72270,4663.0
+2016,Massachusetts,Female,31917,72270,2487.0
+2016,Massachusetts,Asian or Pacific Islander,31917,72270,36.0
+2017,Massachusetts,Hispanic,30787,76240,113.0
+2017,Massachusetts,Hispanic,30787,73230,113.0
+2017,Massachusetts,Male,30787,76240,2246.0
+2017,Massachusetts,Male,30787,73230,2246.0
+2017,Massachusetts,Female,30787,76240,2586.0
+2017,Massachusetts,Female,30787,73230,2586.0
+2017,Massachusetts,"Black, non-Hispanic",30787,76240,115.0
+2017,Massachusetts,"Black, non-Hispanic",30787,73230,115.0
+2017,Massachusetts,Overall,30787,76240,4832.0
+2017,Massachusetts,Overall,30787,73230,4832.0
+2017,Massachusetts,Asian or Pacific Islander,30787,76240,32.0
+2017,Massachusetts,Asian or Pacific Islander,30787,73230,32.0
+2017,Massachusetts,"White, non-Hispanic",30787,76240,4455.0
+2017,Massachusetts,"White, non-Hispanic",30787,73230,4455.0
+2018,Massachusetts,Asian or Pacific Islander,32214,86350,49.0
+2018,Massachusetts,Female,32214,86350,2619.0
+2018,Massachusetts,"Black, non-Hispanic",32214,86350,157.0
+2018,Massachusetts,"White, non-Hispanic",32214,86350,4498.0
+2018,Massachusetts,Hispanic,32214,86350,101.0
+2018,Massachusetts,Overall,32214,86350,4896.0
+2018,Massachusetts,Male,32214,86350,2277.0
+2019,Massachusetts,Male,31905,87710,2357.0
+2019,Massachusetts,Asian or Pacific Islander,31905,87710,53.0
+2019,Massachusetts,"Black, non-Hispanic",31905,87710,148.0
+2019,Massachusetts,Overall,31905,87710,5069.0
+2019,Massachusetts,"White, non-Hispanic",31905,87710,4695.0
+2019,Massachusetts,Hispanic,31905,87710,99.0
+2019,Massachusetts,Female,31905,87710,2712.0
+2020,Massachusetts,Asian or Pacific Islander,33357,87810,64.0
+2020,Massachusetts,Overall,33357,87810,5493.0
+2020,Massachusetts,Hispanic,33357,87810,134.0
+2020,Massachusetts,Male,33357,87810,2699.0
+2020,Massachusetts,Female,33357,87810,2794.0
+2020,Massachusetts,"Black, non-Hispanic",33357,87810,185.0
+2020,Massachusetts,"White, non-Hispanic",33357,87810,5013.0
+2011,Michigan,Female,21365,48880,5021.0
+2011,Michigan,American Indian or Alaska Native,21365,48880,73.0
+2011,Michigan,Male,21365,48880,5369.0
+2011,Michigan,"Black, non-Hispanic",21365,48880,852.0
+2011,Michigan,Overall,21365,48880,10390.0
+2011,Michigan,Asian or Pacific Islander,21365,48880,21.0
+2011,Michigan,Hispanic,21365,48880,71.0
+2011,Michigan,"White, non-Hispanic",21365,48880,9362.0
+2012,Michigan,American Indian or Alaska Native,21979,50020,53.0
+2012,Michigan,Hispanic,21979,50020,108.0
+2012,Michigan,Asian or Pacific Islander,21979,50020,31.0
+2012,Michigan,Overall,21979,50020,10332.0
+2012,Michigan,Male,21979,50020,5305.0
+2012,Michigan,"Black, non-Hispanic",21979,50020,832.0
+2012,Michigan,"White, non-Hispanic",21979,50020,9301.0
+2012,Michigan,Female,21979,50020,5027.0
+2013,Michigan,Asian or Pacific Islander,23058,56570,23.0
+2013,Michigan,Asian or Pacific Islander,23058,48800,23.0
+2013,Michigan,Male,23058,56570,5521.0
+2013,Michigan,Male,23058,48800,5521.0
+2013,Michigan,Female,23058,56570,5276.0
+2013,Michigan,Female,23058,48800,5276.0
+2013,Michigan,Hispanic,23058,56570,99.0
+2013,Michigan,Hispanic,23058,48800,99.0
+2013,Michigan,"Black, non-Hispanic",23058,56570,836.0
+2013,Michigan,"Black, non-Hispanic",23058,48800,836.0
+2013,Michigan,Overall,23058,56570,10797.0
+2013,Michigan,Overall,23058,48800,10797.0
+2013,Michigan,American Indian or Alaska Native,23058,56570,90.0
+2013,Michigan,American Indian or Alaska Native,23058,48800,90.0
+2013,Michigan,"White, non-Hispanic",23058,56570,9718.0
+2013,Michigan,"White, non-Hispanic",23058,48800,9718.0
+2014,Michigan,"Black, non-Hispanic",24976,52010,856.0
+2014,Michigan,Female,24976,52010,5169.0
+2014,Michigan,Asian or Pacific Islander,24976,52010,26.0
+2014,Michigan,Overall,24976,52010,10439.0
+2014,Michigan,Male,24976,52010,5270.0
+2014,Michigan,"White, non-Hispanic",24976,52010,9375.0
+2014,Michigan,American Indian or Alaska Native,24976,52010,78.0
+2014,Michigan,Hispanic,24976,52010,97.0
+2015,Michigan,Female,28265,54200,5504.0
+2015,Michigan,"Black, non-Hispanic",28265,54200,944.0
+2015,Michigan,Overall,28265,54200,11025.0
+2015,Michigan,Asian or Pacific Islander,28265,54200,30.0
+2015,Michigan,"White, non-Hispanic",28265,54200,9812.0
+2015,Michigan,Hispanic,28265,54200,109.0
+2015,Michigan,Male,28265,54200,5521.0
+2015,Michigan,American Indian or Alaska Native,28265,54200,85.0
+2016,Michigan,"White, non-Hispanic",30630,57090,9707.0
+2016,Michigan,American Indian or Alaska Native,30630,57090,93.0
+2016,Michigan,Hispanic,30630,57090,97.0
+2016,Michigan,Overall,30630,57090,10877.0
+2016,Michigan,Asian or Pacific Islander,30630,57090,25.0
+2016,Michigan,"Black, non-Hispanic",30630,57090,914.0
+2016,Michigan,Male,30630,57090,5567.0
+2016,Michigan,Female,30630,57090,5310.0
+2017,Michigan,Male,28464,56410,5568.0
+2017,Michigan,Male,28464,57700,5568.0
+2017,Michigan,Asian or Pacific Islander,28464,56410,27.0
+2017,Michigan,Asian or Pacific Islander,28464,57700,27.0
+2017,Michigan,Female,28464,56410,5381.0
+2017,Michigan,Female,28464,57700,5381.0
+2017,Michigan,Hispanic,28464,56410,101.0
+2017,Michigan,Hispanic,28464,57700,101.0
+2017,Michigan,"Black, non-Hispanic",28464,56410,957.0
+2017,Michigan,"Black, non-Hispanic",28464,57700,957.0
+2017,Michigan,Overall,28464,56410,10949.0
+2017,Michigan,Overall,28464,57700,10949.0
+2017,Michigan,American Indian or Alaska Native,28464,56410,90.0
+2017,Michigan,American Indian or Alaska Native,28464,57700,90.0
+2017,Michigan,"White, non-Hispanic",28464,56410,9734.0
+2017,Michigan,"White, non-Hispanic",28464,57700,9734.0
+2018,Michigan,"Black, non-Hispanic",30154,60450,958.0
+2018,Michigan,Asian or Pacific Islander,30154,60450,25.0
+2018,Michigan,"White, non-Hispanic",30154,60450,9998.0
+2018,Michigan,Female,30154,60450,5582.0
+2018,Michigan,Overall,30154,60450,11215.0
+2018,Michigan,Male,30154,60450,5633.0
+2018,Michigan,Hispanic,30154,60450,101.0
+2018,Michigan,American Indian or Alaska Native,30154,60450,85.0
+2019,Michigan,Hispanic,33060,64120,91.0
+2019,Michigan,Male,33060,64120,5705.0
+2019,Michigan,Asian or Pacific Islander,33060,64120,22.0
+2019,Michigan,Female,33060,64120,5541.0
+2019,Michigan,"White, non-Hispanic",33060,64120,10100.0
+2019,Michigan,Overall,33060,64120,11246.0
+2019,Michigan,American Indian or Alaska Native,33060,64120,81.0
+2019,Michigan,"Black, non-Hispanic",33060,64120,921.0
+2020,Michigan,"Black, non-Hispanic",34136,64390,1251.0
+2020,Michigan,Hispanic,34136,64390,116.0
+2020,Michigan,Female,34136,64390,6073.0
+2020,Michigan,Male,34136,64390,6486.0
+2020,Michigan,American Indian or Alaska Native,34136,64390,67.0
+2020,Michigan,"White, non-Hispanic",34136,64390,11025.0
+2020,Michigan,Asian or Pacific Islander,34136,64390,51.0
+2020,Michigan,Overall,34136,64390,12559.0
+2011,Minnesota,Female,15299,57820,2110.0
+2011,Minnesota,"Black, non-Hispanic",15299,57820,54.0
+2011,Minnesota,Male,15299,57820,2308.0
+2011,Minnesota,American Indian or Alaska Native,15299,57820,49.0
+2011,Minnesota,"White, non-Hispanic",15299,57820,4277.0
+2011,Minnesota,Asian or Pacific Islander,15299,57820,23.0
+2011,Minnesota,Overall,15299,57820,4418.0
+2012,Minnesota,"Black, non-Hispanic",16179,61800,65.0
+2012,Minnesota,Female,16179,61800,2196.0
+2012,Minnesota,Asian or Pacific Islander,16179,61800,23.0
+2012,Minnesota,Overall,16179,61800,4441.0
+2012,Minnesota,Male,16179,61800,2245.0
+2012,Minnesota,American Indian or Alaska Native,16179,61800,46.0
+2012,Minnesota,"White, non-Hispanic",16179,61800,4295.0
+2013,Minnesota,"White, non-Hispanic",17364,64320,4497.0
+2013,Minnesota,"White, non-Hispanic",17364,60910,4497.0
+2013,Minnesota,"Black, non-Hispanic",17364,64320,91.0
+2013,Minnesota,"Black, non-Hispanic",17364,60910,91.0
+2013,Minnesota,American Indian or Alaska Native,17364,64320,44.0
+2013,Minnesota,American Indian or Alaska Native,17364,60910,44.0
+2013,Minnesota,Asian or Pacific Islander,17364,64320,39.0
+2013,Minnesota,Asian or Pacific Islander,17364,60910,39.0
+2013,Minnesota,Overall,17364,64320,4694.0
+2013,Minnesota,Overall,17364,60910,4694.0
+2013,Minnesota,Hispanic,17364,64320,22.0
+2013,Minnesota,Hispanic,17364,60910,22.0
+2013,Minnesota,Male,17364,64320,2379.0
+2013,Minnesota,Male,17364,60910,2379.0
+2013,Minnesota,Female,17364,64320,2315.0
+2013,Minnesota,Female,17364,60910,2315.0
+2014,Minnesota,Overall,19237,67240,4741.0
+2014,Minnesota,Male,19237,67240,2387.0
+2014,Minnesota,Asian or Pacific Islander,19237,67240,28.0
+2014,Minnesota,"Black, non-Hispanic",19237,67240,74.0
+2014,Minnesota,"White, non-Hispanic",19237,67240,4550.0
+2014,Minnesota,American Indian or Alaska Native,19237,67240,63.0
+2014,Minnesota,Hispanic,19237,67240,24.0
+2014,Minnesota,Female,19237,67240,2354.0
+2015,Minnesota,Female,19518,68730,2484.0
+2015,Minnesota,"Black, non-Hispanic",19518,68730,124.0
+2015,Minnesota,Male,19518,68730,2612.0
+2015,Minnesota,American Indian or Alaska Native,19518,68730,58.0
+2015,Minnesota,"White, non-Hispanic",19518,68730,4855.0
+2015,Minnesota,Hispanic,19518,68730,28.0
+2015,Minnesota,Overall,19518,68730,5096.0
+2015,Minnesota,Asian or Pacific Islander,19518,68730,27.0
+2016,Minnesota,"White, non-Hispanic",20241,70220,4847.0
+2016,Minnesota,Overall,20241,70220,5079.0
+2016,Minnesota,Asian or Pacific Islander,20241,70220,41.0
+2016,Minnesota,Female,20241,70220,2479.0
+2016,Minnesota,Male,20241,70220,2600.0
+2016,Minnesota,Hispanic,20241,70220,22.0
+2016,Minnesota,American Indian or Alaska Native,20241,70220,62.0
+2016,Minnesota,"Black, non-Hispanic",20241,70220,104.0
+2017,Minnesota,"Black, non-Hispanic",22006,69980,138.0
+2017,Minnesota,"Black, non-Hispanic",22006,71920,138.0
+2017,Minnesota,Asian or Pacific Islander,22006,69980,21.0
+2017,Minnesota,Asian or Pacific Islander,22006,71920,21.0
+2017,Minnesota,Overall,22006,69980,5437.0
+2017,Minnesota,Overall,22006,71920,5437.0
+2017,Minnesota,American Indian or Alaska Native,22006,69980,91.0
+2017,Minnesota,American Indian or Alaska Native,22006,71920,91.0
+2017,Minnesota,"White, non-Hispanic",22006,69980,5167.0
+2017,Minnesota,"White, non-Hispanic",22006,71920,5167.0
+2017,Minnesota,Male,22006,69980,2839.0
+2017,Minnesota,Male,22006,71920,2839.0
+2017,Minnesota,Female,22006,69980,2598.0
+2017,Minnesota,Female,22006,71920,2598.0
+2018,Minnesota,"White, non-Hispanic",23259,71820,5175.0
+2018,Minnesota,Asian or Pacific Islander,23259,71820,51.0
+2018,Minnesota,"Black, non-Hispanic",23259,71820,138.0
+2018,Minnesota,Male,23259,71820,2808.0
+2018,Minnesota,American Indian or Alaska Native,23259,71820,72.0
+2018,Minnesota,Overall,23259,71820,5455.0
+2018,Minnesota,Female,23259,71820,2647.0
+2019,Minnesota,"Black, non-Hispanic",23054,81430,160.0
+2019,Minnesota,Male,23054,81430,2913.0
+2019,Minnesota,Asian or Pacific Islander,23054,81430,35.0
+2019,Minnesota,"White, non-Hispanic",23054,81430,5200.0
+2019,Minnesota,Female,23054,81430,2587.0
+2019,Minnesota,American Indian or Alaska Native,23054,81430,81.0
+2019,Minnesota,Hispanic,23054,81430,22.0
+2019,Minnesota,Overall,23054,81430,5500.0
+2020,Minnesota,Asian or Pacific Islander,24131,78750,54.0
+2020,Minnesota,"White, non-Hispanic",24131,78750,5997.0
+2020,Minnesota,Female,24131,78750,3066.0
+2020,Minnesota,Overall,24131,78750,6344.0
+2020,Minnesota,Hispanic,24131,78750,29.0
+2020,Minnesota,Male,24131,78750,3278.0
+2020,Minnesota,American Indian or Alaska Native,24131,78750,89.0
+2020,Minnesota,"Black, non-Hispanic",24131,78750,168.0
+2011,Mississippi,Male,8363,41090,1668.0
+2011,Mississippi,Overall,8363,41090,3047.0
+2011,Mississippi,Female,8363,41090,1379.0
+2011,Mississippi,"White, non-Hispanic",8363,41090,2553.0
+2011,Mississippi,"Black, non-Hispanic",8363,41090,479.0
+2012,Mississippi,Female,8498,36640,1429.0
+2012,Mississippi,Male,8498,36640,1655.0
+2012,Mississippi,"White, non-Hispanic",8498,36640,2553.0
+2012,Mississippi,"Black, non-Hispanic",8498,36640,520.0
+2012,Mississippi,Overall,8498,36640,3084.0
+2013,Mississippi,"Black, non-Hispanic",8819,32340,540.0
+2013,Mississippi,"Black, non-Hispanic",8819,40850,540.0
+2013,Mississippi,Male,8819,32340,1618.0
+2013,Mississippi,Male,8819,40850,1618.0
+2013,Mississippi,Overall,8819,32340,3092.0
+2013,Mississippi,Overall,8819,40850,3092.0
+2013,Mississippi,Female,8819,32340,1474.0
+2013,Mississippi,Female,8819,40850,1474.0
+2013,Mississippi,"White, non-Hispanic",8819,32340,2540.0
+2013,Mississippi,"White, non-Hispanic",8819,40850,2540.0
+2014,Mississippi,Overall,9155,35520,2989.0
+2014,Mississippi,"Black, non-Hispanic",9155,35520,491.0
+2014,Mississippi,Male,9155,35520,1563.0
+2014,Mississippi,Female,9155,35520,1426.0
+2014,Mississippi,"White, non-Hispanic",9155,35520,2482.0
+2015,Mississippi,Overall,9287,40040,3293.0
+2015,Mississippi,Female,9287,40040,1594.0
+2015,Mississippi,"White, non-Hispanic",9287,40040,2728.0
+2015,Mississippi,"Black, non-Hispanic",9287,40040,550.0
+2015,Mississippi,Male,9287,40040,1699.0
+2016,Mississippi,Male,9662,41100,1823.0
+2016,Mississippi,Female,9662,41100,1782.0
+2016,Mississippi,"White, non-Hispanic",9662,41100,2938.0
+2016,Mississippi,Overall,9662,41100,3605.0
+2016,Mississippi,"Black, non-Hispanic",9662,41100,651.0
+2017,Mississippi,"Black, non-Hispanic",9403,43280,728.0
+2017,Mississippi,"Black, non-Hispanic",9403,43440,728.0
+2017,Mississippi,"White, non-Hispanic",9403,43280,2915.0
+2017,Mississippi,"White, non-Hispanic",9403,43440,2915.0
+2017,Mississippi,Male,9403,43280,1834.0
+2017,Mississippi,Male,9403,43440,1834.0
+2017,Mississippi,Overall,9403,43280,3662.0
+2017,Mississippi,Overall,9403,43440,3662.0
+2017,Mississippi,Female,9403,43280,1828.0
+2017,Mississippi,Female,9403,43440,1828.0
+2018,Mississippi,Female,9373,42780,1768.0
+2018,Mississippi,"White, non-Hispanic",9373,42780,3010.0
+2018,Mississippi,Male,9373,42780,1995.0
+2018,Mississippi,Overall,9373,42780,3763.0
+2018,Mississippi,"Black, non-Hispanic",9373,42780,733.0
+2019,Mississippi,Female,9672,44790,1911.0
+2019,Mississippi,"White, non-Hispanic",9672,44790,3196.0
+2019,Mississippi,Overall,9672,44790,4023.0
+2019,Mississippi,"Black, non-Hispanic",9672,44790,802.0
+2019,Mississippi,Male,9672,44790,2112.0
+2020,Mississippi,Female,9709,45130,2165.0
+2020,Mississippi,Overall,9709,45130,4529.0
+2020,Mississippi,"Black, non-Hispanic",9709,45130,911.0
+2020,Mississippi,"White, non-Hispanic",9709,45130,3586.0
+2020,Mississippi,Male,9709,45130,2364.0
+2011,Missouri,Female,15599,45770,3113.0
+2011,Missouri,Hispanic,15599,45770,22.0
+2011,Missouri,"White, non-Hispanic",15599,45770,5927.0
+2011,Missouri,"Black, non-Hispanic",15599,45770,347.0
+2011,Missouri,Male,15599,45770,3205.0
+2011,Missouri,Overall,15599,45770,6318.0
+2012,Missouri,Overall,16793,49760,6377.0
+2012,Missouri,American Indian or Alaska Native,16793,49760,23.0
+2012,Missouri,"White, non-Hispanic",16793,49760,5971.0
+2012,Missouri,"Black, non-Hispanic",16793,49760,362.0
+2012,Missouri,Male,16793,49760,3297.0
+2012,Missouri,Female,16793,49760,3080.0
+2013,Missouri,"Black, non-Hispanic",17029,46300,365.0
+2013,Missouri,"Black, non-Hispanic",17029,50310,365.0
+2013,Missouri,Male,17029,46300,3258.0
+2013,Missouri,Male,17029,50310,3258.0
+2013,Missouri,Overall,17029,46300,6610.0
+2013,Missouri,Overall,17029,50310,6610.0
+2013,Missouri,Female,17029,46300,3352.0
+2013,Missouri,Female,17029,50310,3352.0
+2013,Missouri,"White, non-Hispanic",17029,46300,6208.0
+2013,Missouri,"White, non-Hispanic",17029,50310,6208.0
+2014,Missouri,Overall,17147,56630,6499.0
+2014,Missouri,Male,17147,56630,3233.0
+2014,Missouri,Hispanic,17147,56630,24.0
+2014,Missouri,"Black, non-Hispanic",17147,56630,387.0
+2014,Missouri,"White, non-Hispanic",17147,56630,6050.0
+2014,Missouri,Female,17147,56630,3266.0
+2015,Missouri,"White, non-Hispanic",18441,59200,6469.0
+2015,Missouri,Female,18441,59200,3406.0
+2015,Missouri,"Black, non-Hispanic",18441,59200,372.0
+2015,Missouri,Hispanic,18441,59200,23.0
+2015,Missouri,Male,18441,59200,3496.0
+2015,Missouri,Overall,18441,59200,6902.0
+2016,Missouri,Hispanic,19000,55020,25.0
+2016,Missouri,Overall,19000,55020,6829.0
+2016,Missouri,"Black, non-Hispanic",19000,55020,416.0
+2016,Missouri,"White, non-Hispanic",19000,55020,6351.0
+2016,Missouri,Male,19000,55020,3427.0
+2016,Missouri,Female,19000,55020,3402.0
+2017,Missouri,"Black, non-Hispanic",19296,56530,399.0
+2017,Missouri,"Black, non-Hispanic",19296,56890,399.0
+2017,Missouri,Male,19296,56530,3452.0
+2017,Missouri,Male,19296,56890,3452.0
+2017,Missouri,American Indian or Alaska Native,19296,56530,20.0
+2017,Missouri,American Indian or Alaska Native,19296,56890,20.0
+2017,Missouri,Hispanic,19296,56530,23.0
+2017,Missouri,Hispanic,19296,56890,23.0
+2017,Missouri,Asian or Pacific Islander,19296,56530,21.0
+2017,Missouri,Asian or Pacific Islander,19296,56890,21.0
+2017,Missouri,Overall,19296,56530,6933.0
+2017,Missouri,Overall,19296,56890,6933.0
+2017,Missouri,"White, non-Hispanic",19296,56530,6462.0
+2017,Missouri,"White, non-Hispanic",19296,56890,6462.0
+2017,Missouri,Female,19296,56530,3481.0
+2017,Missouri,Female,19296,56890,3481.0
+2018,Missouri,Female,19511,61730,3481.0
+2018,Missouri,Overall,19511,61730,7015.0
+2018,Missouri,Hispanic,19511,61730,34.0
+2018,Missouri,"White, non-Hispanic",19511,61730,6516.0
+2018,Missouri,Male,19511,61730,3534.0
+2018,Missouri,"Black, non-Hispanic",19511,61730,427.0
+2019,Missouri,Female,20148,60600,3421.0
+2019,Missouri,"Black, non-Hispanic",20148,60600,395.0
+2019,Missouri,Overall,20148,60600,6763.0
+2019,Missouri,"White, non-Hispanic",20148,60600,6310.0
+2019,Missouri,Hispanic,20148,60600,23.0
+2019,Missouri,Male,20148,60600,3342.0
+2020,Missouri,Hispanic,20815,62180,27.0
+2020,Missouri,"White, non-Hispanic",20815,62180,6973.0
+2020,Missouri,American Indian or Alaska Native,20815,62180,23.0
+2020,Missouri,Female,20815,62180,3702.0
+2020,Missouri,Asian or Pacific Islander,20815,62180,22.0
+2020,Missouri,Male,20815,62180,3845.0
+2020,Missouri,"Black, non-Hispanic",20815,62180,493.0
+2020,Missouri,Overall,20815,62180,7547.0
+2011,Montana,"White, non-Hispanic",1637,40280,1040.0
+2011,Montana,Female,1637,40280,539.0
+2011,Montana,Male,1637,40280,565.0
+2011,Montana,American Indian or Alaska Native,1637,40280,50.0
+2011,Montana,Overall,1637,40280,1104.0
+2012,Montana,Male,1904,45090,575.0
+2012,Montana,Female,1904,45090,479.0
+2012,Montana,"White, non-Hispanic",1904,45090,996.0
+2012,Montana,American Indian or Alaska Native,1904,45090,45.0
+2012,Montana,Overall,1904,45090,1054.0
+2013,Montana,American Indian or Alaska Native,1989,43200,48.0
+2013,Montana,American Indian or Alaska Native,1989,44130,48.0
+2013,Montana,"White, non-Hispanic",1989,43200,1136.0
+2013,Montana,"White, non-Hispanic",1989,44130,1136.0
+2013,Montana,Male,1989,43200,605.0
+2013,Montana,Male,1989,44130,605.0
+2013,Montana,Overall,1989,43200,1200.0
+2013,Montana,Overall,1989,44130,1200.0
+2013,Montana,Female,1989,43200,595.0
+2013,Montana,Female,1989,44130,595.0
+2014,Montana,Overall,2121,51100,1233.0
+2014,Montana,Male,2121,51100,632.0
+2014,Montana,American Indian or Alaska Native,2121,51100,60.0
+2014,Montana,"White, non-Hispanic",2121,51100,1153.0
+2014,Montana,Female,2121,51100,601.0
+2015,Montana,Male,2282,51400,631.0
+2015,Montana,"White, non-Hispanic",2282,51400,1157.0
+2015,Montana,American Indian or Alaska Native,2282,51400,63.0
+2015,Montana,Female,2282,51400,625.0
+2015,Montana,Overall,2282,51400,1256.0
+2016,Montana,Male,2877,57080,679.0
+2016,Montana,Female,2877,57080,627.0
+2016,Montana,American Indian or Alaska Native,2877,57080,61.0
+2016,Montana,"White, non-Hispanic",2877,57080,1232.0
+2016,Montana,Overall,2877,57080,1306.0
+2017,Montana,American Indian or Alaska Native,3515,57410,89.0
+2017,Montana,American Indian or Alaska Native,3515,59090,89.0
+2017,Montana,"White, non-Hispanic",3515,57410,1298.0
+2017,Montana,"White, non-Hispanic",3515,59090,1298.0
+2017,Montana,Overall,3515,57410,1403.0
+2017,Montana,Overall,3515,59090,1403.0
+2017,Montana,Female,3515,57410,694.0
+2017,Montana,Female,3515,59090,694.0
+2017,Montana,Male,3515,57410,709.0
+2017,Montana,Male,3515,59090,709.0
+2018,Montana,"White, non-Hispanic",3541,57680,1255.0
+2018,Montana,Overall,3541,57680,1336.0
+2018,Montana,Female,3541,57680,613.0
+2018,Montana,Male,3541,57680,723.0
+2018,Montana,American Indian or Alaska Native,3541,57680,60.0
+2019,Montana,Female,3698,60190,638.0
+2019,Montana,Overall,3698,60190,1354.0
+2019,Montana,American Indian or Alaska Native,3698,60190,72.0
+2019,Montana,Male,3698,60190,716.0
+2019,Montana,"White, non-Hispanic",3698,60190,1274.0
+2020,Montana,American Indian or Alaska Native,3919,56740,89.0
+2020,Montana,Female,3919,56740,721.0
+2020,Montana,"White, non-Hispanic",3919,56740,1404.0
+2020,Montana,Overall,3919,56740,1513.0
+2020,Montana,Male,3919,56740,792.0
+2011,Nebraska,Female,3148,55620,934.0
+2011,Nebraska,"White, non-Hispanic",3148,55620,1967.0
+2011,Nebraska,"Black, non-Hispanic",3148,55620,40.0
+2011,Nebraska,Male,3148,55620,1089.0
+2011,Nebraska,Overall,3148,55620,2023.0
+2012,Nebraska,Overall,3428,52200,2075.0
+2012,Nebraska,"White, non-Hispanic",3428,52200,1976.0
+2012,Nebraska,"Black, non-Hispanic",3428,52200,61.0
+2012,Nebraska,Male,3428,52200,1135.0
+2012,Nebraska,Female,3428,52200,940.0
+2013,Nebraska,Male,3331,57620,1131.0
+2013,Nebraska,Male,3331,53770,1131.0
+2013,Nebraska,Female,3331,57620,934.0
+2013,Nebraska,Female,3331,53770,934.0
+2013,Nebraska,"Black, non-Hispanic",3331,57620,41.0
+2013,Nebraska,"Black, non-Hispanic",3331,53770,41.0
+2013,Nebraska,Overall,3331,57620,2065.0
+2013,Nebraska,Overall,3331,53770,2065.0
+2013,Nebraska,"White, non-Hispanic",3331,57620,1999.0
+2013,Nebraska,"White, non-Hispanic",3331,53770,1999.0
+2014,Nebraska,Female,3402,56870,1000.0
+2014,Nebraska,"White, non-Hispanic",3402,56870,2056.0
+2014,Nebraska,Overall,3402,56870,2144.0
+2014,Nebraska,"Black, non-Hispanic",3402,56870,55.0
+2014,Nebraska,Male,3402,56870,1144.0
+2015,Nebraska,"White, non-Hispanic",3535,60470,2157.0
+2015,Nebraska,Female,3535,60470,1041.0
+2015,Nebraska,"Black, non-Hispanic",3535,60470,64.0
+2015,Nebraska,Male,3535,60470,1219.0
+2015,Nebraska,Hispanic,3535,60470,21.0
+2015,Nebraska,Overall,3535,60470,2260.0
+2016,Nebraska,Male,3659,59370,1175.0
+2016,Nebraska,"Black, non-Hispanic",3659,59370,67.0
+2016,Nebraska,Overall,3659,59370,2229.0
+2016,Nebraska,Female,3659,59370,1054.0
+2016,Nebraska,"White, non-Hispanic",3659,59370,2119.0
+2017,Nebraska,"Black, non-Hispanic",3856,59580,66.0
+2017,Nebraska,"Black, non-Hispanic",3856,59620,66.0
+2017,Nebraska,Female,3856,59580,1125.0
+2017,Nebraska,Female,3856,59620,1125.0
+2017,Nebraska,"White, non-Hispanic",3856,59580,2296.0
+2017,Nebraska,"White, non-Hispanic",3856,59620,2296.0
+2017,Nebraska,Overall,3856,59580,2409.0
+2017,Nebraska,Overall,3856,59620,2409.0
+2017,Nebraska,Hispanic,3856,59580,27.0
+2017,Nebraska,Hispanic,3856,59620,27.0
+2017,Nebraska,Male,3856,59580,1284.0
+2017,Nebraska,Male,3856,59620,1284.0
+2018,Nebraska,Female,3888,67580,1079.0
+2018,Nebraska,Overall,3888,67580,2358.0
+2018,Nebraska,"Black, non-Hispanic",3888,67580,74.0
+2018,Nebraska,"White, non-Hispanic",3888,67580,2244.0
+2018,Nebraska,Male,3888,67580,1279.0
+2018,Nebraska,Hispanic,3888,67580,21.0
+2019,Nebraska,Hispanic,3931,73070,21.0
+2019,Nebraska,"White, non-Hispanic",3931,73070,2231.0
+2019,Nebraska,Female,3931,73070,1094.0
+2019,Nebraska,"Black, non-Hispanic",3931,73070,68.0
+2019,Nebraska,Male,3931,73070,1241.0
+2019,Nebraska,Overall,3931,73070,2335.0
+2020,Nebraska,Female,4287,72250,1185.0
+2020,Nebraska,Male,4287,72250,1378.0
+2020,Nebraska,"Black, non-Hispanic",4287,72250,88.0
+2020,Nebraska,Overall,4287,72250,2563.0
+2020,Nebraska,"White, non-Hispanic",4287,72250,2415.0
+2020,Nebraska,Hispanic,4287,72250,30.0
+2011,Nevada,"Black, non-Hispanic",2862,47040,65.0
+2011,Nevada,Hispanic,2862,47040,70.0
+2011,Nevada,Overall,2862,47040,1971.0
+2011,Nevada,Female,2862,47040,980.0
+2011,Nevada,"White, non-Hispanic",2862,47040,1789.0
+2011,Nevada,Male,2862,47040,991.0
+2011,Nevada,Asian or Pacific Islander,2862,47040,36.0
+2012,Nevada,Female,3452,47330,1039.0
+2012,Nevada,Asian or Pacific Islander,3452,47330,39.0
+2012,Nevada,Male,3452,47330,1088.0
+2012,Nevada,"White, non-Hispanic",3452,47330,1922.0
+2012,Nevada,Hispanic,3452,47330,58.0
+2012,Nevada,Overall,3452,47330,2127.0
+2012,Nevada,"Black, non-Hispanic",3452,47330,95.0
+2013,Nevada,"Black, non-Hispanic",3251,51850,97.0
+2013,Nevada,"Black, non-Hispanic",3251,45370,97.0
+2013,Nevada,Overall,3251,51850,2301.0
+2013,Nevada,Overall,3251,45370,2301.0
+2013,Nevada,"White, non-Hispanic",3251,51850,2095.0
+2013,Nevada,"White, non-Hispanic",3251,45370,2095.0
+2013,Nevada,Hispanic,3251,51850,59.0
+2013,Nevada,Hispanic,3251,45370,59.0
+2013,Nevada,Male,3251,51850,1132.0
+2013,Nevada,Male,3251,45370,1132.0
+2013,Nevada,Female,3251,51850,1169.0
+2013,Nevada,Female,3251,45370,1169.0
+2013,Nevada,Asian or Pacific Islander,3251,51850,41.0
+2013,Nevada,Asian or Pacific Islander,3251,45370,41.0
+2014,Nevada,Asian or Pacific Islander,4685,49880,54.0
+2014,Nevada,"Black, non-Hispanic",4685,49880,111.0
+2014,Nevada,Overall,4685,49880,2346.0
+2014,Nevada,Male,4685,49880,1170.0
+2014,Nevada,Female,4685,49880,1176.0
+2014,Nevada,"White, non-Hispanic",4685,49880,2089.0
+2014,Nevada,Hispanic,4685,49880,79.0
+2015,Nevada,Female,5748,52010,1210.0
+2015,Nevada,Male,5748,52010,1291.0
+2015,Nevada,Hispanic,5748,52010,80.0
+2015,Nevada,"White, non-Hispanic",5748,52010,2236.0
+2015,Nevada,"Black, non-Hispanic",5748,52010,111.0
+2015,Nevada,Asian or Pacific Islander,5748,52010,63.0
+2015,Nevada,Overall,5748,52010,2501.0
+2016,Nevada,Male,6166,55430,1452.0
+2016,Nevada,"White, non-Hispanic",6166,55430,2477.0
+2016,Nevada,"Black, non-Hispanic",6166,55430,124.0
+2016,Nevada,Asian or Pacific Islander,6166,55430,84.0
+2016,Nevada,Hispanic,6166,55430,88.0
+2016,Nevada,Overall,6166,55430,2790.0
+2016,Nevada,Female,6166,55430,1338.0
+2017,Nevada,Asian or Pacific Islander,6564,58040,75.0
+2017,Nevada,Asian or Pacific Islander,6564,56550,75.0
+2017,Nevada,Overall,6564,58040,2774.0
+2017,Nevada,Overall,6564,56550,2774.0
+2017,Nevada,Hispanic,6564,58040,95.0
+2017,Nevada,Hispanic,6564,56550,95.0
+2017,Nevada,Male,6564,58040,1449.0
+2017,Nevada,Male,6564,56550,1449.0
+2017,Nevada,"Black, non-Hispanic",6564,58040,136.0
+2017,Nevada,"Black, non-Hispanic",6564,56550,136.0
+2017,Nevada,Female,6564,58040,1325.0
+2017,Nevada,Female,6564,56550,1325.0
+2017,Nevada,"White, non-Hispanic",6564,58040,2450.0
+2017,Nevada,"White, non-Hispanic",6564,56550,2450.0
+2018,Nevada,"Black, non-Hispanic",6949,61860,146.0
+2018,Nevada,Hispanic,6949,61860,102.0
+2018,Nevada,Male,6949,61860,1481.0
+2018,Nevada,Overall,6949,61860,2820.0
+2018,Nevada,Asian or Pacific Islander,6949,61860,71.0
+2018,Nevada,Female,6949,61860,1339.0
+2018,Nevada,"White, non-Hispanic",6949,61860,2480.0
+2018,Nevada,American Indian or Alaska Native,6949,61860,21.0
+2019,Nevada,Male,7640,70910,1524.0
+2019,Nevada,"Black, non-Hispanic",7640,70910,167.0
+2019,Nevada,Female,7640,70910,1402.0
+2019,Nevada,Asian or Pacific Islander,7640,70910,77.0
+2019,Nevada,Overall,7640,70910,2926.0
+2019,Nevada,American Indian or Alaska Native,7640,70910,24.0
+2019,Nevada,Hispanic,7640,70910,125.0
+2019,Nevada,"White, non-Hispanic",7640,70910,2533.0
+2020,Nevada,"Black, non-Hispanic",7298,61160,200.0
+2020,Nevada,Overall,7298,61160,3187.0
+2020,Nevada,Hispanic,7298,61160,149.0
+2020,Nevada,"White, non-Hispanic",7298,61160,2707.0
+2020,Nevada,Female,7298,61160,1538.0
+2020,Nevada,American Indian or Alaska Native,7298,61160,30.0
+2020,Nevada,Male,7298,61160,1649.0
+2020,Nevada,Asian or Pacific Islander,7298,61160,101.0
+2011,New Hampshire,Male,2246,65880,633.0
+2011,New Hampshire,Female,2246,65880,665.0
+2011,New Hampshire,Overall,2246,65880,1298.0
+2011,New Hampshire,"White, non-Hispanic",2246,65880,1290.0
+2012,New Hampshire,"White, non-Hispanic",2285,67820,1304.0
+2012,New Hampshire,Overall,2285,67820,1314.0
+2012,New Hampshire,Male,2285,67820,622.0
+2012,New Hampshire,Female,2285,67820,692.0
+2013,New Hampshire,Female,2388,69100,716.0
+2013,New Hampshire,Female,2388,71320,716.0
+2013,New Hampshire,Male,2388,69100,610.0
+2013,New Hampshire,Male,2388,71320,610.0
+2013,New Hampshire,Overall,2388,69100,1326.0
+2013,New Hampshire,Overall,2388,71320,1326.0
+2013,New Hampshire,"White, non-Hispanic",2388,69100,1318.0
+2013,New Hampshire,"White, non-Hispanic",2388,71320,1318.0
+2014,New Hampshire,"White, non-Hispanic",2633,73400,1319.0
+2014,New Hampshire,Overall,2633,73400,1326.0
+2014,New Hampshire,Female,2633,73400,676.0
+2014,New Hampshire,Male,2633,73400,650.0
+2015,New Hampshire,Female,3015,75680,695.0
+2015,New Hampshire,Overall,3015,75680,1372.0
+2015,New Hampshire,"White, non-Hispanic",3015,75680,1361.0
+2015,New Hampshire,Male,3015,75680,677.0
+2016,New Hampshire,"White, non-Hispanic",3625,76260,1370.0
+2016,New Hampshire,Male,3625,76260,691.0
+2016,New Hampshire,Overall,3625,76260,1385.0
+2016,New Hampshire,Female,3625,76260,694.0
+2017,New Hampshire,Overall,3796,75630,1450.0
+2017,New Hampshire,Overall,3796,74800,1450.0
+2017,New Hampshire,Male,3796,75630,713.0
+2017,New Hampshire,Male,3796,74800,713.0
+2017,New Hampshire,Female,3796,75630,737.0
+2017,New Hampshire,Female,3796,74800,737.0
+2017,New Hampshire,"White, non-Hispanic",3796,75630,1440.0
+2017,New Hampshire,"White, non-Hispanic",3796,74800,1440.0
+2018,New Hampshire,Female,3849,81350,740.0
+2018,New Hampshire,Male,3849,81350,753.0
+2018,New Hampshire,Overall,3849,81350,1493.0
+2018,New Hampshire,"White, non-Hispanic",3849,81350,1479.0
+2019,New Hampshire,"White, non-Hispanic",3686,86900,1451.0
+2019,New Hampshire,Female,3686,86900,731.0
+2019,New Hampshire,Male,3686,86900,739.0
+2019,New Hampshire,Overall,3686,86900,1470.0
+2020,New Hampshire,Overall,4051,88890,1471.0
+2020,New Hampshire,"White, non-Hispanic",4051,88890,1456.0
+2020,New Hampshire,Female,4051,88890,708.0
+2020,New Hampshire,Male,4051,88890,763.0
+2011,New Jersey,Female,19638,62340,3378.0
+2011,New Jersey,"White, non-Hispanic",19638,62340,5541.0
+2011,New Jersey,"Black, non-Hispanic",19638,62340,568.0
+2011,New Jersey,Male,19638,62340,3065.0
+2011,New Jersey,Hispanic,19638,62340,249.0
+2011,New Jersey,Asian or Pacific Islander,19638,62340,80.0
+2011,New Jersey,Overall,19638,62340,6443.0
+2012,New Jersey,"White, non-Hispanic",18941,66690,5494.0
+2012,New Jersey,Female,18941,66690,3392.0
+2012,New Jersey,Asian or Pacific Islander,18941,66690,71.0
+2012,New Jersey,Overall,18941,66690,6405.0
+2012,New Jersey,Male,18941,66690,3013.0
+2012,New Jersey,Hispanic,18941,66690,243.0
+2012,New Jersey,"Black, non-Hispanic",18941,66690,593.0
+2013,New Jersey,Overall,19146,63750,6460.0
+2013,New Jersey,Overall,19146,61780,6460.0
+2013,New Jersey,"White, non-Hispanic",19146,63750,5476.0
+2013,New Jersey,"White, non-Hispanic",19146,61780,5476.0
+2013,New Jersey,"Black, non-Hispanic",19146,63750,590.0
+2013,New Jersey,"Black, non-Hispanic",19146,61780,590.0
+2013,New Jersey,Hispanic,19146,63750,304.0
+2013,New Jersey,Hispanic,19146,61780,304.0
+2013,New Jersey,Male,19146,63750,3043.0
+2013,New Jersey,Male,19146,61780,3043.0
+2013,New Jersey,Asian or Pacific Islander,19146,63750,77.0
+2013,New Jersey,Asian or Pacific Islander,19146,61780,77.0
+2013,New Jersey,Female,19146,63750,3417.0
+2013,New Jersey,Female,19146,61780,3417.0
+2014,New Jersey,Overall,23903,65240,6130.0
+2014,New Jersey,Male,23903,65240,2938.0
+2014,New Jersey,Hispanic,23903,65240,285.0
+2014,New Jersey,Asian or Pacific Islander,23903,65240,58.0
+2014,New Jersey,"Black, non-Hispanic",23903,65240,567.0
+2014,New Jersey,"White, non-Hispanic",23903,65240,5214.0
+2014,New Jersey,Female,23903,65240,3192.0
+2015,New Jersey,Female,25232,68360,3318.0
+2015,New Jersey,Male,25232,68360,2818.0
+2015,New Jersey,"Black, non-Hispanic",25232,68360,596.0
+2015,New Jersey,Overall,25232,68360,6136.0
+2015,New Jersey,Hispanic,25232,68360,297.0
+2015,New Jersey,"White, non-Hispanic",25232,68360,5174.0
+2015,New Jersey,Asian or Pacific Islander,25232,68360,63.0
+2016,New Jersey,Male,26112,68470,2721.0
+2016,New Jersey,"Black, non-Hispanic",26112,68470,627.0
+2016,New Jersey,Overall,26112,68470,5997.0
+2016,New Jersey,Asian or Pacific Islander,26112,68470,67.0
+2016,New Jersey,Hispanic,26112,68470,288.0
+2016,New Jersey,"White, non-Hispanic",26112,68470,5009.0
+2016,New Jersey,Female,26112,68470,3276.0
+2017,New Jersey,Overall,26658,71240,6250.0
+2017,New Jersey,Overall,26658,73000,6250.0
+2017,New Jersey,"Black, non-Hispanic",26658,71240,563.0
+2017,New Jersey,"Black, non-Hispanic",26658,73000,563.0
+2017,New Jersey,Hispanic,26658,71240,295.0
+2017,New Jersey,Hispanic,26658,73000,295.0
+2017,New Jersey,Male,26658,71240,2874.0
+2017,New Jersey,Male,26658,73000,2874.0
+2017,New Jersey,Asian or Pacific Islander,26658,71240,79.0
+2017,New Jersey,Asian or Pacific Islander,26658,73000,79.0
+2017,New Jersey,Female,26658,71240,3376.0
+2017,New Jersey,Female,26658,73000,3376.0
+2017,New Jersey,"White, non-Hispanic",26658,71240,5303.0
+2017,New Jersey,"White, non-Hispanic",26658,73000,5303.0
+2018,New Jersey,Female,27135,74180,3243.0
+2018,New Jersey,Asian or Pacific Islander,27135,74180,103.0
+2018,New Jersey,"Black, non-Hispanic",27135,74180,646.0
+2018,New Jersey,Overall,27135,74180,6126.0
+2018,New Jersey,Hispanic,27135,74180,317.0
+2018,New Jersey,Male,27135,74180,2883.0
+2018,New Jersey,"White, non-Hispanic",27135,74180,5058.0
+2019,New Jersey,Hispanic,29107,87730,331.0
+2019,New Jersey,"White, non-Hispanic",29107,87730,4830.0
+2019,New Jersey,Male,29107,87730,2801.0
+2019,New Jersey,"Black, non-Hispanic",29107,87730,647.0
+2019,New Jersey,Female,29107,87730,3117.0
+2019,New Jersey,Asian or Pacific Islander,29107,87730,101.0
+2019,New Jersey,Overall,29107,87730,5918.0
+2020,New Jersey,Female,29492,85550,3334.0
+2020,New Jersey,Male,29492,85550,3009.0
+2020,New Jersey,Asian or Pacific Islander,29492,85550,107.0
+2020,New Jersey,"Black, non-Hispanic",29492,85550,752.0
+2020,New Jersey,Overall,29492,85550,6343.0
+2020,New Jersey,Hispanic,29492,85550,352.0
+2020,New Jersey,"White, non-Hispanic",29492,85550,5124.0
+2011,New Mexico,Female,5902,41980,842.0
+2011,New Mexico,"White, non-Hispanic",5902,41980,1332.0
+2011,New Mexico,Hispanic,5902,41980,417.0
+2011,New Mexico,Male,5902,41980,960.0
+2011,New Mexico,American Indian or Alaska Native,5902,41980,24.0
+2011,New Mexico,Overall,5902,41980,1802.0
+2012,New Mexico,Overall,5972,43420,1796.0
+2012,New Mexico,"White, non-Hispanic",5972,43420,1321.0
+2012,New Mexico,Hispanic,5972,43420,410.0
+2012,New Mexico,"Black, non-Hispanic",5972,43420,24.0
+2012,New Mexico,Male,5972,43420,978.0
+2012,New Mexico,American Indian or Alaska Native,5972,43420,31.0
+2012,New Mexico,Female,5972,43420,818.0
+2013,New Mexico,"Black, non-Hispanic",6053,40170,22.0
+2013,New Mexico,"Black, non-Hispanic",6053,42130,22.0
+2013,New Mexico,Male,6053,40170,938.0
+2013,New Mexico,Male,6053,42130,938.0
+2013,New Mexico,American Indian or Alaska Native,6053,40170,39.0
+2013,New Mexico,American Indian or Alaska Native,6053,42130,39.0
+2013,New Mexico,Overall,6053,40170,1860.0
+2013,New Mexico,Overall,6053,42130,1860.0
+2013,New Mexico,Hispanic,6053,40170,398.0
+2013,New Mexico,Hispanic,6053,42130,398.0
+2013,New Mexico,Female,6053,40170,922.0
+2013,New Mexico,Female,6053,42130,922.0
+2013,New Mexico,"White, non-Hispanic",6053,40170,1388.0
+2013,New Mexico,"White, non-Hispanic",6053,42130,1388.0
+2014,New Mexico,Overall,7615,46690,1902.0
+2014,New Mexico,"Black, non-Hispanic",7615,46690,21.0
+2014,New Mexico,Male,7615,46690,980.0
+2014,New Mexico,Hispanic,7615,46690,437.0
+2014,New Mexico,American Indian or Alaska Native,7615,46690,38.0
+2014,New Mexico,"White, non-Hispanic",7615,46690,1386.0
+2014,New Mexico,Female,7615,46690,922.0
+2015,New Mexico,Hispanic,8917,45120,475.0
+2015,New Mexico,Female,8917,45120,911.0
+2015,New Mexico,"White, non-Hispanic",8917,45120,1352.0
+2015,New Mexico,"Black, non-Hispanic",8917,45120,24.0
+2015,New Mexico,Male,8917,45120,1001.0
+2015,New Mexico,Overall,8917,45120,1912.0
+2015,New Mexico,American Indian or Alaska Native,8917,45120,37.0
+2016,New Mexico,"Black, non-Hispanic",8913,48450,29.0
+2016,New Mexico,"White, non-Hispanic",8913,48450,1358.0
+2016,New Mexico,American Indian or Alaska Native,8913,48450,39.0
+2016,New Mexico,Hispanic,8913,48450,474.0
+2016,New Mexico,Male,8913,48450,1054.0
+2016,New Mexico,Female,8913,48450,865.0
+2016,New Mexico,Overall,8913,48450,1919.0
+2017,New Mexico,Overall,8905,45600,1926.0
+2017,New Mexico,Overall,8905,47860,1926.0
+2017,New Mexico,"Black, non-Hispanic",8905,45600,34.0
+2017,New Mexico,"Black, non-Hispanic",8905,47860,34.0
+2017,New Mexico,Female,8905,45600,861.0
+2017,New Mexico,Female,8905,47860,861.0
+2017,New Mexico,Male,8905,45600,1065.0
+2017,New Mexico,Male,8905,47860,1065.0
+2017,New Mexico,American Indian or Alaska Native,8905,45600,38.0
+2017,New Mexico,American Indian or Alaska Native,8905,47860,38.0
+2017,New Mexico,Hispanic,8905,45600,507.0
+2017,New Mexico,Hispanic,8905,47860,507.0
+2017,New Mexico,"White, non-Hispanic",8905,45600,1324.0
+2017,New Mexico,"White, non-Hispanic",8905,47860,1324.0
+2018,New Mexico,Overall,9034,48280,2084.0
+2018,New Mexico,American Indian or Alaska Native,9034,48280,35.0
+2018,New Mexico,Hispanic,9034,48280,494.0
+2018,New Mexico,"White, non-Hispanic",9034,48280,1500.0
+2018,New Mexico,"Black, non-Hispanic",9034,48280,34.0
+2018,New Mexico,Female,9034,48280,967.0
+2018,New Mexico,Male,9034,48280,1117.0
+2019,New Mexico,"Black, non-Hispanic",9416,53110,36.0
+2019,New Mexico,Female,9416,53110,974.0
+2019,New Mexico,Overall,9416,53110,2077.0
+2019,New Mexico,American Indian or Alaska Native,9416,53110,43.0
+2019,New Mexico,Male,9416,53110,1103.0
+2019,New Mexico,Hispanic,9416,53110,531.0
+2019,New Mexico,"White, non-Hispanic",9416,53110,1439.0
+2020,New Mexico,Male,10469,50910,1327.0
+2020,New Mexico,Hispanic,10469,50910,667.0
+2020,New Mexico,American Indian or Alaska Native,10469,50910,55.0
+2020,New Mexico,"Black, non-Hispanic",10469,50910,44.0
+2020,New Mexico,Female,10469,50910,1116.0
+2020,New Mexico,"White, non-Hispanic",10469,50910,1649.0
+2020,New Mexico,Overall,10469,50910,2443.0
+2011,New York,"White, non-Hispanic",100988,50640,11500.0
+2011,New York,Hispanic,100988,50640,612.0
+2011,New York,Male,100988,50640,6453.0
+2011,New York,Female,100988,50640,6970.0
+2011,New York,"Black, non-Hispanic",100988,50640,977.0
+2011,New York,American Indian or Alaska Native,100988,50640,21.0
+2011,New York,Asian or Pacific Islander,100988,50640,182.0
+2011,New York,Overall,100988,50640,13423.0
+2012,New York,Male,98360,47680,6367.0
+2012,New York,Female,98360,47680,7045.0
+2012,New York,Hispanic,98360,47680,632.0
+2012,New York,Asian or Pacific Islander,98360,47680,191.0
+2012,New York,"Black, non-Hispanic",98360,47680,1033.0
+2012,New York,"White, non-Hispanic",98360,47680,11413.0
+2012,New York,Overall,98360,47680,13412.0
+2013,New York,"Black, non-Hispanic",98826,49970,1129.0
+2013,New York,"Black, non-Hispanic",98826,53840,1129.0
+2013,New York,Male,98826,49970,6302.0
+2013,New York,Male,98826,53840,6302.0
+2013,New York,American Indian or Alaska Native,98826,49970,24.0
+2013,New York,American Indian or Alaska Native,98826,53840,24.0
+2013,New York,Asian or Pacific Islander,98826,49970,187.0
+2013,New York,Asian or Pacific Islander,98826,53840,187.0
+2013,New York,"White, non-Hispanic",98826,49970,11189.0
+2013,New York,"White, non-Hispanic",98826,53840,11189.0
+2013,New York,Hispanic,98826,49970,598.0
+2013,New York,Hispanic,98826,53840,598.0
+2013,New York,Female,98826,49970,6952.0
+2013,New York,Female,98826,53840,6952.0
+2013,New York,Overall,98826,49970,13254.0
+2013,New York,Overall,98826,53840,13254.0
+2014,New York,"White, non-Hispanic",106713,54310,10521.0
+2014,New York,Asian or Pacific Islander,106713,54310,226.0
+2014,New York,American Indian or Alaska Native,106713,54310,22.0
+2014,New York,Overall,106713,54310,12572.0
+2014,New York,Hispanic,106713,54310,646.0
+2014,New York,Male,106713,54310,6138.0
+2014,New York,"Black, non-Hispanic",106713,54310,1008.0
+2014,New York,Female,106713,54310,6434.0
+2015,New York,Male,111828,58010,6198.0
+2015,New York,"Black, non-Hispanic",111828,58010,1065.0
+2015,New York,Female,111828,58010,6887.0
+2015,New York,"White, non-Hispanic",111828,58010,10937.0
+2015,New York,Asian or Pacific Islander,111828,58010,220.0
+2015,New York,Overall,111828,58010,13085.0
+2015,New York,American Indian or Alaska Native,111828,58010,20.0
+2015,New York,Hispanic,111828,58010,675.0
+2016,New York,Hispanic,114453,61440,698.0
+2016,New York,Male,114453,61440,6291.0
+2016,New York,"Black, non-Hispanic",114453,61440,1153.0
+2016,New York,Overall,114453,61440,13019.0
+2016,New York,Female,114453,61440,6728.0
+2016,New York,American Indian or Alaska Native,114453,61440,23.0
+2016,New York,"White, non-Hispanic",114453,61440,10747.0
+2016,New York,Asian or Pacific Islander,114453,61440,232.0
+2017,New York,Male,130377,61540,6587.0
+2017,New York,Male,130377,62450,6587.0
+2017,New York,American Indian or Alaska Native,130377,61540,24.0
+2017,New York,American Indian or Alaska Native,130377,62450,24.0
+2017,New York,Asian or Pacific Islander,130377,61540,244.0
+2017,New York,Asian or Pacific Islander,130377,62450,244.0
+2017,New York,"Black, non-Hispanic",130377,61540,1170.0
+2017,New York,"Black, non-Hispanic",130377,62450,1170.0
+2017,New York,"White, non-Hispanic",130377,61540,11038.0
+2017,New York,"White, non-Hispanic",130377,62450,11038.0
+2017,New York,Female,130377,61540,6848.0
+2017,New York,Female,130377,62450,6848.0
+2017,New York,Overall,130377,61540,13435.0
+2017,New York,Overall,130377,62450,13435.0
+2017,New York,Hispanic,130377,61540,755.0
+2017,New York,Hispanic,130377,62450,755.0
+2018,New York,"Black, non-Hispanic",130545,67270,1250.0
+2018,New York,Overall,130545,67270,13472.0
+2018,New York,Asian or Pacific Islander,130545,67270,237.0
+2018,New York,Hispanic,130545,67270,786.0
+2018,New York,"White, non-Hispanic",130545,67270,11007.0
+2018,New York,Female,130545,67270,6997.0
+2018,New York,American Indian or Alaska Native,130545,67270,25.0
+2018,New York,Male,130545,67270,6475.0
+2019,New York,"Black, non-Hispanic",127959,71850,1291.0
+2019,New York,Male,127959,71850,6441.0
+2019,New York,Female,127959,71850,6847.0
+2019,New York,Asian or Pacific Islander,127959,71850,244.0
+2019,New York,Overall,127959,71850,13288.0
+2019,New York,American Indian or Alaska Native,127959,71850,35.0
+2019,New York,Hispanic,127959,71850,783.0
+2019,New York,"White, non-Hispanic",127959,71850,10780.0
+2020,New York,Hispanic,131000,68660,1065.0
+2020,New York,"White, non-Hispanic",131000,68660,11723.0
+2020,New York,Female,131000,68660,7571.0
+2020,New York,American Indian or Alaska Native,131000,68660,40.0
+2020,New York,Asian or Pacific Islander,131000,68660,339.0
+2020,New York,Male,131000,68660,7440.0
+2020,New York,"Black, non-Hispanic",131000,68660,1643.0
+2020,New York,Overall,131000,68660,15011.0
+2011,North Carolina,"White, non-Hispanic",21267,45210,7883.0
+2011,North Carolina,Overall,21267,45210,9045.0
+2011,North Carolina,American Indian or Alaska Native,21267,45210,87.0
+2011,North Carolina,Hispanic,21267,45210,24.0
+2011,North Carolina,Female,21267,45210,4506.0
+2011,North Carolina,Male,21267,45210,4539.0
+2011,North Carolina,"Black, non-Hispanic",21267,45210,1037.0
+2012,North Carolina,American Indian or Alaska Native,21678,41550,74.0
+2012,North Carolina,Male,21678,41550,4687.0
+2012,North Carolina,"Black, non-Hispanic",21678,41550,1105.0
+2012,North Carolina,"White, non-Hispanic",21678,41550,8046.0
+2012,North Carolina,Female,21678,41550,4583.0
+2012,North Carolina,Hispanic,21678,41550,30.0
+2012,North Carolina,Overall,21678,41550,9270.0
+2013,North Carolina,Hispanic,22306,46340,24.0
+2013,North Carolina,Hispanic,22306,41210,24.0
+2013,North Carolina,Male,22306,46340,4839.0
+2013,North Carolina,Male,22306,41210,4839.0
+2013,North Carolina,Overall,22306,46340,9565.0
+2013,North Carolina,Overall,22306,41210,9565.0
+2013,North Carolina,Female,22306,46340,4726.0
+2013,North Carolina,Female,22306,41210,4726.0
+2013,North Carolina,"Black, non-Hispanic",22306,46340,1120.0
+2013,North Carolina,"Black, non-Hispanic",22306,41210,1120.0
+2013,North Carolina,American Indian or Alaska Native,22306,46340,91.0
+2013,North Carolina,American Indian or Alaska Native,22306,41210,91.0
+2013,North Carolina,Asian or Pacific Islander,22306,46340,23.0
+2013,North Carolina,Asian or Pacific Islander,22306,41210,23.0
+2013,North Carolina,"White, non-Hispanic",22306,46340,8304.0
+2013,North Carolina,"White, non-Hispanic",22306,41210,8304.0
+2014,North Carolina,Asian or Pacific Islander,22968,46780,23.0
+2014,North Carolina,"Black, non-Hispanic",22968,46780,1126.0
+2014,North Carolina,American Indian or Alaska Native,22968,46780,89.0
+2014,North Carolina,"White, non-Hispanic",22968,46780,8338.0
+2014,North Carolina,Female,22968,46780,4724.0
+2014,North Carolina,Overall,22968,46780,9629.0
+2014,North Carolina,Male,22968,46780,4905.0
+2014,North Carolina,Hispanic,22968,46780,32.0
+2015,North Carolina,"White, non-Hispanic",23908,50800,8438.0
+2015,North Carolina,Hispanic,23908,50800,25.0
+2015,North Carolina,Asian or Pacific Islander,23908,50800,20.0
+2015,North Carolina,Overall,23908,50800,9733.0
+2015,North Carolina,Female,23908,50800,4854.0
+2015,North Carolina,"Black, non-Hispanic",23908,50800,1136.0
+2015,North Carolina,American Indian or Alaska Native,23908,50800,100.0
+2015,North Carolina,Male,23908,50800,4879.0
+2016,North Carolina,American Indian or Alaska Native,22060,53760,99.0
+2016,North Carolina,Male,22060,53760,5046.0
+2016,North Carolina,Hispanic,22060,53760,48.0
+2016,North Carolina,"Black, non-Hispanic",22060,53760,1221.0
+2016,North Carolina,"White, non-Hispanic",22060,53760,8554.0
+2016,North Carolina,Female,22060,53760,4921.0
+2016,North Carolina,Overall,22060,53760,9967.0
+2016,North Carolina,Asian or Pacific Islander,22060,53760,23.0
+2017,North Carolina,"Black, non-Hispanic",25304,49550,1262.0
+2017,North Carolina,"Black, non-Hispanic",25304,50340,1262.0
+2017,North Carolina,Female,25304,49550,5109.0
+2017,North Carolina,Female,25304,50340,5109.0
+2017,North Carolina,"White, non-Hispanic",25304,49550,8754.0
+2017,North Carolina,"White, non-Hispanic",25304,50340,8754.0
+2017,North Carolina,American Indian or Alaska Native,25304,49550,106.0
+2017,North Carolina,American Indian or Alaska Native,25304,50340,106.0
+2017,North Carolina,Overall,25304,49550,10211.0
+2017,North Carolina,Overall,25304,50340,10211.0
+2017,North Carolina,Hispanic,25304,49550,41.0
+2017,North Carolina,Hispanic,25304,50340,41.0
+2017,North Carolina,Asian or Pacific Islander,25304,49550,28.0
+2017,North Carolina,Asian or Pacific Islander,25304,50340,28.0
+2017,North Carolina,Male,25304,49550,5102.0
+2017,North Carolina,Male,25304,50340,5102.0
+2018,North Carolina,Overall,26391,53370,10155.0
+2018,North Carolina,American Indian or Alaska Native,26391,53370,129.0
+2018,North Carolina,Hispanic,26391,53370,44.0
+2018,North Carolina,"White, non-Hispanic",26391,53370,8626.0
+2018,North Carolina,Female,26391,53370,4978.0
+2018,North Carolina,Male,26391,53370,5177.0
+2018,North Carolina,Asian or Pacific Islander,26391,53370,31.0
+2018,North Carolina,"Black, non-Hispanic",26391,53370,1312.0
+2019,North Carolina,Asian or Pacific Islander,26318,61160,29.0
+2019,North Carolina,Male,26318,61160,5225.0
+2019,North Carolina,American Indian or Alaska Native,26318,61160,119.0
+2019,North Carolina,Overall,26318,61160,10405.0
+2019,North Carolina,Hispanic,26318,61160,52.0
+2019,North Carolina,"White, non-Hispanic",26318,61160,8851.0
+2019,North Carolina,"Black, non-Hispanic",26318,61160,1347.0
+2019,North Carolina,Female,26318,61160,5180.0
+2020,North Carolina,Male,28245,60430,5485.0
+2020,North Carolina,Overall,28245,60430,10836.0
+2020,North Carolina,American Indian or Alaska Native,28245,60430,136.0
+2020,North Carolina,Female,28245,60430,5351.0
+2020,North Carolina,Asian or Pacific Islander,28245,60430,36.0
+2020,North Carolina,"Black, non-Hispanic",28245,60430,1505.0
+2020,North Carolina,Hispanic,28245,60430,67.0
+2020,North Carolina,"White, non-Hispanic",28245,60430,9082.0
+2011,North Dakota,Male,1375,56360,419.0
+2011,North Dakota,American Indian or Alaska Native,1375,56360,27.0
+2011,North Dakota,Overall,1375,56360,756.0
+2011,North Dakota,Female,1375,56360,337.0
+2011,North Dakota,"White, non-Hispanic",1375,56360,729.0
+2012,North Dakota,American Indian or Alaska Native,1477,55770,23.0
+2012,North Dakota,Male,1477,55770,394.0
+2012,North Dakota,Female,1477,55770,333.0
+2012,North Dakota,"White, non-Hispanic",1477,55770,700.0
+2012,North Dakota,Overall,1477,55770,727.0
+2013,North Dakota,Overall,1557,59150,712.0
+2013,North Dakota,Overall,1557,52890,712.0
+2013,North Dakota,Female,1557,59150,314.0
+2013,North Dakota,Female,1557,52890,314.0
+2013,North Dakota,"White, non-Hispanic",1557,59150,685.0
+2013,North Dakota,"White, non-Hispanic",1557,52890,685.0
+2013,North Dakota,Male,1557,59150,398.0
+2013,North Dakota,Male,1557,52890,398.0
+2013,North Dakota,American Indian or Alaska Native,1557,59150,22.0
+2013,North Dakota,American Indian or Alaska Native,1557,52890,22.0
+2014,North Dakota,"White, non-Hispanic",1890,60730,644.0
+2014,North Dakota,American Indian or Alaska Native,1890,60730,33.0
+2014,North Dakota,Overall,1890,60730,686.0
+2014,North Dakota,Female,1890,60730,325.0
+2014,North Dakota,Male,1890,60730,361.0
+2015,North Dakota,Overall,2094,57420,685.0
+2015,North Dakota,American Indian or Alaska Native,2094,57420,35.0
+2015,North Dakota,"White, non-Hispanic",2094,57420,642.0
+2015,North Dakota,Female,2094,57420,305.0
+2015,North Dakota,Male,2094,57420,380.0
+2016,North Dakota,American Indian or Alaska Native,2260,60180,37.0
+2016,North Dakota,Female,2260,60180,317.0
+2016,North Dakota,Male,2260,60180,359.0
+2016,North Dakota,"White, non-Hispanic",2260,60180,632.0
+2016,North Dakota,Overall,2260,60180,676.0
+2017,North Dakota,"White, non-Hispanic",2278,60170,727.0
+2017,North Dakota,"White, non-Hispanic",2278,59890,727.0
+2017,North Dakota,Overall,2278,60170,782.0
+2017,North Dakota,Overall,2278,59890,782.0
+2017,North Dakota,Female,2278,60170,360.0
+2017,North Dakota,Female,2278,59890,360.0
+2017,North Dakota,Male,2278,60170,422.0
+2017,North Dakota,Male,2278,59890,422.0
+2017,North Dakota,American Indian or Alaska Native,2278,60170,42.0
+2017,North Dakota,American Indian or Alaska Native,2278,59890,42.0
+2018,North Dakota,"White, non-Hispanic",2297,66510,689.0
+2018,North Dakota,Female,2297,66510,317.0
+2018,North Dakota,Male,2297,66510,421.0
+2018,North Dakota,Overall,2297,66510,738.0
+2018,North Dakota,American Indian or Alaska Native,2297,66510,36.0
+2019,North Dakota,"White, non-Hispanic",2273,70030,678.0
+2019,North Dakota,Male,2273,70030,397.0
+2019,North Dakota,Female,2273,70030,327.0
+2019,North Dakota,American Indian or Alaska Native,2273,70030,37.0
+2019,North Dakota,Overall,2273,70030,724.0
+2020,North Dakota,Male,2417,64120,491.0
+2020,North Dakota,Overall,2417,64120,861.0
+2020,North Dakota,Female,2417,64120,370.0
+2020,North Dakota,"White, non-Hispanic",2417,64120,819.0
+2020,North Dakota,American Indian or Alaska Native,2417,64120,35.0
+2011,Ohio,Overall,28774,44650,14086.0
+2011,Ohio,Hispanic,28774,44650,59.0
+2011,Ohio,Asian or Pacific Islander,28774,44650,24.0
+2011,Ohio,"White, non-Hispanic",28774,44650,12944.0
+2011,Ohio,Female,28774,44650,7067.0
+2011,Ohio,"Black, non-Hispanic",28774,44650,1020.0
+2011,Ohio,Male,28774,44650,7019.0
+2012,Ohio,Male,29100,44380,7042.0
+2012,Ohio,Hispanic,29100,44380,53.0
+2012,Ohio,"Black, non-Hispanic",29100,44380,1048.0
+2012,Ohio,"White, non-Hispanic",29100,44380,12820.0
+2012,Ohio,Female,29100,44380,6933.0
+2012,Ohio,Overall,29100,44380,13975.0
+2013,Ohio,"Black, non-Hispanic",31775,50750,1016.0
+2013,Ohio,"Black, non-Hispanic",31775,46400,1016.0
+2013,Ohio,Hispanic,31775,50750,63.0
+2013,Ohio,Hispanic,31775,46400,63.0
+2013,Ohio,Male,31775,50750,7061.0
+2013,Ohio,Male,31775,46400,7061.0
+2013,Ohio,Female,31775,50750,6948.0
+2013,Ohio,Female,31775,46400,6948.0
+2013,Ohio,Overall,31775,50750,14009.0
+2013,Ohio,Overall,31775,46400,14009.0
+2013,Ohio,Asian or Pacific Islander,31775,50750,22.0
+2013,Ohio,Asian or Pacific Islander,31775,46400,22.0
+2013,Ohio,"White, non-Hispanic",31775,50750,12859.0
+2013,Ohio,"White, non-Hispanic",31775,46400,12859.0
+2014,Ohio,Asian or Pacific Islander,35855,49640,32.0
+2014,Ohio,Overall,35855,49640,13676.0
+2014,Ohio,Female,35855,49640,6732.0
+2014,Ohio,"White, non-Hispanic",35855,49640,12540.0
+2014,Ohio,Male,35855,49640,6944.0
+2014,Ohio,Hispanic,35855,49640,51.0
+2014,Ohio,"Black, non-Hispanic",35855,49640,1013.0
+2015,Ohio,Female,38912,53300,7053.0
+2015,Ohio,Male,38912,53300,7116.0
+2015,Ohio,Hispanic,38912,53300,48.0
+2015,Ohio,"White, non-Hispanic",38912,53300,12968.0
+2015,Ohio,Overall,38912,53300,14169.0
+2015,Ohio,Asian or Pacific Islander,38912,53300,23.0
+2015,Ohio,"Black, non-Hispanic",38912,53300,1089.0
+2016,Ohio,Hispanic,39568,53990,62.0
+2016,Ohio,"White, non-Hispanic",39568,53990,12775.0
+2016,Ohio,American Indian or Alaska Native,39568,53990,21.0
+2016,Ohio,Female,39568,53990,6863.0
+2016,Ohio,Male,39568,53990,7146.0
+2016,Ohio,"Black, non-Hispanic",39568,53990,1116.0
+2016,Ohio,Asian or Pacific Islander,39568,53990,33.0
+2016,Ohio,Overall,39568,53990,14009.0
+2017,Ohio,Asian or Pacific Islander,41316,60690,28.0
+2017,Ohio,Asian or Pacific Islander,41316,59770,28.0
+2017,Ohio,"White, non-Hispanic",41316,60690,13041.0
+2017,Ohio,"White, non-Hispanic",41316,59770,13041.0
+2017,Ohio,Overall,41316,60690,14245.0
+2017,Ohio,Overall,41316,59770,14245.0
+2017,Ohio,"Black, non-Hispanic",41316,60690,1095.0
+2017,Ohio,"Black, non-Hispanic",41316,59770,1095.0
+2017,Ohio,Hispanic,41316,60690,63.0
+2017,Ohio,Hispanic,41316,59770,63.0
+2017,Ohio,Female,41316,60690,7044.0
+2017,Ohio,Female,41316,59770,7044.0
+2017,Ohio,Male,41316,60690,7201.0
+2017,Ohio,Male,41316,59770,7201.0
+2018,Ohio,"Black, non-Hispanic",39934,61630,1148.0
+2018,Ohio,Overall,39934,61630,14469.0
+2018,Ohio,Male,39934,61630,7365.0
+2018,Ohio,Hispanic,39934,61630,76.0
+2018,Ohio,American Indian or Alaska Native,39934,61630,20.0
+2018,Ohio,"White, non-Hispanic",39934,61630,13183.0
+2018,Ohio,Asian or Pacific Islander,39934,61630,38.0
+2018,Ohio,Female,39934,61630,7104.0
+2019,Ohio,"Black, non-Hispanic",41853,64660,1089.0
+2019,Ohio,Female,41853,64660,7052.0
+2019,Ohio,Overall,41853,64660,14240.0
+2019,Ohio,Asian or Pacific Islander,41853,64660,45.0
+2019,Ohio,Hispanic,41853,64660,69.0
+2019,Ohio,"White, non-Hispanic",41853,64660,13015.0
+2019,Ohio,Male,41853,64660,7188.0
+2020,Ohio,Asian or Pacific Islander,45259,60380,57.0
+2020,Ohio,Male,45259,60380,8101.0
+2020,Ohio,"Black, non-Hispanic",45259,60380,1371.0
+2020,Ohio,"White, non-Hispanic",45259,60380,14166.0
+2020,Ohio,Hispanic,45259,60380,89.0
+2020,Ohio,Overall,45259,60380,15709.0
+2020,Ohio,American Indian or Alaska Native,45259,60380,22.0
+2020,Ohio,Female,45259,60380,7608.0
+2011,Oklahoma,Overall,8067,48460,4906.0
+2011,Oklahoma,Hispanic,8067,48460,29.0
+2011,Oklahoma,American Indian or Alaska Native,8067,48460,232.0
+2011,Oklahoma,Male,8067,48460,2607.0
+2011,Oklahoma,Female,8067,48460,2299.0
+2011,Oklahoma,"White, non-Hispanic",8067,48460,4478.0
+2011,Oklahoma,"Black, non-Hispanic",8067,48460,157.0
+2012,Oklahoma,American Indian or Alaska Native,9137,48410,274.0
+2012,Oklahoma,Male,9137,48410,2666.0
+2012,Oklahoma,Female,9137,48410,2491.0
+2012,Oklahoma,"White, non-Hispanic",9137,48410,4639.0
+2012,Oklahoma,Hispanic,9137,48410,40.0
+2012,Oklahoma,"Black, non-Hispanic",9137,48410,190.0
+2012,Oklahoma,Overall,9137,48410,5157.0
+2013,Oklahoma,Hispanic,9250,46160,40.0
+2013,Oklahoma,Hispanic,9250,43780,40.0
+2013,Oklahoma,American Indian or Alaska Native,9250,46160,280.0
+2013,Oklahoma,American Indian or Alaska Native,9250,43780,280.0
+2013,Oklahoma,Female,9250,46160,2707.0
+2013,Oklahoma,Female,9250,43780,2707.0
+2013,Oklahoma,"White, non-Hispanic",9250,46160,4923.0
+2013,Oklahoma,"White, non-Hispanic",9250,43780,4923.0
+2013,Oklahoma,"Black, non-Hispanic",9250,46160,202.0
+2013,Oklahoma,"Black, non-Hispanic",9250,43780,202.0
+2013,Oklahoma,Male,9250,46160,2760.0
+2013,Oklahoma,Male,9250,43780,2760.0
+2013,Oklahoma,Overall,9250,46160,5467.0
+2013,Oklahoma,Overall,9250,43780,5467.0
+2014,Oklahoma,Male,9620,47200,2943.0
+2014,Oklahoma,"Black, non-Hispanic",9620,47200,199.0
+2014,Oklahoma,American Indian or Alaska Native,9620,47200,314.0
+2014,Oklahoma,Overall,9620,47200,5579.0
+2014,Oklahoma,Hispanic,9620,47200,38.0
+2014,Oklahoma,Female,9620,47200,2636.0
+2014,Oklahoma,"White, non-Hispanic",9620,47200,5003.0
+2015,Oklahoma,"White, non-Hispanic",9378,47080,5371.0
+2015,Oklahoma,Male,9378,47080,3122.0
+2015,Oklahoma,American Indian or Alaska Native,9378,47080,358.0
+2015,Oklahoma,Overall,9378,47080,6004.0
+2015,Oklahoma,"Black, non-Hispanic",9378,47080,212.0
+2015,Oklahoma,Female,9378,47080,2882.0
+2015,Oklahoma,Hispanic,9378,47080,47.0
+2016,Oklahoma,Hispanic,9118,50940,43.0
+2016,Oklahoma,Male,9118,50940,3289.0
+2016,Oklahoma,American Indian or Alaska Native,9118,50940,363.0
+2016,Oklahoma,Overall,9118,50940,6255.0
+2016,Oklahoma,Asian or Pacific Islander,9118,50940,20.0
+2016,Oklahoma,Female,9118,50940,2966.0
+2016,Oklahoma,"White, non-Hispanic",9118,50940,5595.0
+2016,Oklahoma,"Black, non-Hispanic",9118,50940,229.0
+2017,Oklahoma,Hispanic,9292,51880,54.0
+2017,Oklahoma,Hispanic,9292,55010,54.0
+2017,Oklahoma,"White, non-Hispanic",9292,51880,6011.0
+2017,Oklahoma,"White, non-Hispanic",9292,55010,6011.0
+2017,Oklahoma,American Indian or Alaska Native,9292,51880,382.0
+2017,Oklahoma,American Indian or Alaska Native,9292,55010,382.0
+2017,Oklahoma,Overall,9292,51880,6740.0
+2017,Oklahoma,Overall,9292,55010,6740.0
+2017,Oklahoma,Asian or Pacific Islander,9292,51880,24.0
+2017,Oklahoma,Asian or Pacific Islander,9292,55010,24.0
+2017,Oklahoma,"Black, non-Hispanic",9292,51880,264.0
+2017,Oklahoma,"Black, non-Hispanic",9292,55010,264.0
+2017,Oklahoma,Female,9292,51880,3283.0
+2017,Oklahoma,Female,9292,55010,3283.0
+2017,Oklahoma,Male,9292,51880,3457.0
+2017,Oklahoma,Male,9292,55010,3457.0
+2018,Oklahoma,"Black, non-Hispanic",9412,54430,283.0
+2018,Oklahoma,Asian or Pacific Islander,9412,54430,24.0
+2018,Oklahoma,Male,9412,54430,3635.0
+2018,Oklahoma,Overall,9412,54430,7025.0
+2018,Oklahoma,Female,9412,54430,3390.0
+2018,Oklahoma,Hispanic,9412,54430,71.0
+2018,Oklahoma,American Indian or Alaska Native,9412,54430,463.0
+2018,Oklahoma,"White, non-Hispanic",9412,54430,6180.0
+2019,Oklahoma,"White, non-Hispanic",10049,59400,6197.0
+2019,Oklahoma,Female,10049,59400,3404.0
+2019,Oklahoma,Overall,10049,59400,7059.0
+2019,Oklahoma,"Black, non-Hispanic",10049,59400,275.0
+2019,Oklahoma,Hispanic,10049,59400,73.0
+2019,Oklahoma,American Indian or Alaska Native,10049,59400,487.0
+2019,Oklahoma,Male,10049,59400,3655.0
+2020,Oklahoma,Hispanic,10390,52470,90.0
+2020,Oklahoma,Asian or Pacific Islander,10390,52470,25.0
+2020,Oklahoma,Female,10390,52470,3785.0
+2020,Oklahoma,Male,10390,52470,4069.0
+2020,Oklahoma,"White, non-Hispanic",10390,52470,6819.0
+2020,Oklahoma,"Black, non-Hispanic",10390,52470,376.0
+2020,Oklahoma,American Indian or Alaska Native,10390,52470,535.0
+2020,Oklahoma,Overall,10390,52470,7854.0
+2011,Oregon,"White, non-Hispanic",7981,51530,3992.0
+2011,Oregon,Male,7981,51530,2122.0
+2011,Oregon,Asian or Pacific Islander,7981,51530,23.0
+2011,Oregon,Overall,7981,51530,4131.0
+2011,Oregon,Female,7981,51530,2009.0
+2011,Oregon,"Black, non-Hispanic",7981,51530,36.0
+2011,Oregon,Hispanic,7981,51530,42.0
+2011,Oregon,American Indian or Alaska Native,7981,51530,32.0
+2012,Oregon,Male,8262,51780,2019.0
+2012,Oregon,American Indian or Alaska Native,8262,51780,46.0
+2012,Oregon,"White, non-Hispanic",8262,51780,3752.0
+2012,Oregon,Hispanic,8262,51780,31.0
+2012,Oregon,"Black, non-Hispanic",8262,51780,44.0
+2012,Oregon,Overall,8262,51780,3912.0
+2012,Oregon,Female,8262,51780,1893.0
+2012,Oregon,Asian or Pacific Islander,8262,51780,31.0
+2013,Oregon,Hispanic,9439,49000,30.0
+2013,Oregon,Hispanic,9439,56310,30.0
+2013,Oregon,American Indian or Alaska Native,9439,49000,34.0
+2013,Oregon,American Indian or Alaska Native,9439,56310,34.0
+2013,Oregon,Female,9439,49000,1941.0
+2013,Oregon,Female,9439,56310,1941.0
+2013,Oregon,Asian or Pacific Islander,9439,49000,31.0
+2013,Oregon,Asian or Pacific Islander,9439,56310,31.0
+2013,Oregon,Overall,9439,49000,4157.0
+2013,Oregon,Overall,9439,56310,4157.0
+2013,Oregon,"Black, non-Hispanic",9439,49000,45.0
+2013,Oregon,"Black, non-Hispanic",9439,56310,45.0
+2013,Oregon,"White, non-Hispanic",9439,49000,4004.0
+2013,Oregon,"White, non-Hispanic",9439,56310,4004.0
+2013,Oregon,Male,9439,49000,2216.0
+2013,Oregon,Male,9439,56310,2216.0
+2014,Oregon,Female,13863,58880,1933.0
+2014,Oregon,Asian or Pacific Islander,13863,58880,29.0
+2014,Oregon,Overall,13863,58880,4094.0
+2014,Oregon,"White, non-Hispanic",13863,58880,3921.0
+2014,Oregon,American Indian or Alaska Native,13863,58880,45.0
+2014,Oregon,"Black, non-Hispanic",13863,58880,42.0
+2014,Oregon,Hispanic,13863,58880,43.0
+2014,Oregon,Male,13863,58880,2161.0
+2015,Oregon,"White, non-Hispanic",14621,60830,4237.0
+2015,Oregon,Female,14621,60830,2158.0
+2015,Oregon,Overall,14621,60830,4423.0
+2015,Oregon,American Indian or Alaska Native,14621,60830,51.0
+2015,Oregon,Male,14621,60830,2265.0
+2015,Oregon,Asian or Pacific Islander,14621,60830,35.0
+2015,Oregon,Hispanic,14621,60830,42.0
+2015,Oregon,"Black, non-Hispanic",14621,60830,46.0
+2016,Oregon,Hispanic,14931,59140,49.0
+2016,Oregon,Female,14931,59140,2137.0
+2016,Oregon,"White, non-Hispanic",14931,59140,4313.0
+2016,Oregon,Male,14931,59140,2354.0
+2016,Oregon,American Indian or Alaska Native,14931,59140,55.0
+2016,Oregon,"Black, non-Hispanic",14931,59140,30.0
+2016,Oregon,Overall,14931,59140,4491.0
+2016,Oregon,Asian or Pacific Islander,14931,59140,33.0
+2017,Oregon,Male,15232,62500,2318.0
+2017,Oregon,Male,15232,64610,2318.0
+2017,Oregon,"Black, non-Hispanic",15232,62500,43.0
+2017,Oregon,"Black, non-Hispanic",15232,64610,43.0
+2017,Oregon,"White, non-Hispanic",15232,62500,4367.0
+2017,Oregon,"White, non-Hispanic",15232,64610,4367.0
+2017,Oregon,Female,15232,62500,2243.0
+2017,Oregon,Female,15232,64610,2243.0
+2017,Oregon,Overall,15232,62500,4561.0
+2017,Oregon,Overall,15232,64610,4561.0
+2017,Oregon,Asian or Pacific Islander,15232,62500,36.0
+2017,Oregon,Asian or Pacific Islander,15232,64610,36.0
+2017,Oregon,Hispanic,15232,62500,43.0
+2017,Oregon,Hispanic,15232,64610,43.0
+2017,Oregon,American Indian or Alaska Native,15232,62500,55.0
+2017,Oregon,American Indian or Alaska Native,15232,64610,55.0
+2018,Oregon,Asian or Pacific Islander,16214,69170,34.0
+2018,Oregon,Overall,16214,69170,4473.0
+2018,Oregon,Female,16214,69170,2181.0
+2018,Oregon,American Indian or Alaska Native,16214,69170,50.0
+2018,Oregon,"White, non-Hispanic",16214,69170,4255.0
+2018,Oregon,"Black, non-Hispanic",16214,69170,53.0
+2018,Oregon,Hispanic,16214,69170,60.0
+2018,Oregon,Male,16214,69170,2292.0
+2019,Oregon,Hispanic,17112,74410,52.0
+2019,Oregon,"White, non-Hispanic",17112,74410,4605.0
+2019,Oregon,Male,17112,74410,2491.0
+2019,Oregon,"Black, non-Hispanic",17112,74410,46.0
+2019,Oregon,Female,17112,74410,2334.0
+2019,Oregon,Asian or Pacific Islander,17112,74410,40.0
+2019,Oregon,Overall,17112,74410,4825.0
+2019,Oregon,American Indian or Alaska Native,17112,74410,56.0
+2020,Oregon,Hispanic,17935,76850,64.0
+2020,Oregon,Male,17935,76850,2606.0
+2020,Oregon,"Black, non-Hispanic",17935,76850,45.0
+2020,Oregon,Overall,17935,76850,4910.0
+2020,Oregon,"White, non-Hispanic",17935,76850,4675.0
+2020,Oregon,American Indian or Alaska Native,17935,76850,58.0
+2020,Oregon,Female,17935,76850,2304.0
+2020,Oregon,Asian or Pacific Islander,17935,76850,51.0
+2011,Pennsylvania,Female,36359,49910,6260.0
+2011,Pennsylvania,Overall,36359,49910,12640.0
+2011,Pennsylvania,"Black, non-Hispanic",36359,49910,768.0
+2011,Pennsylvania,Asian or Pacific Islander,36359,49910,22.0
+2011,Pennsylvania,"White, non-Hispanic",36359,49910,11732.0
+2011,Pennsylvania,Hispanic,36359,49910,93.0
+2011,Pennsylvania,Male,36359,49910,6380.0
+2012,Pennsylvania,Female,36661,51900,6225.0
+2012,Pennsylvania,"White, non-Hispanic",36661,51900,11635.0
+2012,Pennsylvania,Hispanic,36661,51900,108.0
+2012,Pennsylvania,Overall,36661,51900,12695.0
+2012,Pennsylvania,Male,36661,51900,6470.0
+2012,Pennsylvania,"Black, non-Hispanic",36661,51900,715.0
+2012,Pennsylvania,Asian or Pacific Islander,36661,51900,27.0
+2013,Pennsylvania,Hispanic,38205,55160,129.0
+2013,Pennsylvania,Hispanic,38205,53950,129.0
+2013,Pennsylvania,Male,38205,55160,6512.0
+2013,Pennsylvania,Male,38205,53950,6512.0
+2013,Pennsylvania,Female,38205,55160,6350.0
+2013,Pennsylvania,Female,38205,53950,6350.0
+2013,Pennsylvania,"White, non-Hispanic",38205,55160,11829.0
+2013,Pennsylvania,"White, non-Hispanic",38205,53950,11829.0
+2013,Pennsylvania,"Black, non-Hispanic",38205,55160,750.0
+2013,Pennsylvania,"Black, non-Hispanic",38205,53950,750.0
+2013,Pennsylvania,Asian or Pacific Islander,38205,55160,49.0
+2013,Pennsylvania,Asian or Pacific Islander,38205,53950,49.0
+2013,Pennsylvania,Overall,38205,55160,12862.0
+2013,Pennsylvania,Overall,38205,53950,12862.0
+2014,Pennsylvania,Female,40255,55170,6112.0
+2014,Pennsylvania,Male,40255,55170,6285.0
+2014,Pennsylvania,Overall,40255,55170,12397.0
+2014,Pennsylvania,"Black, non-Hispanic",40255,55170,810.0
+2014,Pennsylvania,Asian or Pacific Islander,40255,55170,41.0
+2014,Pennsylvania,Hispanic,40255,55170,123.0
+2014,Pennsylvania,"White, non-Hispanic",40255,55170,11320.0
+2015,Pennsylvania,"White, non-Hispanic",44188,60390,11787.0
+2015,Pennsylvania,Female,44188,60390,6423.0
+2015,Pennsylvania,Asian or Pacific Islander,44188,60390,49.0
+2015,Pennsylvania,Hispanic,44188,60390,135.0
+2015,Pennsylvania,Overall,44188,60390,12902.0
+2015,Pennsylvania,Male,44188,60390,6479.0
+2015,Pennsylvania,"Black, non-Hispanic",44188,60390,841.0
+2016,Pennsylvania,"White, non-Hispanic",51259,60980,11320.0
+2016,Pennsylvania,Female,51259,60980,6202.0
+2016,Pennsylvania,Asian or Pacific Islander,51259,60980,55.0
+2016,Pennsylvania,Hispanic,51259,60980,142.0
+2016,Pennsylvania,Male,51259,60980,6266.0
+2016,Pennsylvania,"Black, non-Hispanic",51259,60980,879.0
+2016,Pennsylvania,Overall,51259,60980,12468.0
+2017,Pennsylvania,Male,48917,61290,6246.0
+2017,Pennsylvania,Male,48917,63170,6246.0
+2017,Pennsylvania,Hispanic,48917,61290,128.0
+2017,Pennsylvania,Hispanic,48917,63170,128.0
+2017,Pennsylvania,Asian or Pacific Islander,48917,61290,49.0
+2017,Pennsylvania,Asian or Pacific Islander,48917,63170,49.0
+2017,Pennsylvania,Overall,48917,61290,12634.0
+2017,Pennsylvania,Overall,48917,63170,12634.0
+2017,Pennsylvania,"Black, non-Hispanic",48917,61290,839.0
+2017,Pennsylvania,"Black, non-Hispanic",48917,63170,839.0
+2017,Pennsylvania,"White, non-Hispanic",48917,61290,11542.0
+2017,Pennsylvania,"White, non-Hispanic",48917,63170,11542.0
+2017,Pennsylvania,Female,48917,61290,6388.0
+2017,Pennsylvania,Female,48917,63170,6388.0
+2018,Pennsylvania,Female,56878,64520,6132.0
+2018,Pennsylvania,Male,56878,64520,6345.0
+2018,Pennsylvania,"Black, non-Hispanic",56878,64520,839.0
+2018,Pennsylvania,Asian or Pacific Islander,56878,64520,52.0
+2018,Pennsylvania,Overall,56878,64520,12477.0
+2018,Pennsylvania,Hispanic,56878,64520,152.0
+2018,Pennsylvania,"White, non-Hispanic",56878,64520,11394.0
+2019,Pennsylvania,"White, non-Hispanic",58596,70580,11280.0
+2019,Pennsylvania,Hispanic,58596,70580,148.0
+2019,Pennsylvania,Male,58596,70580,6184.0
+2019,Pennsylvania,"Black, non-Hispanic",58596,70580,819.0
+2019,Pennsylvania,Female,58596,70580,6148.0
+2019,Pennsylvania,Asian or Pacific Islander,58596,70580,57.0
+2019,Pennsylvania,Overall,58596,70580,12332.0
+2020,Pennsylvania,Overall,58273,70790,13878.0
+2020,Pennsylvania,Hispanic,58273,70790,196.0
+2020,Pennsylvania,Male,58273,70790,7037.0
+2020,Pennsylvania,Asian or Pacific Islander,58273,70790,62.0
+2020,Pennsylvania,Female,58273,70790,6841.0
+2020,Pennsylvania,"White, non-Hispanic",58273,70790,12507.0
+2020,Pennsylvania,"Black, non-Hispanic",58273,70790,1080.0
+2011,Rhode Island,Female,3796,49030,610.0
+2011,Rhode Island,"White, non-Hispanic",3796,49030,1117.0
+2011,Rhode Island,Male,3796,49030,553.0
+2011,Rhode Island,Overall,3796,49030,1163.0
+2012,Rhode Island,"White, non-Hispanic",3512,56070,1095.0
+2012,Rhode Island,Female,3512,56070,599.0
+2012,Rhode Island,Overall,3512,56070,1143.0
+2012,Rhode Island,Male,3512,56070,544.0
+2012,Rhode Island,"Black, non-Hispanic",3512,56070,20.0
+2013,Rhode Island,Female,3606,56320,618.0
+2013,Rhode Island,Female,3606,57810,618.0
+2013,Rhode Island,Hispanic,3606,56320,24.0
+2013,Rhode Island,Hispanic,3606,57810,24.0
+2013,Rhode Island,Overall,3606,56320,1130.0
+2013,Rhode Island,Overall,3606,57810,1130.0
+2013,Rhode Island,Male,3606,56320,512.0
+2013,Rhode Island,Male,3606,57810,512.0
+2013,Rhode Island,"White, non-Hispanic",3606,56320,1082.0
+2013,Rhode Island,"White, non-Hispanic",3606,57810,1082.0
+2014,Rhode Island,Overall,4529,58630,1163.0
+2014,Rhode Island,Female,4529,58630,629.0
+2014,Rhode Island,"Black, non-Hispanic",4529,58630,21.0
+2014,Rhode Island,"White, non-Hispanic",4529,58630,1118.0
+2014,Rhode Island,Male,4529,58630,534.0
+2015,Rhode Island,"White, non-Hispanic",4528,55700,1133.0
+2015,Rhode Island,Overall,4528,55700,1196.0
+2015,Rhode Island,"Black, non-Hispanic",4528,55700,33.0
+2015,Rhode Island,Female,4528,55700,625.0
+2015,Rhode Island,Male,4528,55700,571.0
+2016,Rhode Island,Male,4442,61530,503.0
+2016,Rhode Island,"Black, non-Hispanic",4442,61530,24.0
+2016,Rhode Island,Overall,4442,61530,1086.0
+2016,Rhode Island,"White, non-Hispanic",4442,61530,1037.0
+2016,Rhode Island,Female,4442,61530,583.0
+2017,Rhode Island,Overall,4783,65400,1190.0
+2017,Rhode Island,Overall,4783,66390,1190.0
+2017,Rhode Island,Hispanic,4783,65400,20.0
+2017,Rhode Island,Hispanic,4783,66390,20.0
+2017,Rhode Island,"Black, non-Hispanic",4783,65400,22.0
+2017,Rhode Island,"Black, non-Hispanic",4783,66390,22.0
+2017,Rhode Island,Female,4783,65400,632.0
+2017,Rhode Island,Female,4783,66390,632.0
+2017,Rhode Island,Male,4783,65400,558.0
+2017,Rhode Island,Male,4783,66390,558.0
+2017,Rhode Island,"White, non-Hispanic",4783,65400,1141.0
+2017,Rhode Island,"White, non-Hispanic",4783,66390,1141.0
+2018,Rhode Island,Overall,4699,62270,1218.0
+2018,Rhode Island,Female,4699,62270,641.0
+2018,Rhode Island,"Black, non-Hispanic",4699,62270,25.0
+2018,Rhode Island,Male,4699,62270,577.0
+2018,Rhode Island,"White, non-Hispanic",4699,62270,1161.0
+2019,Rhode Island,Hispanic,4680,70150,21.0
+2019,Rhode Island,Male,4680,70150,567.0
+2019,Rhode Island,"White, non-Hispanic",4680,70150,1131.0
+2019,Rhode Island,Female,4680,70150,619.0
+2019,Rhode Island,"Black, non-Hispanic",4680,70150,26.0
+2019,Rhode Island,Overall,4680,70150,1186.0
+2020,Rhode Island,Male,4859,80170,658.0
+2020,Rhode Island,"Black, non-Hispanic",4859,80170,22.0
+2020,Rhode Island,Overall,4859,80170,1274.0
+2020,Rhode Island,Hispanic,4859,80170,28.0
+2020,Rhode Island,"White, non-Hispanic",4859,80170,1207.0
+2020,Rhode Island,Female,4859,80170,616.0
+2011,South Carolina,Female,8934,40080,2097.0
+2011,South Carolina,Overall,8934,40080,4375.0
+2011,South Carolina,"White, non-Hispanic",8934,40080,3735.0
+2011,South Carolina,"Black, non-Hispanic",8934,40080,585.0
+2011,South Carolina,Male,8934,40080,2278.0
+2012,South Carolina,"White, non-Hispanic",8967,44400,3780.0
+2012,South Carolina,"Black, non-Hispanic",8967,44400,596.0
+2012,South Carolina,Female,8967,44400,2135.0
+2012,South Carolina,Overall,8967,44400,4402.0
+2012,South Carolina,Male,8967,44400,2267.0
+2013,South Carolina,Overall,9156,43560,5014.0
+2013,South Carolina,Overall,9156,43750,5014.0
+2013,South Carolina,"Black, non-Hispanic",9156,43560,655.0
+2013,South Carolina,"Black, non-Hispanic",9156,43750,655.0
+2013,South Carolina,Female,9156,43560,2390.0
+2013,South Carolina,Female,9156,43750,2390.0
+2013,South Carolina,Male,9156,43560,2624.0
+2013,South Carolina,Male,9156,43750,2624.0
+2013,South Carolina,"White, non-Hispanic",9156,43560,4315.0
+2013,South Carolina,"White, non-Hispanic",9156,43750,4315.0
+2014,South Carolina,Overall,10131,44930,5057.0
+2014,South Carolina,Hispanic,10131,44930,20.0
+2014,South Carolina,Female,10131,44930,2374.0
+2014,South Carolina,"White, non-Hispanic",10131,44930,4356.0
+2014,South Carolina,"Black, non-Hispanic",10131,44930,663.0
+2014,South Carolina,Male,10131,44930,2683.0
+2015,South Carolina,Female,10908,46360,2667.0
+2015,South Carolina,Overall,10908,46360,5423.0
+2015,South Carolina,Hispanic,10908,46360,21.0
+2015,South Carolina,"White, non-Hispanic",10908,46360,4615.0
+2015,South Carolina,Male,10908,46360,2756.0
+2015,South Carolina,"Black, non-Hispanic",10908,46360,762.0
+2016,South Carolina,Female,11165,54340,2608.0
+2016,South Carolina,"White, non-Hispanic",11165,54340,4720.0
+2016,South Carolina,"Black, non-Hispanic",11165,54340,754.0
+2016,South Carolina,Male,11165,54340,2899.0
+2016,South Carolina,Overall,11165,54340,5507.0
+2017,South Carolina,Overall,11075,54540,5800.0
+2017,South Carolina,Overall,11075,54970,5800.0
+2017,South Carolina,"Black, non-Hispanic",11075,54540,849.0
+2017,South Carolina,"Black, non-Hispanic",11075,54970,849.0
+2017,South Carolina,Female,11075,54540,2801.0
+2017,South Carolina,Female,11075,54970,2801.0
+2017,South Carolina,Male,11075,54540,2999.0
+2017,South Carolina,Male,11075,54970,2999.0
+2017,South Carolina,"White, non-Hispanic",11075,54540,4911.0
+2017,South Carolina,"White, non-Hispanic",11075,54970,4911.0
+2018,South Carolina,Overall,11395,57440,5837.0
+2018,South Carolina,Female,11395,57440,2808.0
+2018,South Carolina,"White, non-Hispanic",11395,57440,4974.0
+2018,South Carolina,Hispanic,11395,57440,23.0
+2018,South Carolina,"Black, non-Hispanic",11395,57440,819.0
+2018,South Carolina,Male,11395,57440,3029.0
+2019,South Carolina,Hispanic,11857,62030,21.0
+2019,South Carolina,Male,11857,62030,2980.0
+2019,South Carolina,"Black, non-Hispanic",11857,62030,850.0
+2019,South Carolina,Female,11857,62030,2800.0
+2019,South Carolina,"White, non-Hispanic",11857,62030,4888.0
+2019,South Carolina,Overall,11857,62030,5780.0
+2020,South Carolina,Overall,12151,60340,6664.0
+2020,South Carolina,Male,12151,60340,3498.0
+2020,South Carolina,Hispanic,12151,60340,30.0
+2020,South Carolina,"White, non-Hispanic",12151,60340,5495.0
+2020,South Carolina,Female,12151,60340,3166.0
+2020,South Carolina,"Black, non-Hispanic",12151,60340,1108.0
+2011,South Dakota,Female,1393,47220,407.0
+2011,South Dakota,Overall,1393,47220,991.0
+2011,South Dakota,American Indian or Alaska Native,1393,47220,45.0
+2011,South Dakota,"White, non-Hispanic",1393,47220,941.0
+2011,South Dakota,Male,1393,47220,584.0
+2012,South Dakota,"White, non-Hispanic",1440,49420,929.0
+2012,South Dakota,American Indian or Alaska Native,1440,49420,47.0
+2012,South Dakota,Overall,1440,49420,979.0
+2012,South Dakota,Male,1440,49420,547.0
+2012,South Dakota,Female,1440,49420,432.0
+2013,South Dakota,Overall,1506,53410,895.0
+2013,South Dakota,Overall,1506,54450,895.0
+2013,South Dakota,Male,1506,53410,502.0
+2013,South Dakota,Male,1506,54450,502.0
+2013,South Dakota,American Indian or Alaska Native,1506,53410,48.0
+2013,South Dakota,American Indian or Alaska Native,1506,54450,48.0
+2013,South Dakota,"White, non-Hispanic",1506,53410,842.0
+2013,South Dakota,"White, non-Hispanic",1506,54450,842.0
+2013,South Dakota,Female,1506,53410,393.0
+2013,South Dakota,Female,1506,54450,393.0
+2014,South Dakota,Male,1521,53050,531.0
+2014,South Dakota,Overall,1521,53050,941.0
+2014,South Dakota,Female,1521,53050,410.0
+2014,South Dakota,"White, non-Hispanic",1521,53050,900.0
+2014,South Dakota,American Indian or Alaska Native,1521,53050,39.0
+2015,South Dakota,Male,1552,55070,570.0
+2015,South Dakota,"White, non-Hispanic",1552,55070,959.0
+2015,South Dakota,Female,1552,55070,438.0
+2015,South Dakota,Overall,1552,55070,1008.0
+2015,South Dakota,American Indian or Alaska Native,1552,55070,45.0
+2016,South Dakota,American Indian or Alaska Native,1609,57450,54.0
+2016,South Dakota,"White, non-Hispanic",1609,57450,869.0
+2016,South Dakota,Male,1609,57450,547.0
+2016,South Dakota,Overall,1609,57450,929.0
+2016,South Dakota,Female,1609,57450,382.0
+2017,South Dakota,Overall,1657,56910,1052.0
+2017,South Dakota,Overall,1657,56890,1052.0
+2017,South Dakota,American Indian or Alaska Native,1657,56910,61.0
+2017,South Dakota,American Indian or Alaska Native,1657,56890,61.0
+2017,South Dakota,Male,1657,56910,576.0
+2017,South Dakota,Male,1657,56890,576.0
+2017,South Dakota,"White, non-Hispanic",1657,56910,980.0
+2017,South Dakota,"White, non-Hispanic",1657,56890,980.0
+2017,South Dakota,Female,1657,56910,476.0
+2017,South Dakota,Female,1657,56890,476.0
+2018,South Dakota,Male,1676,59460,613.0
+2018,South Dakota,Female,1676,59460,456.0
+2018,South Dakota,Overall,1676,59460,1069.0
+2018,South Dakota,"White, non-Hispanic",1676,59460,1002.0
+2018,South Dakota,American Indian or Alaska Native,1676,59460,58.0
+2019,South Dakota,Female,1711,64260,497.0
+2019,South Dakota,Male,1711,64260,608.0
+2019,South Dakota,Overall,1711,64260,1105.0
+2019,South Dakota,American Indian or Alaska Native,1711,64260,55.0
+2019,South Dakota,"White, non-Hispanic",1711,64260,1042.0
+2020,South Dakota,"White, non-Hispanic",1798,70190,1202.0
+2020,South Dakota,Overall,1798,70190,1282.0
+2020,South Dakota,Female,1798,70190,556.0
+2020,South Dakota,American Indian or Alaska Native,1798,70190,67.0
+2020,South Dakota,Male,1798,70190,726.0
+2011,Tennessee,"White, non-Hispanic",14229,42280,6645.0
+2011,Tennessee,Male,14229,42280,3681.0
+2011,Tennessee,Female,14229,42280,3495.0
+2011,Tennessee,Overall,14229,42280,7176.0
+2011,Tennessee,"Black, non-Hispanic",14229,42280,508.0
+2012,Tennessee,"Black, non-Hispanic",15341,43000,554.0
+2012,Tennessee,Male,15341,43000,3868.0
+2012,Tennessee,Overall,15341,43000,7567.0
+2012,Tennessee,Female,15341,43000,3699.0
+2012,Tennessee,"White, non-Hispanic",15341,43000,6957.0
+2013,Tennessee,"White, non-Hispanic",16014,43360,7148.0
+2013,Tennessee,"White, non-Hispanic",16014,42500,7148.0
+2013,Tennessee,"Black, non-Hispanic",16014,43360,566.0
+2013,Tennessee,"Black, non-Hispanic",16014,42500,566.0
+2013,Tennessee,Overall,16014,43360,7755.0
+2013,Tennessee,Overall,16014,42500,7755.0
+2013,Tennessee,Female,16014,43360,3818.0
+2013,Tennessee,Female,16014,42500,3818.0
+2013,Tennessee,Male,16014,43360,3937.0
+2013,Tennessee,Male,16014,42500,3937.0
+2014,Tennessee,Overall,15352,43720,7654.0
+2014,Tennessee,"Black, non-Hispanic",15352,43720,567.0
+2014,Tennessee,"White, non-Hispanic",15352,43720,6996.0
+2014,Tennessee,Female,15352,43720,3764.0
+2014,Tennessee,Male,15352,43720,3890.0
+2015,Tennessee,Male,16629,47330,4100.0
+2015,Tennessee,Overall,16629,47330,8155.0
+2015,Tennessee,"Black, non-Hispanic",16629,47330,560.0
+2015,Tennessee,"White, non-Hispanic",16629,47330,7524.0
+2015,Tennessee,Female,16629,47330,4055.0
+2015,Tennessee,Hispanic,16629,47330,28.0
+2016,Tennessee,Female,16231,51340,4064.0
+2016,Tennessee,Male,16231,51340,4264.0
+2016,Tennessee,"Black, non-Hispanic",16231,51340,636.0
+2016,Tennessee,Overall,16231,51340,8328.0
+2016,Tennessee,"White, non-Hispanic",16231,51340,7644.0
+2017,Tennessee,Overall,16056,55310,8828.0
+2017,Tennessee,Overall,16056,55240,8828.0
+2017,Tennessee,"Black, non-Hispanic",16056,55310,646.0
+2017,Tennessee,"Black, non-Hispanic",16056,55240,646.0
+2017,Tennessee,Female,16056,55310,4394.0
+2017,Tennessee,Female,16056,55240,4394.0
+2017,Tennessee,"White, non-Hispanic",16056,55310,8120.0
+2017,Tennessee,"White, non-Hispanic",16056,55240,8120.0
+2017,Tennessee,Male,16056,55310,4434.0
+2017,Tennessee,Male,16056,55240,4434.0
+2017,Tennessee,Hispanic,16056,55310,23.0
+2017,Tennessee,Hispanic,16056,55240,23.0
+2018,Tennessee,Overall,16941,56060,9221.0
+2018,Tennessee,"Black, non-Hispanic",16941,56060,750.0
+2018,Tennessee,"White, non-Hispanic",16941,56060,8400.0
+2018,Tennessee,Hispanic,16941,56060,33.0
+2018,Tennessee,Female,16941,56060,4583.0
+2018,Tennessee,Male,16941,56060,4638.0
+2019,Tennessee,Male,19377,56630,4804.0
+2019,Tennessee,Female,19377,56630,4596.0
+2019,Tennessee,"Black, non-Hispanic",19377,56630,694.0
+2019,Tennessee,Overall,19377,56630,9400.0
+2019,Tennessee,Hispanic,19377,56630,27.0
+2019,Tennessee,"White, non-Hispanic",19377,56630,8639.0
+2020,Tennessee,Male,18219,54970,5096.0
+2020,Tennessee,"White, non-Hispanic",18219,54970,9084.0
+2020,Tennessee,"Black, non-Hispanic",18219,54970,835.0
+2020,Tennessee,Hispanic,18219,54970,33.0
+2020,Tennessee,Overall,18219,54970,9990.0
+2020,Tennessee,Female,18219,54970,4894.0
+2011,Texas,"White, non-Hispanic",52823,49050,14953.0
+2011,Texas,Asian or Pacific Islander,52823,49050,105.0
+2011,Texas,Hispanic,52823,49050,1683.0
+2011,Texas,Female,52823,49050,8587.0
+2011,Texas,Male,52823,49050,9591.0
+2011,Texas,"Black, non-Hispanic",52823,49050,1369.0
+2011,Texas,Overall,52823,49050,18178.0
+2012,Texas,Hispanic,50740,51930,1793.0
+2012,Texas,"White, non-Hispanic",50740,51930,15668.0
+2012,Texas,Female,50740,51930,9163.0
+2012,Texas,Male,50740,51930,10012.0
+2012,Texas,Asian or Pacific Islander,50740,51930,107.0
+2012,Texas,Overall,50740,51930,19175.0
+2012,Texas,American Indian or Alaska Native,50740,51930,22.0
+2012,Texas,"Black, non-Hispanic",50740,51930,1536.0
+2013,Texas,Hispanic,53884,51410,1959.0
+2013,Texas,Hispanic,53884,53030,1959.0
+2013,Texas,Male,53884,51410,10263.0
+2013,Texas,Male,53884,53030,10263.0
+2013,Texas,"Black, non-Hispanic",53884,51410,1597.0
+2013,Texas,"Black, non-Hispanic",53884,53030,1597.0
+2013,Texas,Asian or Pacific Islander,53884,51410,130.0
+2013,Texas,Asian or Pacific Islander,53884,53030,130.0
+2013,Texas,American Indian or Alaska Native,53884,51410,33.0
+2013,Texas,American Indian or Alaska Native,53884,53030,33.0
+2013,Texas,"White, non-Hispanic",53884,51410,16060.0
+2013,Texas,"White, non-Hispanic",53884,53030,16060.0
+2013,Texas,Female,53884,51410,9559.0
+2013,Texas,Female,53884,53030,9559.0
+2013,Texas,Overall,53884,51410,19822.0
+2013,Texas,Overall,53884,53030,19822.0
+2014,Texas,Male,60014,53880,10378.0
+2014,Texas,"Black, non-Hispanic",60014,53880,1682.0
+2014,Texas,American Indian or Alaska Native,60014,53880,32.0
+2014,Texas,Asian or Pacific Islander,60014,53880,140.0
+2014,Texas,Overall,60014,53880,19911.0
+2014,Texas,Hispanic,60014,53880,1860.0
+2014,Texas,Female,60014,53880,9533.0
+2014,Texas,"White, non-Hispanic",60014,53880,16125.0
+2015,Texas,Asian or Pacific Islander,65067,56470,143.0
+2015,Texas,Overall,65067,56470,20880.0
+2015,Texas,Female,65067,56470,10120.0
+2015,Texas,Hispanic,65067,56470,1971.0
+2015,Texas,American Indian or Alaska Native,65067,56470,38.0
+2015,Texas,Male,65067,56470,10760.0
+2015,Texas,"Black, non-Hispanic",65067,56470,1727.0
+2015,Texas,"White, non-Hispanic",65067,56470,16936.0
+2016,Texas,"White, non-Hispanic",67958,58150,16870.0
+2016,Texas,Asian or Pacific Islander,67958,58150,151.0
+2016,Texas,Male,67958,58150,11026.0
+2016,Texas,Hispanic,67958,58150,2086.0
+2016,Texas,Female,67958,58150,10017.0
+2016,Texas,Overall,67958,58150,21043.0
+2016,Texas,American Indian or Alaska Native,67958,58150,29.0
+2016,Texas,"Black, non-Hispanic",67958,58150,1854.0
+2017,Texas,Male,65781,60090,11315.0
+2017,Texas,Male,65781,59300,11315.0
+2017,Texas,Hispanic,65781,60090,2210.0
+2017,Texas,Hispanic,65781,59300,2210.0
+2017,Texas,"Black, non-Hispanic",65781,60090,1985.0
+2017,Texas,"Black, non-Hispanic",65781,59300,1985.0
+2017,Texas,Asian or Pacific Islander,65781,60090,168.0
+2017,Texas,Asian or Pacific Islander,65781,59300,168.0
+2017,Texas,Female,65781,60090,10698.0
+2017,Texas,Female,65781,59300,10698.0
+2017,Texas,"White, non-Hispanic",65781,60090,17542.0
+2017,Texas,"White, non-Hispanic",65781,59300,17542.0
+2017,Texas,American Indian or Alaska Native,65781,60090,46.0
+2017,Texas,American Indian or Alaska Native,65781,59300,46.0
+2017,Texas,Overall,65781,60090,22013.0
+2017,Texas,Overall,65781,59300,22013.0
+2018,Texas,"Black, non-Hispanic",68420,59790,1953.0
+2018,Texas,American Indian or Alaska Native,68420,59790,38.0
+2018,Texas,Male,68420,59790,11589.0
+2018,Texas,Overall,68420,59790,22426.0
+2018,Texas,Hispanic,68420,59790,2369.0
+2018,Texas,Asian or Pacific Islander,68420,59790,166.0
+2018,Texas,Female,68420,59790,10837.0
+2018,Texas,"White, non-Hispanic",68420,59790,17825.0
+2019,Texas,Male,69939,67440,11318.0
+2019,Texas,"White, non-Hispanic",69939,67440,17614.0
+2019,Texas,Female,69939,67440,10770.0
+2019,Texas,"Black, non-Hispanic",69939,67440,1987.0
+2019,Texas,Overall,69939,67440,22088.0
+2019,Texas,Asian or Pacific Islander,69939,67440,184.0
+2019,Texas,American Indian or Alaska Native,69939,67440,32.0
+2019,Texas,Hispanic,69939,67440,2238.0
+2020,Texas,Hispanic,75869,68400,2947.0
+2020,Texas,American Indian or Alaska Native,75869,68400,39.0
+2020,Texas,Female,75869,68400,11801.0
+2020,Texas,Asian or Pacific Islander,75869,68400,206.0
+2020,Texas,Male,75869,68400,12757.0
+2020,Texas,"Black, non-Hispanic",75869,68400,2454.0
+2020,Texas,Overall,75869,68400,24558.0
+2020,Texas,"White, non-Hispanic",75869,68400,18892.0
+2011,Utah,Overall,3429,55490,1002.0
+2011,Utah,Male,3429,55490,597.0
+2011,Utah,"White, non-Hispanic",3429,55490,952.0
+2011,Utah,Female,3429,55490,405.0
+2011,Utah,Hispanic,3429,55490,27.0
+2012,Utah,Male,3659,58340,602.0
+2012,Utah,Overall,3659,58340,1039.0
+2012,Utah,Hispanic,3659,58340,31.0
+2012,Utah,Female,3659,58340,437.0
+2012,Utah,"White, non-Hispanic",3659,58340,988.0
+2013,Utah,Hispanic,3943,61050,33.0
+2013,Utah,Hispanic,3943,62970,33.0
+2013,Utah,Male,3943,61050,673.0
+2013,Utah,Male,3943,62970,673.0
+2013,Utah,"White, non-Hispanic",3943,61050,1092.0
+2013,Utah,"White, non-Hispanic",3943,62970,1092.0
+2013,Utah,Female,3943,61050,485.0
+2013,Utah,Female,3943,62970,485.0
+2013,Utah,Overall,3943,61050,1158.0
+2013,Utah,Overall,3943,62970,1158.0
+2014,Utah,Male,3847,63380,670.0
+2014,Utah,Overall,3847,63380,1184.0
+2014,Utah,Hispanic,3847,63380,39.0
+2014,Utah,"White, non-Hispanic",3847,63380,1129.0
+2014,Utah,Female,3847,63380,514.0
+2015,Utah,Overall,3883,66260,1313.0
+2015,Utah,Male,3883,66260,701.0
+2015,Utah,Female,3883,66260,612.0
+2015,Utah,"White, non-Hispanic",3883,66260,1243.0
+2015,Utah,Hispanic,3883,66260,45.0
+2016,Utah,Hispanic,4247,67480,45.0
+2016,Utah,Overall,4247,67480,1380.0
+2016,Utah,Female,4247,67480,615.0
+2016,Utah,"White, non-Hispanic",4247,67480,1304.0
+2016,Utah,Male,4247,67480,765.0
+2017,Utah,Male,4375,69790,749.0
+2017,Utah,Male,4375,71320,749.0
+2017,Utah,Hispanic,4375,69790,52.0
+2017,Utah,Hispanic,4375,71320,52.0
+2017,Utah,"White, non-Hispanic",4375,69790,1221.0
+2017,Utah,"White, non-Hispanic",4375,71320,1221.0
+2017,Utah,Female,4375,69790,557.0
+2017,Utah,Female,4375,71320,557.0
+2017,Utah,Overall,4375,69790,1306.0
+2017,Utah,Overall,4375,71320,1306.0
+2018,Utah,Male,4437,77070,824.0
+2018,Utah,Overall,4437,77070,1439.0
+2018,Utah,"White, non-Hispanic",4437,77070,1351.0
+2018,Utah,Hispanic,4437,77070,50.0
+2018,Utah,Female,4437,77070,615.0
+2019,Utah,Male,5259,84520,816.0
+2019,Utah,Female,5259,84520,684.0
+2019,Utah,Overall,5259,84520,1500.0
+2019,Utah,"White, non-Hispanic",5259,84520,1413.0
+2019,Utah,Hispanic,5259,84520,54.0
+2020,Utah,Overall,5986,83990,1669.0
+2020,Utah,Hispanic,5986,83990,62.0
+2020,Utah,Male,5986,83990,963.0
+2020,Utah,Asian or Pacific Islander,5986,83990,24.0
+2020,Utah,Female,5986,83990,706.0
+2020,Utah,"White, non-Hispanic",5986,83990,1567.0
+2011,Vermont,Female,2465,51860,392.0
+2011,Vermont,"White, non-Hispanic",2465,51860,796.0
+2011,Vermont,Overall,2465,51860,800.0
+2011,Vermont,Male,2465,51860,408.0
+2012,Vermont,Male,2688,55580,456.0
+2012,Vermont,"White, non-Hispanic",2688,55580,813.0
+2012,Vermont,Female,2688,55580,367.0
+2012,Vermont,Overall,2688,55580,823.0
+2013,Vermont,Male,2997,65510,429.0
+2013,Vermont,Male,2997,54840,429.0
+2013,Vermont,"White, non-Hispanic",2997,65510,806.0
+2013,Vermont,"White, non-Hispanic",2997,54840,806.0
+2013,Vermont,Female,2997,65510,380.0
+2013,Vermont,Female,2997,54840,380.0
+2013,Vermont,Overall,2997,65510,809.0
+2013,Vermont,Overall,2997,54840,809.0
+2014,Vermont,Male,3121,60710,415.0
+2014,Vermont,Female,3121,60710,411.0
+2014,Vermont,Overall,3121,60710,826.0
+2014,Vermont,"White, non-Hispanic",3121,60710,823.0
+2015,Vermont,Overall,3305,59490,850.0
+2015,Vermont,"White, non-Hispanic",3305,59490,837.0
+2015,Vermont,Female,3305,59490,402.0
+2015,Vermont,Male,3305,59490,448.0
+2016,Vermont,"White, non-Hispanic",3186,60840,794.0
+2016,Vermont,Male,3186,60840,419.0
+2016,Vermont,Overall,3186,60840,802.0
+2016,Vermont,Female,3186,60840,383.0
+2017,Vermont,Male,3055,63680,451.0
+2017,Vermont,Male,3055,63810,451.0
+2017,Vermont,"White, non-Hispanic",3055,63680,828.0
+2017,Vermont,"White, non-Hispanic",3055,63810,828.0
+2017,Vermont,Female,3055,63680,390.0
+2017,Vermont,Female,3055,63810,390.0
+2017,Vermont,Overall,3055,63680,841.0
+2017,Vermont,Overall,3055,63810,841.0
+2018,Vermont,Male,3160,70070,424.0
+2018,Vermont,Overall,3160,70070,833.0
+2018,Vermont,Female,3160,70070,409.0
+2018,Vermont,"White, non-Hispanic",3160,70070,824.0
+2019,Vermont,Overall,3161,74310,826.0
+2019,Vermont,"White, non-Hispanic",3161,74310,819.0
+2019,Vermont,Male,3161,74310,433.0
+2019,Vermont,Female,3161,74310,393.0
+2020,Vermont,Male,3200,67260,475.0
+2020,Vermont,Overall,3200,67260,923.0
+2020,Vermont,"White, non-Hispanic",3200,67260,915.0
+2020,Vermont,Female,3200,67260,448.0
+2011,Virginia,Male,12723,62620,2738.0
+2011,Virginia,Hispanic,12723,62620,26.0
+2011,Virginia,"Black, non-Hispanic",12723,62620,608.0
+2011,Virginia,Asian or Pacific Islander,12723,62620,23.0
+2011,Virginia,"White, non-Hispanic",12723,62620,4825.0
+2011,Virginia,Female,12723,62620,2782.0
+2011,Virginia,Overall,12723,62620,5520.0
+2012,Virginia,Male,12725,64630,2675.0
+2012,Virginia,"White, non-Hispanic",12725,64630,4770.0
+2012,Virginia,"Black, non-Hispanic",12725,64630,616.0
+2012,Virginia,Asian or Pacific Islander,12725,64630,29.0
+2012,Virginia,Overall,12725,64630,5461.0
+2012,Virginia,Female,12725,64630,2786.0
+2013,Virginia,Female,13731,65910,2826.0
+2013,Virginia,Female,13731,67620,2826.0
+2013,Virginia,Overall,13731,65910,5660.0
+2013,Virginia,Overall,13731,67620,5660.0
+2013,Virginia,Asian or Pacific Islander,13731,65910,42.0
+2013,Virginia,Asian or Pacific Islander,13731,67620,42.0
+2013,Virginia,Hispanic,13731,65910,28.0
+2013,Virginia,Hispanic,13731,67620,28.0
+2013,Virginia,Male,13731,65910,2834.0
+2013,Virginia,Male,13731,67620,2834.0
+2013,Virginia,"White, non-Hispanic",13731,65910,4832.0
+2013,Virginia,"White, non-Hispanic",13731,67620,4832.0
+2013,Virginia,"Black, non-Hispanic",13731,65910,724.0
+2013,Virginia,"Black, non-Hispanic",13731,67620,724.0
+2014,Virginia,Male,13667,66160,2752.0
+2014,Virginia,Asian or Pacific Islander,13667,66160,34.0
+2014,Virginia,Hispanic,13667,66160,35.0
+2014,Virginia,Female,13667,66160,2838.0
+2014,Virginia,Overall,13667,66160,5590.0
+2014,Virginia,"White, non-Hispanic",13667,66160,4778.0
+2014,Virginia,"Black, non-Hispanic",13667,66160,696.0
+2015,Virginia,Male,14992,61490,2950.0
+2015,Virginia,Hispanic,14992,61490,34.0
+2015,Virginia,"Black, non-Hispanic",14992,61490,720.0
+2015,Virginia,Asian or Pacific Islander,14992,61490,39.0
+2015,Virginia,Female,14992,61490,3048.0
+2015,Virginia,Overall,14992,61490,5998.0
+2015,Virginia,"White, non-Hispanic",14992,61490,5143.0
+2016,Virginia,"White, non-Hispanic",15527,66450,4986.0
+2016,Virginia,"Black, non-Hispanic",15527,66450,767.0
+2016,Virginia,Male,15527,66450,2968.0
+2016,Virginia,Overall,15527,66450,5854.0
+2016,Virginia,Hispanic,15527,66450,32.0
+2016,Virginia,Asian or Pacific Islander,15527,66450,39.0
+2016,Virginia,Female,15527,66450,2886.0
+2017,Virginia,Asian or Pacific Islander,16891,70810,41.0
+2017,Virginia,Asian or Pacific Islander,16891,71290,41.0
+2017,Virginia,Overall,16891,70810,5940.0
+2017,Virginia,Overall,16891,71290,5940.0
+2017,Virginia,Male,16891,70810,2957.0
+2017,Virginia,Male,16891,71290,2957.0
+2017,Virginia,Hispanic,16891,70810,28.0
+2017,Virginia,Hispanic,16891,71290,28.0
+2017,Virginia,"White, non-Hispanic",16891,70810,5093.0
+2017,Virginia,"White, non-Hispanic",16891,71290,5093.0
+2017,Virginia,"Black, non-Hispanic",16891,70810,749.0
+2017,Virginia,"Black, non-Hispanic",16891,71290,749.0
+2017,Virginia,Female,16891,70810,2983.0
+2017,Virginia,Female,16891,71290,2983.0
+2018,Virginia,Asian or Pacific Islander,16856,77150,64.0
+2018,Virginia,"White, non-Hispanic",16856,77150,5223.0
+2018,Virginia,Hispanic,16856,77150,31.0
+2018,Virginia,Male,16856,77150,3066.0
+2018,Virginia,Overall,16856,77150,6193.0
+2018,Virginia,Female,16856,77150,3127.0
+2018,Virginia,"Black, non-Hispanic",16856,77150,834.0
+2019,Virginia,Female,21848,81310,3298.0
+2019,Virginia,"Black, non-Hispanic",21848,81310,853.0
+2019,Virginia,Overall,21848,81310,6474.0
+2019,Virginia,Asian or Pacific Islander,21848,81310,55.0
+2019,Virginia,Hispanic,21848,81310,52.0
+2019,Virginia,Male,21848,81310,3176.0
+2019,Virginia,"White, non-Hispanic",21848,81310,5483.0
+2020,Virginia,"White, non-Hispanic",24057,82210,5906.0
+2020,Virginia,"Black, non-Hispanic",24057,82210,959.0
+2020,Virginia,Overall,24057,82210,7026.0
+2020,Virginia,Hispanic,24057,82210,58.0
+2020,Virginia,Female,24057,82210,3540.0
+2020,Virginia,Male,24057,82210,3486.0
+2020,Virginia,Asian or Pacific Islander,24057,82210,78.0
+2011,Washington,American Indian or Alaska Native,13436,56850,86.0
+2011,Washington,Male,13436,56850,3238.0
+2011,Washington,Female,13436,56850,3022.0
+2011,Washington,Hispanic,13436,56850,73.0
+2011,Washington,"Black, non-Hispanic",13436,56850,121.0
+2011,Washington,"White, non-Hispanic",13436,56850,5872.0
+2011,Washington,Asian or Pacific Islander,13436,56850,104.0
+2011,Washington,Overall,13436,56850,6260.0
+2012,Washington,American Indian or Alaska Native,14198,62190,79.0
+2012,Washington,Hispanic,14198,62190,76.0
+2012,Washington,"Black, non-Hispanic",14198,62190,89.0
+2012,Washington,Female,14198,62190,2845.0
+2012,Washington,Asian or Pacific Islander,14198,62190,89.0
+2012,Washington,Male,14198,62190,3146.0
+2012,Washington,"White, non-Hispanic",14198,62190,5649.0
+2012,Washington,Overall,14198,62190,5991.0
+2013,Washington,"White, non-Hispanic",14594,63920,5701.0
+2013,Washington,"White, non-Hispanic",14594,60110,5701.0
+2013,Washington,Asian or Pacific Islander,14594,63920,127.0
+2013,Washington,Asian or Pacific Islander,14594,60110,127.0
+2013,Washington,Hispanic,14594,63920,76.0
+2013,Washington,Hispanic,14594,60110,76.0
+2013,Washington,American Indian or Alaska Native,14594,63920,81.0
+2013,Washington,American Indian or Alaska Native,14594,60110,81.0
+2013,Washington,"Black, non-Hispanic",14594,63920,118.0
+2013,Washington,"Black, non-Hispanic",14594,60110,118.0
+2013,Washington,Overall,14594,63920,6106.0
+2013,Washington,Overall,14594,60110,6106.0
+2013,Washington,Male,14594,63920,3184.0
+2013,Washington,Male,14594,60110,3184.0
+2013,Washington,Female,14594,63920,2922.0
+2013,Washington,Female,14594,60110,2922.0
+2014,Washington,American Indian or Alaska Native,18009,59070,81.0
+2014,Washington,Male,18009,59070,3167.0
+2014,Washington,Hispanic,18009,59070,68.0
+2014,Washington,Female,18009,59070,2858.0
+2014,Washington,Overall,18009,59070,6025.0
+2014,Washington,Asian or Pacific Islander,18009,59070,120.0
+2014,Washington,"White, non-Hispanic",18009,59070,5652.0
+2014,Washington,"Black, non-Hispanic",18009,59070,95.0
+2015,Washington,Female,19534,67240,3119.0
+2015,Washington,American Indian or Alaska Native,19534,67240,109.0
+2015,Washington,Male,19534,67240,3391.0
+2015,Washington,Hispanic,19534,67240,76.0
+2015,Washington,Overall,19534,67240,6510.0
+2015,Washington,Asian or Pacific Islander,19534,67240,133.0
+2015,Washington,"Black, non-Hispanic",19534,67240,113.0
+2015,Washington,"White, non-Hispanic",19534,67240,6064.0
+2016,Washington,Hispanic,21370,70310,84.0
+2016,Washington,"Black, non-Hispanic",21370,70310,136.0
+2016,Washington,American Indian or Alaska Native,21370,70310,82.0
+2016,Washington,Asian or Pacific Islander,21370,70310,118.0
+2016,Washington,Female,21370,70310,3033.0
+2016,Washington,Male,21370,70310,3184.0
+2016,Washington,Overall,21370,70310,6217.0
+2016,Washington,"White, non-Hispanic",21370,70310,5792.0
+2017,Washington,"White, non-Hispanic",21630,71540,5942.0
+2017,Washington,"White, non-Hispanic",21630,75420,5942.0
+2017,Washington,Hispanic,21630,71540,85.0
+2017,Washington,Hispanic,21630,75420,85.0
+2017,Washington,Asian or Pacific Islander,21630,71540,127.0
+2017,Washington,Asian or Pacific Islander,21630,75420,127.0
+2017,Washington,American Indian or Alaska Native,21630,71540,109.0
+2017,Washington,American Indian or Alaska Native,21630,75420,109.0
+2017,Washington,"Black, non-Hispanic",21630,71540,148.0
+2017,Washington,"Black, non-Hispanic",21630,75420,148.0
+2017,Washington,Overall,21630,71540,6421.0
+2017,Washington,Overall,21630,75420,6421.0
+2017,Washington,Female,21630,71540,3066.0
+2017,Washington,Female,21630,75420,3066.0
+2017,Washington,Male,21630,71540,3355.0
+2017,Washington,Male,21630,75420,3355.0
+2018,Washington,"White, non-Hispanic",22405,79730,5780.0
+2018,Washington,Hispanic,22405,79730,87.0
+2018,Washington,American Indian or Alaska Native,22405,79730,92.0
+2018,Washington,Male,22405,79730,3269.0
+2018,Washington,Asian or Pacific Islander,22405,79730,144.0
+2018,Washington,Overall,22405,79730,6242.0
+2018,Washington,Female,22405,79730,2973.0
+2018,Washington,"Black, non-Hispanic",22405,79730,131.0
+2019,Washington,American Indian or Alaska Native,23902,82450,92.0
+2019,Washington,Overall,23902,82450,6427.0
+2019,Washington,Asian or Pacific Islander,23902,82450,125.0
+2019,Washington,Female,23902,82450,3051.0
+2019,Washington,Hispanic,23902,82450,80.0
+2019,Washington,"White, non-Hispanic",23902,82450,6004.0
+2019,Washington,Male,23902,82450,3376.0
+2019,Washington,"Black, non-Hispanic",23902,82450,123.0
+2020,Washington,American Indian or Alaska Native,25500,81360,107.0
+2020,Washington,Hispanic,25500,81360,116.0
+2020,Washington,Female,25500,81360,3042.0
+2020,Washington,Asian or Pacific Islander,25500,81360,164.0
+2020,Washington,Male,25500,81360,3560.0
+2020,Washington,"Black, non-Hispanic",25500,81360,157.0
+2020,Washington,"White, non-Hispanic",25500,81360,6052.0
+2020,Washington,Overall,25500,81360,6602.0
+2011,West Virginia,Female,5005,41820,1538.0
+2011,West Virginia,Male,5005,41820,1637.0
+2011,West Virginia,"White, non-Hispanic",5005,41820,3114.0
+2011,West Virginia,Overall,5005,41820,3175.0
+2011,West Virginia,"Black, non-Hispanic",5005,41820,59.0
+2012,West Virginia,Female,5438,43550,1488.0
+2012,West Virginia,Male,5438,43550,1601.0
+2012,West Virginia,"White, non-Hispanic",5438,43550,3031.0
+2012,West Virginia,"Black, non-Hispanic",5438,43550,49.0
+2012,West Virginia,Overall,5438,43550,3089.0
+2013,West Virginia,"Black, non-Hispanic",5628,43070,57.0
+2013,West Virginia,"Black, non-Hispanic",5628,40240,57.0
+2013,West Virginia,"White, non-Hispanic",5628,43070,3101.0
+2013,West Virginia,"White, non-Hispanic",5628,40240,3101.0
+2013,West Virginia,Female,5628,43070,1517.0
+2013,West Virginia,Female,5628,40240,1517.0
+2013,West Virginia,Overall,5628,43070,3171.0
+2013,West Virginia,Overall,5628,40240,3171.0
+2013,West Virginia,Male,5628,43070,1654.0
+2013,West Virginia,Male,5628,40240,1654.0
+2014,West Virginia,Overall,6499,39550,3202.0
+2014,West Virginia,Female,6499,39550,1528.0
+2014,West Virginia,"White, non-Hispanic",6499,39550,3143.0
+2014,West Virginia,"Black, non-Hispanic",6499,39550,54.0
+2014,West Virginia,Male,6499,39550,1674.0
+2015,West Virginia,Male,6764,42820,1720.0
+2015,West Virginia,Female,6764,42820,1632.0
+2015,West Virginia,Overall,6764,42820,3352.0
+2015,West Virginia,"White, non-Hispanic",6764,42820,3289.0
+2015,West Virginia,"Black, non-Hispanic",6764,42820,60.0
+2016,West Virginia,Female,6674,44350,1538.0
+2016,West Virginia,Male,6674,44350,1639.0
+2016,West Virginia,Overall,6674,44350,3177.0
+2016,West Virginia,"Black, non-Hispanic",6674,44350,50.0
+2016,West Virginia,"White, non-Hispanic",6674,44350,3118.0
+2017,West Virginia,"White, non-Hispanic",7260,46960,3238.0
+2017,West Virginia,"White, non-Hispanic",7260,45390,3238.0
+2017,West Virginia,"Black, non-Hispanic",7260,46960,55.0
+2017,West Virginia,"Black, non-Hispanic",7260,45390,55.0
+2017,West Virginia,Female,7260,46960,1627.0
+2017,West Virginia,Female,7260,45390,1627.0
+2017,West Virginia,Overall,7260,46960,3315.0
+2017,West Virginia,Overall,7260,45390,3315.0
+2017,West Virginia,Male,7260,46960,1688.0
+2017,West Virginia,Male,7260,45390,1688.0
+2018,West Virginia,Overall,7154,50570,3383.0
+2018,West Virginia,Female,7154,50570,1624.0
+2018,West Virginia,"Black, non-Hispanic",7154,50570,64.0
+2018,West Virginia,"White, non-Hispanic",7154,50570,3306.0
+2018,West Virginia,Male,7154,50570,1759.0
+2019,West Virginia,"Black, non-Hispanic",7137,53710,64.0
+2019,West Virginia,Female,7137,53710,1608.0
+2019,West Virginia,"White, non-Hispanic",7137,53710,3277.0
+2019,West Virginia,Overall,7137,53710,3349.0
+2019,West Virginia,Male,7137,53710,1741.0
+2020,West Virginia,Overall,7457,51970,3624.0
+2020,West Virginia,Female,7457,51970,1748.0
+2020,West Virginia,"White, non-Hispanic",7457,51970,3540.0
+2020,West Virginia,Male,7457,51970,1876.0
+2020,West Virginia,"Black, non-Hispanic",7457,51970,78.0
+2011,Wisconsin,Hispanic,12170,52060,27.0
+2011,Wisconsin,"Black, non-Hispanic",12170,52060,113.0
+2011,Wisconsin,"White, non-Hispanic",12170,52060,4677.0
+2011,Wisconsin,Overall,12170,52060,4879.0
+2011,Wisconsin,American Indian or Alaska Native,12170,52060,46.0
+2011,Wisconsin,Female,12170,52060,2379.0
+2011,Wisconsin,Male,12170,52060,2500.0
+2012,Wisconsin,Female,12998,53080,2321.0
+2012,Wisconsin,American Indian or Alaska Native,12998,53080,37.0
+2012,Wisconsin,Male,12998,53080,2444.0
+2012,Wisconsin,"Black, non-Hispanic",12998,53080,153.0
+2012,Wisconsin,"White, non-Hispanic",12998,53080,4540.0
+2012,Wisconsin,Overall,12998,53080,4765.0
+2012,Wisconsin,Hispanic,12998,53080,26.0
+2013,Wisconsin,American Indian or Alaska Native,13710,51730,44.0
+2013,Wisconsin,American Indian or Alaska Native,13710,55260,44.0
+2013,Wisconsin,Female,13710,51730,2628.0
+2013,Wisconsin,Female,13710,55260,2628.0
+2013,Wisconsin,"Black, non-Hispanic",13710,51730,171.0
+2013,Wisconsin,"Black, non-Hispanic",13710,55260,171.0
+2013,Wisconsin,Overall,13710,51730,5317.0
+2013,Wisconsin,Overall,13710,55260,5317.0
+2013,Wisconsin,Hispanic,13710,51730,34.0
+2013,Wisconsin,Hispanic,13710,55260,34.0
+2013,Wisconsin,Male,13710,51730,2689.0
+2013,Wisconsin,Male,13710,55260,2689.0
+2013,Wisconsin,"White, non-Hispanic",13710,51730,5055.0
+2013,Wisconsin,"White, non-Hispanic",13710,55260,5055.0
+2014,Wisconsin,American Indian or Alaska Native,14638,58080,53.0
+2014,Wisconsin,"White, non-Hispanic",14638,58080,5176.0
+2014,Wisconsin,Hispanic,14638,58080,33.0
+2014,Wisconsin,Female,14638,58080,2622.0
+2014,Wisconsin,"Black, non-Hispanic",14638,58080,168.0
+2014,Wisconsin,Male,14638,58080,2820.0
+2014,Wisconsin,Overall,14638,58080,5442.0
+2015,Wisconsin,Hispanic,15015,55430,24.0
+2015,Wisconsin,Overall,15015,55430,5559.0
+2015,Wisconsin,"Black, non-Hispanic",15015,55430,215.0
+2015,Wisconsin,"White, non-Hispanic",15015,55430,5256.0
+2015,Wisconsin,Female,15015,55430,2673.0
+2015,Wisconsin,American Indian or Alaska Native,15015,55430,48.0
+2015,Wisconsin,Male,15015,55430,2886.0
+2016,Wisconsin,Female,15216,59820,2759.0
+2016,Wisconsin,"Black, non-Hispanic",15216,59820,217.0
+2016,Wisconsin,Male,15216,59820,2991.0
+2016,Wisconsin,American Indian or Alaska Native,15216,59820,48.0
+2016,Wisconsin,Overall,15216,59820,5750.0
+2016,Wisconsin,"White, non-Hispanic",15216,59820,5430.0
+2016,Wisconsin,Hispanic,15216,59820,42.0
+2017,Wisconsin,Female,15804,63480,2746.0
+2017,Wisconsin,Female,15804,63450,2746.0
+2017,Wisconsin,American Indian or Alaska Native,15804,63480,45.0
+2017,Wisconsin,American Indian or Alaska Native,15804,63450,45.0
+2017,Wisconsin,"Black, non-Hispanic",15804,63480,201.0
+2017,Wisconsin,"Black, non-Hispanic",15804,63450,201.0
+2017,Wisconsin,Hispanic,15804,63480,33.0
+2017,Wisconsin,Hispanic,15804,63450,33.0
+2017,Wisconsin,Overall,15804,63480,5770.0
+2017,Wisconsin,Overall,15804,63450,5770.0
+2017,Wisconsin,Male,15804,63480,3024.0
+2017,Wisconsin,Male,15804,63450,3024.0
+2017,Wisconsin,"White, non-Hispanic",15804,63480,5471.0
+2017,Wisconsin,"White, non-Hispanic",15804,63450,5471.0
+2017,Wisconsin,Asian or Pacific Islander,15804,63480,20.0
+2017,Wisconsin,Asian or Pacific Islander,15804,63450,20.0
+2018,Wisconsin,Hispanic,16372,62630,40.0
+2018,Wisconsin,American Indian or Alaska Native,16372,62630,48.0
+2018,Wisconsin,Female,16372,62630,2883.0
+2018,Wisconsin,"White, non-Hispanic",16372,62630,5547.0
+2018,Wisconsin,"Black, non-Hispanic",16372,62630,231.0
+2018,Wisconsin,Male,16372,62630,2997.0
+2018,Wisconsin,Overall,16372,62630,5880.0
+2019,Wisconsin,"Black, non-Hispanic",17246,67350,239.0
+2019,Wisconsin,Male,17246,67350,3228.0
+2019,Wisconsin,American Indian or Alaska Native,17246,67350,56.0
+2019,Wisconsin,Female,17246,67350,2854.0
+2019,Wisconsin,Asian or Pacific Islander,17246,67350,21.0
+2019,Wisconsin,Hispanic,17246,67350,53.0
+2019,Wisconsin,Overall,17246,67350,6082.0
+2019,Wisconsin,"White, non-Hispanic",17246,67350,5713.0
+2020,Wisconsin,"Black, non-Hispanic",17949,67410,360.0
+2020,Wisconsin,Male,17949,67410,3665.0
+2020,Wisconsin,"White, non-Hispanic",17949,67410,6598.0
+2020,Wisconsin,Overall,17949,67410,7117.0
+2020,Wisconsin,American Indian or Alaska Native,17949,67410,57.0
+2020,Wisconsin,Asian or Pacific Islander,17949,67410,36.0
+2020,Wisconsin,Hispanic,17949,67410,66.0
+2020,Wisconsin,Female,17949,67410,3452.0
+2011,Wyoming,"White, non-Hispanic",1024,54510,577.0
+2011,Wyoming,Overall,1024,54510,605.0
+2011,Wyoming,Male,1024,54510,350.0
+2011,Wyoming,Female,1024,54510,255.0
+2011,Wyoming,Hispanic,1024,54510,20.0
+2012,Wyoming,Female,1063,57510,303.0
+2012,Wyoming,Male,1063,57510,321.0
+2012,Wyoming,Overall,1063,57510,624.0
+2012,Wyoming,"White, non-Hispanic",1063,57510,591.0
+2013,Wyoming,Female,1093,67440,302.0
+2013,Wyoming,Female,1093,55700,302.0
+2013,Wyoming,Overall,1093,67440,658.0
+2013,Wyoming,Overall,1093,55700,658.0
+2013,Wyoming,Male,1093,67440,356.0
+2013,Wyoming,Male,1093,55700,356.0
+2013,Wyoming,"White, non-Hispanic",1093,67440,635.0
+2013,Wyoming,"White, non-Hispanic",1093,55700,635.0
+2014,Wyoming,"White, non-Hispanic",1066,55690,600.0
+2014,Wyoming,Male,1066,55690,344.0
+2014,Wyoming,Overall,1066,55690,632.0
+2014,Wyoming,Female,1066,55690,288.0
+2015,Wyoming,"White, non-Hispanic",1110,60930,669.0
+2015,Wyoming,Overall,1110,60930,708.0
+2015,Wyoming,Female,1110,60930,343.0
+2015,Wyoming,Male,1110,60930,365.0
+2015,Wyoming,Hispanic,1110,60930,22.0
+2016,Wyoming,Overall,1123,57830,669.0
+2016,Wyoming,Female,1123,57830,264.0
+2016,Wyoming,"White, non-Hispanic",1123,57830,639.0
+2016,Wyoming,Male,1123,57830,405.0
+2017,Wyoming,Hispanic,1168,59540,23.0
+2017,Wyoming,Hispanic,1168,57840,23.0
+2017,Wyoming,Overall,1168,59540,683.0
+2017,Wyoming,Overall,1168,57840,683.0
+2017,Wyoming,Female,1168,59540,333.0
+2017,Wyoming,Female,1168,57840,333.0
+2017,Wyoming,Male,1168,59540,350.0
+2017,Wyoming,Male,1168,57840,350.0
+2017,Wyoming,"White, non-Hispanic",1168,59540,651.0
+2017,Wyoming,"White, non-Hispanic",1168,57840,651.0
+2018,Wyoming,Male,1152,62540,420.0
+2018,Wyoming,Hispanic,1152,62540,24.0
+2018,Wyoming,"White, non-Hispanic",1152,62540,737.0
+2018,Wyoming,Overall,1152,62540,778.0
+2018,Wyoming,Female,1152,62540,358.0
+2019,Wyoming,Female,1138,65130,354.0
+2019,Wyoming,Male,1138,65130,429.0
+2019,Wyoming,"White, non-Hispanic",1138,65130,743.0
+2019,Wyoming,Hispanic,1138,65130,24.0
+2019,Wyoming,Overall,1138,65130,783.0
+2020,Wyoming,Female,1200,65450,433.0
+2020,Wyoming,Hispanic,1200,65450,26.0
+2020,Wyoming,Overall,1200,65450,919.0
+2020,Wyoming,Male,1200,65450,486.0
+2020,Wyoming,"White, non-Hispanic",1200,65450,867.0
