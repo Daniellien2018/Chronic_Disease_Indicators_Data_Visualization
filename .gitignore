@@ -181,7 +181,7 @@ data/predictors/*
 
 
 # Keep the data dir itself
-~data/raw/
-~data/processed/
-~data/split/
-~data/predictors/
+!data/raw/
+!data/processed/
+!data/split/
+!data/predictors/
