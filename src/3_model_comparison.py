@@ -38,8 +38,8 @@ def compare_models(model_names, test_df, model_dir='model_artifacts'):
     print(results_df)
 
     # Save results as CSV for reference
-    results_df.to_csv('data/results/model_comparison_results.csv', index=False)
-    print("\nModel comparison saved to '/data/results/model_comparison_results.csv'")
+    results_df.to_csv('outputs/model_comparison_results.csv', index=False)
+    print("\nModel comparison saved to 'outputs/model_comparison_results.csv'")
 
 
 def main():

@@ -70,6 +70,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
+0_data_cleaning.py
+1_data_preprocessing.py
+2_train_models.py
+3_model_comparison.py
+
+
 ### 1: Download data 
 Download all required data from their respective sources and save them into the `data/` directory.
 
