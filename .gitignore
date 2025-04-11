@@ -172,3 +172,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore everything inside the data directory
+data/raw/*
+data/cleaned/*
+data/processed/*
+data/split/*
+
+
+# Keep the data dir itself
+~data/raw/
+~data/cleaned/
+~data/processed/
+~data/split/
