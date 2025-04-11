@@ -1,0 +1,760 @@
+---
+title: "6242_data_cleanse"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+#load libraries
+
+library(dplyr)
+library(zoo)
+library(lubridate)
+library(tidyquant)
+library(timetk)
+library(broom)
+library(ggplot2)
+library(prophet)
+library(forecast)
+library(tidymodels)
+library(modeltime)
+library(modeltime.ensemble)
+library(thief)
+library(DataExplorer)
+library(tidyverse)
+library(data.table)
+library(scales)
+library(caret)
+library(randomForest)
+library(gbm)
+library(reshape)
+library(glmnet)
+library(xgboost)
+library(forecast)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+
+```{r}
+
+#read chronic dataset
+
+chronic_df <- read.csv("data/US_Chronic_Disease_Indicators_CDI_2023_Release_copy.csv")
+                   
+                   
+```
+
+
+```{r}
+
+#unique diseases
+
+unique(chronic_df$Topic)
+
+
+```
+
+```{r}
+
+diabetes_df <- chronic_df[chronic_df$Topic=="Diabetes",]
+
+```
+
+```{r}
+
+unique(diabetes_df$Question)
+
+```
+
+
+```{r}
+
+diabetes_df_2 <- diabetes_df %>%
+  filter(Question=="Mortality due to diabetes reported as any listed cause of death")
+
+```
+
+
+
+```{r}
+
+colnames(diabetes_df_2)
+
+```
+
+
+```{r}
+
+diabetes_df_2_select <- diabetes_df_2 %>%
+  select(c("YearStart","YearEnd","LocationAbbr","LocationDesc","Topic","Question",
+           "DataValueUnit","DataValueType","DataValue","StratificationCategory1","Stratification1","GeoLocation","LocationID"))
+  
+```
+
+
+
+```{r}
+
+diabetes_df_2_select %>%
+  filter(YearStart != YearEnd)
+  
+```
+
+```{r}
+
+#Dropping Year End column as all rows have same YearStart & Year End
+
+diabetes_df_2_select_rev <- diabetes_df_2_select %>%
+  select(-c(YearEnd))
+  
+```
+
+
+```{r}
+
+#checking
+
+diabetes_df_2_select_rev <- diabetes_df_2_select_rev %>% filter((DataValueType=="Number")) %>%
+filter(!(StratificationCategory1=="Overall")) %>%
+mutate(Number_Diagnosed=as.numeric(DataValue)) %>%
+select(c(YearStart,LocationDesc,Topic,Number_Diagnosed,StratificationCategory1,Stratification1))
+
+```
+
+
+```{r}
+
+#checking
+
+colnames(diabetes_df_2_select_rev)[c(1)]<-"Year"
+
+colnames(diabetes_df_2_select_rev)[c(2)]<-"State"
+
+```
+
+
+```{r}
+
+#checking
+
+diabetes_df_2_select_rev$Number_Diagnosed[is.na(diabetes_df_2_select_rev$Number_Diagnosed)] <- 0
+
+
+```
+
+
+
+
+```{r}
+
+
+# diabetes_df_2_select_rev_wide <- diabetes_df_2_select_rev %>%
+#   pivot_wider(names_from = StratificationCategory1, values_from = Stratification1)
+
+
+```
+
+
+
+```{r}
+
+#read state median income
+state_med_df <- read.csv("data/state_median_income.csv")
+                   
+                   
+```
+
+
+```{r}
+
+#read state median income
+stand_error_cols <- which(state_med_df[2,]=="Standard error")
+
+state_med_df <- state_med_df[,-stand_error_cols]
+                   
+```
+
+
+```{r}
+
+state_med_df <- state_med_df[-c(2),]
+                   
+```
+
+
+```{r}
+
+state_med_df[1, ] <- gsub("\\s*\\(.*?\\)|\\s.*", "", state_med_df[1, ])
+
+```
+
+
+```{r}
+
+colnames(state_med_df) <- state_med_df[1, ]
+
+```
+
+
+```{r}
+
+state_med_df <- state_med_df[-c(1), ]
+
+```
+
+
+```{r}
+
+state_med_df[,c(2:43)] <- lapply(state_med_df[,c(2:43)], function(x) as.numeric(gsub(",", "", x)))
+
+```
+
+
+```{r}
+
+state_med_df_long <- melt(state_med_df, id.vars = "State", variable.name = "Year", value.name = "Median Income")
+
+```
+
+
+```{r}
+
+colnames(state_med_df_long)[c(2,3)] <- c("Year","Median Income")
+
+```
+
+
+```{r}
+
+
+state_med_df_long_num <- state_med_df_long%>%
+  mutate(Year = as.numeric(as.character(Year)))
+
+
+diabetes_df_2_select_rev_num <- diabetes_df_2_select_rev %>%
+  mutate(Year = as.numeric(Year))
+
+```
+
+
+```{r}
+diabetes_left_joined <- diabetes_df_2_select_rev_num %>%
+  left_join(state_med_df_long_num, by = c("Year", "State"))
+
+```
+
+
+
+```{r}
+
+#read medicaid spend
+state_medicaid_df <- read.csv("data/MEDICAID_AGGREGATE20.CSV")
+
+state_medicaid_df <- state_medicaid_df[c(10:60),] 
+                   
+                   
+```
+
+
+```{r}
+
+#read medicaid spend
+state_medicaid_df_select <- state_medicaid_df %>%
+  select(c(6:36))
+
+                   
+```
+
+
+
+```{r}
+
+#checking
+
+colnames(state_medicaid_df_select)[c(2:31)]<-lapply(colnames(state_medicaid_df_select)[c(2:31)], function(x) as.numeric(gsub("Y", "", x)))
+
+
+```
+
+
+```{r}
+
+state_medicaid_df_long <- melt(state_medicaid_df_select, id.vars = "State_Name", variable.name = "Year", value.name = "Medicaid Spend")
+
+```
+
+
+```{r pressure, echo=FALSE}
+colnames(state_medicaid_df_long)[c(1,2,3)] <- c("State","Year","Medicaid Spend")
+
+```
+
+
+```{r pressure, echo=FALSE}
+
+state_medicaid_df_long <- state_medicaid_df_long %>%
+  mutate(Year = as.integer(as.character(Year)))
+  
+
+```
+
+
+```{r pressure, echo=FALSE}
+
+
+diabetes_left_joined_02 <-  diabetes_left_joined%>%
+  left_join(state_medicaid_df_long, by = c("Year", "State"))
+
+```
+
+
+```{r pressure, echo=FALSE}
+# remove rows with na
+final_df <- diabetes_left_joined_02 %>% 
+  drop_na() %>% 
+  mutate(Year = as.integer(Year))
+  
+```
+
+
+```{r pressure, echo=FALSE}
+colnames(final_df)[c(7,8)] <- c("Median_Income","Medicaid_Spend")
+
+```
+
+
+```{r pressure, echo=FALSE}
+
+# view first 5 rows
+head(final_df, 5)
+
+# exploratory data analysis
+# summary stats for numeric columns
+summary(Filter(is.numeric, final_df))
+
+# average of number_diagnosed by race and gender
+final_df %>%
+  group_by(Stratification1) %>%
+  summarise(average = mean(Number_Diagnosed, na.rm = TRUE))
+
+```
+
+```{r}
+
+final_df%>%
+  group_by(Stratification1)
+  
+
+```
+
+```{r pressure, echo=FALSE}
+# summary stats by state
+final_df %>%
+  group_by(State) %>%
+  summarise(across(c(Medicaid_Spend, Number_Diagnosed, Median_Income), list(mean = mean, median = median)))
+
+```
+
+
+```{r pressure, echo=FALSE}
+# medicaid expenses frequency distribution
+ggplot(final_df, aes(x = Medicaid_Spend)) +
+  geom_histogram(binwidth = 10000, fill = "cadetblue", color = "black") +
+  labs(title = "Histogram of Medicaid Expenses", x = "Medicaid Expenses (in millions)", y = "Frequency")
+
+```
+
+
+```{r}
+# median income frequency distribution
+ggplot(final_df, aes(x = Median_Income)) +
+  geom_histogram(binwidth = 1000, fill = "cadetblue3", color = "black") +
+  labs(title = "Histogram of Median Income", x = "Median Income (in thousands)", y = "Frequency")
+
+```
+```{r}
+# filter to gender
+gender <- final_df %>%
+  filter(StratificationCategory1 == 'Gender')
+
+# filter to race/ethnicity
+race <- final_df %>%
+  filter(StratificationCategory1 == 'Race/Ethnicity')
+
+```
+
+
+```{r}
+# number diagnosed by gender
+ggplot(gender, aes(x = Stratification1, y = Number_Diagnosed)) +
+  geom_boxplot(fill = "orange") +
+  labs(title = "Boxplot by Gender", x = "Gender", y = "Number Diagnosed")
+
+# number diagnosed by race/ethnicity
+ggplot(race, aes(x = Stratification1, y = Number_Diagnosed)) +
+  geom_boxplot(fill = "orange") +
+  labs(title = "Boxplot by Race/Ethnicity", x = "Race/Ethnicity", y = "Number Diagnosed")
+
+# scatterplot showing number diagnosed against median income
+ggplot(final_df, aes(x = Median_Income, y = Number_Diagnosed)) +
+  geom_point(color = "red") +
+  labs(title = "Scatter Plot for Number Diagnosed vs. Median Income", x = "Median Income (in thousands)", y = "Number Diagnosed")
+
+# scatterplot showing number diagnosed against medicaid expenses
+ggplot(final_df, aes(x = Medicaid_Spend, y = Number_Diagnosed)) +
+  geom_point(color = "red") +
+  labs(title = "Scatter Plot for Number Diagnosed vs. Medicaid Expenses", x = "Medicaid Expenses (in millions)", y = "Number Diagnosed")
+
+```
+
+```{r}
+# correlation analysis
+cor_matrix <- final_df %>%
+  select(where(is.numeric)) %>%
+  cor(use = "complete.obs")
+
+corrplot::corrplot(cor_matrix, method = "circle")
+
+# only factor categorical columns used in modeling
+modified_df <- final_df %>%
+  mutate(State=as.factor(State),
+         Stratification1=as.factor(Stratification1))
+
+# view first 5 rows
+head(modified_df, 5)
+
+```
+
+```{r}
+# correlation analysis
+cor_matrix <- final_df %>%
+  select(where(is.numeric)) %>%
+  cor(use = "complete.obs")
+
+corrplot::corrplot(cor_matrix, method = "circle")
+
+# only factor categorical columns used in modeling
+modified_df <- final_df %>%
+  mutate(State=as.factor(State),
+         Stratification1=as.factor(Stratification1))
+
+# view first 5 rows
+head(modified_df, 5)
+
+```
+
+
+```{r}
+
+# split data into training and testing sets
+# training data uses data from 2010 - 2018 and testing data uses data from 2019 - 2020
+set.seed(101) # Set Seed so that same sample can be reproduced in future also
+
+train_df <-modified_df %>% 
+  filter(Year>=2010 &Year<=2018)
+
+test_df <-modified_df %>% filter(Year>=2019)
+
+
+```
+
+
+```{r}
+# train models
+# linear regression
+lm_model <- lm(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Spend + Median_Income, data = train_df)
+
+# random forest regression
+rf_model_0234555 <- randomForest(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Spend + Median_Income, data = train_df, ntree = 100)
+
+# gradient boosting regression
+gbm_model <- gbm(Number_Diagnosed ~ State + Year + Stratification1 + Medicaid_Spend + Median_Income, data = train_df, distribution = "gaussian", n.trees = 100, interaction.depth = 3, shrinkage = 0.01, cv.folds = 5)
+
+```
+
+
+```{r}
+
+#Xgboost model using trees
+
+X <- train_df %>%
+  select(c(State,Year,Stratification1,Medicaid_Spend,Median_Income,Number_Diagnosed))
+
+X$State <- as.numeric(X$State)  # Convert State to numeric
+X$Stratification1 <- as.numeric(X$Stratification1)
+
+y <- X %>%
+  select(c(Number_Diagnosed))
+
+X <- X %>%
+  select(-c(Number_Diagnosed))
+
+# Convert data to DMatrix (optimized format for XGBoost)
+dtrain <- xgb.DMatrix(data = as.matrix(X), label = as.matrix(y))
+
+# Define model parameters
+params <- list(
+  objective = "reg:squarederror",  # Regression objective
+  booster = "gbtree",  # Tree-based model
+  eta = 0.1,  # Learning rate
+  max_depth = 6,  # Depth of trees
+  subsample = 0.8,  # Subsampling ratio
+  colsample_bytree = 0.8  # Feature selection ratio
+)
+
+# Train XGBoost model
+xgb_model <- xgboost(
+  data = dtrain,
+  params = params,
+  nrounds = 100,  # Number of boosting rounds
+  verbose = 0  # Suppress training logs
+)
+
+```
+
+
+
+
+```{r}
+
+# evaluate models
+rmse <- function(actual, predicted) {
+  sqrt(mean((actual - predicted)^2))
+}
+
+
+# predictions
+test_df$lm_pred <- predict(lm_model, test_df)
+test_df$rf_pred <- predict(rf_model_0234555, test_df)
+test_df$gbm_pred <- predict(gbm_model, test_df, n.trees = 100)
+
+# predictions for xgboost
+
+X_test <- test_df %>%
+  select(c(State,Year,Stratification1,Medicaid_Spend,Median_Income))
+
+X_test$State <- as.numeric(X_test$State)  # Convert State to numeric
+X_test$Stratification1 <- as.numeric(X_test$Stratification1)
+
+test_df$xgboost_pred <- predict(xgb_model, as.matrix(X_test), nrounds = 100)
+
+```
+
+
+```{r}
+
+# calculate mae
+mae <- function(actual, predicted) {
+  mean(abs(actual - predicted))
+}
+
+# calculate mse
+mse <- function(actual, predicted) {
+  mean((actual - predicted)^2)
+}
+
+# calculate rmse
+rmse <- function(actual, predicted) {
+  sqrt(mean((actual - predicted)^2))
+}
+
+# calculate r-squared
+r_squared <- function(actual, predicted) {
+  ss_total <- sum((actual - mean(actual))^2)
+  ss_residual <- sum((actual - predicted)^2)
+  1 - (ss_residual / ss_total)
+}
+
+# metrics for linear regression model
+lm_mae <- mae(test_df$Number_Diagnosed, test_df$lm_pred)
+lm_mse <- mse(test_df$Number_Diagnosed, test_df$lm_pred)
+lm_rmse <- rmse(test_df$Number_Diagnosed, test_df$lm_pred)
+lm_r2 <- r_squared(test_df$Number_Diagnosed, test_df$lm_pred)
+
+# metrics for random forest model
+rf_mae <- mae(test_df$Number_Diagnosed, test_df$rf_pred)
+rf_mse <- mse(test_df$Number_Diagnosed, test_df$rf_pred)
+rf_rmse <- rmse(test_df$Number_Diagnosed, test_df$rf_pred)
+rf_r2 <- r_squared(test_df$Number_Diagnosed, test_df$rf_pred)
+
+# metric for gradient boosting
+gbm_mae <- mae(test_df$Number_Diagnosed, test_df$gbm_pred)
+gbm_mse <- mse(test_df$Number_Diagnosed, test_df$gbm_pred)
+gbm_rmse <- rmse(test_df$Number_Diagnosed, test_df$gbm_pred)
+gbm_r2 <- r_squared(test_df$Number_Diagnosed, test_df$gbm_pred)
+
+
+# metric for gradient boosting
+xgboost_mae <- mae(test_df$Number_Diagnosed, test_df$xgboost_pred)
+xgboost_mse <- mse(test_df$Number_Diagnosed, test_df$xgboost_pred)
+xgboost_rmse <- rmse(test_df$Number_Diagnosed, test_df$xgboost_pred)
+xgboost_r2 <- r_squared(test_df$Number_Diagnosed, test_df$xgboost_pred)
+
+
+# results
+cat("Linear Regression Metrics:")
+cat("MAE:", lm_mae) # 1095.441
+cat("MSE:", lm_mse) # 3373635
+cat("RMSE:", lm_rmse) # 1836.746
+cat("R-squared:", lm_r2) # 0.6529305
+
+cat("Random Forest Metrics:")
+cat("MAE:", rf_mae) # 812.3302
+cat("MSE:", rf_mse) # 2729004
+cat("RMSE:", rf_rmse) # 1651.97
+cat("R-squared:", rf_r2) # 0.7192483
+
+cat("Gradient Boosting Metrics:")
+cat("MAE:", gbm_mae) # 1288.843
+cat("MSE:", gbm_mse) # 4783762
+cat("RMSE:", gbm_rmse) # 2187.181
+cat("R-squared:", gbm_r2) # 0.5078609
+
+
+
+cat("XGBoost Metrics:")
+cat("MAE:", xgboost_mae) # 484.5806
+cat("MSE:", xgboost_mse) # 1070304
+cat("RMSE:", xgboost_rmse) # 1034.555
+cat("R-squared:", xgboost_r2) # 0.8898903
+
+```
+
+
+
+```{r}
+
+#XGBoost had the best performance on the test set. Lets look at first 5 rows of test set predictions.
+
+test_df$xgboost_pred[1:5]
+
+```
+
+
+
+```{r}
+# generate predictions from 2021 - 2025
+years <- 2021:2050
+
+# define unique values for state and stratification1
+states <- unique(train_df$State)
+stratification_values <- unique(train_df$Stratification1)
+
+# create new df to make predictions
+new_data <- expand.grid(
+  State = states,
+  Year = years,
+  Stratification1 = stratification_values
+) %>%
+  mutate(
+    Medicaid_Expenses = mean(train_df$Medicaid_Expenses),
+    Median_Income = mean(train_df$Median_Income)
+  )
+
+```
+
+
+```{r}
+
+medicaid_trends <- modified_df %>%
+  group_by(State) %>%
+  do(model = lm(Medicaid_Spend ~ Year, data = .)) %>%
+  ungroup()
+
+# fit linear models to make predictions for median income by state
+income_trends <- modified_df %>%
+  group_by(State) %>%
+  do(model = lm(Median_Income ~ Year, data = .)) %>%
+  ungroup()
+
+# predict future medicaid expenses and median income and combine datasets
+new_data <- new_data %>%
+  left_join(medicaid_trends, by = "State") %>%
+  rowwise() %>%
+  mutate(Medicaid_Spend = predict(model, newdata = data.frame(Year = Year))) %>%
+  ungroup() %>%
+  select(-model) %>%
+  left_join(income_trends, by = "State") %>%
+  rowwise() %>%
+  mutate(Median_Income = predict(model, newdata = data.frame(Year = Year))) %>%
+  ungroup() %>%
+  select(-model)
+
+```
+
+
+
+```{r}
+#prep data to put into xgboost model
+
+X_new_data <- new_data %>%
+  select(c(State,Year,Stratification1,Medicaid_Spend,Median_Income))
+
+X_new_data$State <- as.numeric(X_new_data$State)  # Convert State to numeric
+X_new_data$Stratification1 <- as.numeric(X_new_data$Stratification1)
+
+
+```
+
+
+```{r}
+
+#predict with XGBoost
+
+X_new_data$xgboost_pred <- predict(xgb_model, as.matrix(X_new_data), nrounds = 100)
+
+```
+
+
+
+```{r}
+
+#Add predictions from matrix to new data.
+
+new_data$pred <- X_new_data$xgboost_pred
+
+
+# use ifelse logic to change negative predictions into 0
+
+new_data <- new_data %>%
+  mutate(Number_Diagnosed = ifelse(pred<0,0,pred))
+
+
+```
+
+
+```{r}
+
+#bind final df for tableau
+
+existing_data <- modified_df %>%
+  select(c(Year,State,Topic,Stratification1,Medicaid_Spend,Median_Income,Number_Diagnosed))
+
+
+predict_data <- new_data %>%
+  mutate(Topic="Diabetes") %>%
+  select(c(Year,State,Topic,Stratification1,Medicaid_Spend,Median_Income,Number_Diagnosed))
+  
+
+final_df_export <- rbind(existing_data,predict_data)
+
+```
+
+
+
+
+```{r}
+
+write.csv(new_data, row.names = FALSE)
+
+```
+
