@@ -71,7 +71,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Project Execution
+## 🚀 Project Execution - COPD Demo
+### 00. Data Collection
+Before running this project, ensure that the proper data has been collected from the data sources listed above. Collect the rqeuired data into `data/raw/` 
+
+
 ### 0. Data Cleaning
 ```bash
 python3 src/0_data_cleaning.py
