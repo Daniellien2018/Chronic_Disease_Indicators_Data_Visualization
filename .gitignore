@@ -175,13 +175,13 @@ cython_debug/
 
 # Ignore everything inside the data directory
 data/raw/*
-data/cleaned/*
 data/processed/*
 data/split/*
+data/predictors/*
 
 
 # Keep the data dir itself
 ~data/raw/
-~data/cleaned/
 ~data/processed/
 ~data/split/
+~data/predictors/

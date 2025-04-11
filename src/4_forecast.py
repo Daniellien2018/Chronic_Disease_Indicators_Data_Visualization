@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
     expanded_forecast_df = expand_forecast_by_stratification(forecast_df, stratification_categories)
 
-    output_file = 'data/predictors/forecasted_income_medicaid_by_stratification.csv'
+    output_file = 'data/predictors/forecasted_income_medicaid.csv'
     expanded_forecast_df.to_csv(output_file,index=False)
     print(f"✅ Forecast saved to '{output_file}'")
     

@@ -1,14 +1,16 @@
 # Chronic Disease Indicators Data Visualization
 
-## Project Overview:
+## 🩺 Project Overview:
 This project aims to forecast mortality rates across U.S. states from 2021 to 2050, leveraging a combination of historical public health data and socioeconomic indicators. Using a Random Forest regression model, we predict mortality outcomes based on key variables such as Medicaid spending, median household income, and chronic disease stratifications (e.g., gender, race/ethnicity).
-## Objectives:
+
+## 🎯  Objectives:
 - Collect and process reliable state-level data from public sources.
 - Forecast socioeconomic drivers (e.g., income, Medicaid spending) through 2050.
 - Integrate chronic disease indicators by stratification group.
 - Train and evaluate different machine learning models to predict mortality from historical patterns.
 - Use the best model to estimate future mortality trends by state and demographic subgroup.
-## Data Sources
+
+## 🧠 Data Sources
 This project uses several public datasets collected from trusted government and research organization. Each dataset is described with instructions on how to access.
 
 1. U.S. Chronic Disease Indicators (CDI) Dataset
@@ -42,7 +44,7 @@ This project uses several public datasets collected from trusted government and 
 
 
     
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 ### Clone the repository and set up Virtual Environment
 ```bash
@@ -69,28 +71,50 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Usage
-0_data_cleaning.py
-1_data_preprocessing.py
-2_train_models.py
-3_model_comparison.py
+## 🚀 Project Execution
+### 0. Data Cleaning
+```bash
+python3 src/0_data_cleaning.py
+```
+- Cleans and prepares the raw Chronic Disease Indicators, Medicaid Spending, and Median Income datasets, merging into one
+- Handles missing values and formatting issues
+- Produces `data/processed/merged_copd_income_medicaid`
 
+### 1. Data Preprocessing
+```bash
+python3 src/1_data_preprocessing.py
+```
+- Splits the processed dataset into train/test splits based on temporality 
+- Applied One-hot Encoding to categorical values 
+- Produces `data/split/train.csv` and `data/split/test.csv`
 
-### 1: Download data 
-Download all required data from their respective sources and save them into the `data/` directory.
+### 2. Model Training
+```bash
+python3 src/2_train_models.py
+``` 
+- Train a variety of regression models including linear regression, polynomial regression, gradient descent, ridge regression, lasso regression, elastic net, and random forest. 
+- Saves each trained model artifact to `model_artifacts/{model}`
 
-### 2: Proprocess Data (Train/Test Split)
+### 3. Model Comparison
+```bash
+python3 src/3_model_comparison.py
+```
+- Compares trained models using performance metrics including MAE, MSE, RMSE, and R2
+- Identifies best-performing model for prediction
+- Produces model results to `output/model_comparison_results.csv`
 
-### 3: Train Models
+### 4. Forecasting Future Predictors
+```bash
+python3 src/4_forecast.py
+```
+- Forecasts key predictor variables (Medicaid Spending, Median Income) from 2021-2050
+- Outputs forecasted values used in the final prediction step
+- Saves forecasts to `data/predictors/forecasted_income_medicaid.csv`
 
-### 4:Evaluate Performance 
-
-### 5: Forecast
-
-### 6: Make Predictions
-
-## Directory Structure
-
-## License 
-
-## Contributors 
+### 5. Make Predictions
+```bash
+python3 src/5_make_predictions.py
+```
+- Loads the best model and forecasted data
+- Predicts future mortality rates by state and stratification group
+- Saves final output to `outputs/COPD_predicted_mortality_2021_2050.csv`

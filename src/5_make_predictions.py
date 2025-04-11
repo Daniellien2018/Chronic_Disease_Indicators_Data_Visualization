@@ -43,7 +43,7 @@ def save_predictions(df, output_path):
 if __name__ == "__main__":
     # Define file paths
     model_path = "model_artifacts/random_forest.pkl"
-    data_path = "data/predictors/forecasted_income_medicaid_by_stratification.csv"
+    data_path = "data/predictors/forecasted_income_medicaid.csv"
     output_path = "outputs/COPD_predicted_mortality_2021_2050.csv"
 
     # Load model and data
