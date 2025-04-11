@@ -108,6 +108,9 @@ df_income = pd.read_excel(income_path, skiprows=7)
 df_income.columns = df_income.columns.map(str)
 df_income = df_income.loc[:, ~df_income.columns.str.contains('^Unnamed')]
 
+years_to_drop = ['2017 (40)', '2013 (39)'] # Drop Uneccesary Years
+df_income = df_income.drop(columns=years_to_drop)
+
 def extract_year(col):
     match = re.search(r'\b(19|20)\d{2}\b', str(col))
     return match.group(0) if match else col
@@ -121,7 +124,9 @@ df_income = df_income[columns_to_keep]
 
 # Clean up rows
 df_income = df_income[~df_income['State'].isin(['United States', 'District of Columbia'])]
-df_income = df_income.iloc[:50]  # Keep first 50 states
+df_income = df_income.iloc[:51]  # Keep first 50 states
+
+df_income = df_income.drop(index=0) #drop first row header 
 
 # Melt to long format
 df_income_long = df_income.melt(id_vars='State', var_name='Year', value_name='Median_Income')

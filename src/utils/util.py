@@ -13,7 +13,7 @@ def one_hot_encoding(df):
     df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
     return df
 
-def save_model(model, model_name, model_dir='../daniel/models'):
+def save_model(model, model_name, model_dir='model_artifacts'):
     """Save the trained model to disk."""
     os.makedirs(model_dir, exist_ok=True) 
     model_path = os.path.join(model_dir, f"{model_name}.pkl")
