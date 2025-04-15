@@ -24,7 +24,7 @@ This project uses several public datasets collected from trusted government and 
         - EDITOR NOTE: Extract from the .zip file in **data/raw/**
     - Used for: Analyzing state-level chronic disease mortality and associated risk factors. This dataset also serves as the primary source for training and generating chronic illness mortality predictions. 
 2. Medicaid Spending by State of Residence (1980-2020)
-    - Source: <a href="https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/state-residence">Centers for Medicare & Medicaid Services – National Health Expenditure Data: State of Residence</a> 
+    - Source: <a href="https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/state-residence" target="_blank">Centers for Medicare & Medicaid Services – National Health Expenditure Data: State of Residence</a> 
     - Table Used: Health Expenditures by State of Residence – Medicaid (Table 21)
     - Description: This dataset provides historical health care spending by state of residence, including detailed breakdowns by service and payer category. Speficially, Table 21 reports total Medicaid expenditures per state. 
     - Data Range: 1980-2020
@@ -34,7 +34,7 @@ This project uses several public datasets collected from trusted government and 
         - Locate **"MEDICAID_AGGREGATE20.csv"**
     - Used for: Forecasting future state-level Medicaid spending to model its relationship with mortality
 3. Median Income by State (1967-2022)
-    - Source: <a href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html">U.S. Census Bureau – Historical Income Tables: Households</a>
+    - Source: <a href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html" target="_blank">U.S. Census Bureau – Historical Income Tables: Households</a>
     - Table Used: Table H-8. Median Household Income by State
     - Description: This dataset contains inflation-adjusted and nominal median household income data, broken down by state and year
     - Data Range: 1984-2022
