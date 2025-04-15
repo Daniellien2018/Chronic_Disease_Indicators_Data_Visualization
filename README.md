@@ -14,15 +14,17 @@ This project aims to forecast mortality rates across U.S. states from 2021 to 20
 This project uses several public datasets collected from trusted government and research organization. Each dataset is described with instructions on how to access.
 
 1. U.S. Chronic Disease Indicators (CDI) Dataset
-    - Source: [Centers for Disease Control and Prevention (CDC) – U.S. Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data)
+    - Source: <a href="https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data" target="_blank">Centers for Disease Control and Prevention (CDC) – U.S. Chronic Disease Indicators</a>
+    - EDITOR NOTE: This dataset is currently unavailable due to current administration laws (Jan. 2025). A copy has been saved and zipped for this project purposes. Find in **data/raw/*.zip**
     - Description: The CDI dataset provides state-level data on key chronic diseases and their risk factors, compiled from various sources such as surveys, vital records, and administrative data. It includes standardized definitions to estimate and track a wide range of chronic disease indicators.
     - Data Range (Used): 2011-2020
     - Collection Method:
-        - Navigate to webpage above
-        - Click on "Export" button
+        - ~~Navigate to webpage above~~
+        - ~~Click on "Export" button~~
+        - EDITOR NOTE: Extract from the .zip file in **data/raw/**
     - Used for: Analyzing state-level chronic disease mortality and associated risk factors. This dataset also serves as the primary source for training and generating chronic illness mortality predictions. 
 2. Medicaid Spending by State of Residence (1980-2020)
-    - Source: [Centers for Medicare & Medicaid Services – National Health Expenditure Data: State of Residence](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/state-residence)
+    - Source: <a href="https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/state-residence">Centers for Medicare & Medicaid Services – National Health Expenditure Data: State of Residence</a> 
     - Table Used: Health Expenditures by State of Residence – Medicaid (Table 21)
     - Description: This dataset provides historical health care spending by state of residence, including detailed breakdowns by service and payer category. Speficially, Table 21 reports total Medicaid expenditures per state. 
     - Data Range: 1980-2020
@@ -32,7 +34,7 @@ This project uses several public datasets collected from trusted government and 
         - Locate **"MEDICAID_AGGREGATE20.csv"**
     - Used for: Forecasting future state-level Medicaid spending to model its relationship with mortality
 3. Median Income by State (1967-2022)
-    - Source: [U.S. Census Bureau – Historical Income Tables: Households](https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html)
+    - Source: <a href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html">U.S. Census Bureau – Historical Income Tables: Households</a>
     - Table Used: Table H-8. Median Household Income by State
     - Description: This dataset contains inflation-adjusted and nominal median household income data, broken down by state and year
     - Data Range: 1984-2022
@@ -67,7 +69,7 @@ pip install -r requirements.txt
 
 ## 🚀 Project Execution - COPD Demo
 ### 00. Data Collection
-Before running this project, ensure that the proper data has been collected from the data sources listed above. Collect the rqeuired data into `data/raw/` 
+Before running this project, ensure that the proper data has been collected from the data sources listed above. Collect the rqeuired data into `data/raw/`. Do not rename any of the dataset filenames.
 
 
 ### 0. Data Cleaning

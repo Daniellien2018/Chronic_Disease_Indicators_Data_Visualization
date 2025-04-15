@@ -19,11 +19,13 @@ Data Sources:
 1. U.S. Chronic Disease Indicators (CDI) Dataset
    Source: CDC – U.S. Chronic Disease Indicators
    URL: https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data
+   NOTE: This dataset is currently unavailable due to current administration laws (Jan. 2025). A copy has been saved and zipped for this project purposes. Find in data/raw/.
    Description: Provides state-level data on chronic diseases and risk factors, compiled from various surveys and administrative sources. 
    Used Range: 2011-2020
    Collection Method:
      - Navigate to the webpage
      - Click the "Export" button
+     - NOTE: Please find the CDC CDI dataset in the uploaded .zip in data/raw/.
    Purpose: Used to analyze mortality and risk factors and to train prediction models.
 
 2. Medicaid Spending by State of Residence (1980–2020)
@@ -65,7 +67,7 @@ EXECUTION – COPD Mortality Forecasting Demo:
 
 Step 00 – Data Collection:
   Ensure raw data has been downloaded and placed into the directory:
-  data/raw/
+  data/raw/. Do not rename any of the dataset filenames.
 
 Step 0 – Data Cleaning:
   Run:
