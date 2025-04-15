@@ -1,4 +1,3 @@
-import pandas as pd
 from sklearn.ensemble import RandomForestRegressor
 
 def train_random_forest(train_df):
@@ -10,4 +9,3 @@ def train_random_forest(train_df):
     model.fit(X_train, y_train)
 
     return model
-

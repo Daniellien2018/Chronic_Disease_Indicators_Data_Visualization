@@ -36,5 +36,4 @@ if __name__ == "__main__":
 
     # Save the splits to CSV
     save_splits(train_df, test_df)
-
     print("Raw Data processed and split into Train/Test based on Year")

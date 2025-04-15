@@ -179,7 +179,6 @@ data/processed/*
 data/split/*
 data/predictors/*
 
-
 # Keep the data dir itself
 !data/raw/.gitkeep
 !data/processed/.gitkeep

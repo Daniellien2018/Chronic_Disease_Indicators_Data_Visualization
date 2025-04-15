@@ -1,8 +1,6 @@
 import pandas as pd
 import joblib
 
-# ====================== FUNCTIONS ==========================
-
 def load_model(model_path):
     """Load a trained model from file."""
     return joblib.load(model_path)
@@ -37,8 +35,6 @@ def save_predictions(df, output_path):
     """Save final DataFrame with predictions."""
     df.to_csv(output_path, index=False)
     print(f"✅ Mortality predictions saved to '{output_path}'")
-
-# ======================== MAIN =============================
 
 if __name__ == "__main__":
     # Define file paths

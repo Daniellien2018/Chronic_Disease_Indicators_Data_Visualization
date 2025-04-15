@@ -58,12 +58,6 @@ python3 -m venv .venv
 ## Activate the virtual environment:
 # For Linux/macOS
 source .venv/bin/activate
-
-# For Windows (Command Prompt)
-.venv\Scripts\activate
-
-# For Windows (PowerShell)
-.venv\Scripts\Activate.ps1
 ```
 ### Install Project Dependencies 
 ```bash

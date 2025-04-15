@@ -32,7 +32,6 @@ def run_and_evaluate(model_name, train_fn, train_df, test_df, **kwargs):
     print(f"RMSE: {rmse:.4f}")
     print(f"R²: {r2:.4f}")
 
-
 def main():
     train_df, test_df = load_data()
 

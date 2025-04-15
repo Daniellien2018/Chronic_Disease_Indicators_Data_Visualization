@@ -48,6 +48,7 @@ def main():
 
     # List of model names - Need to separate from paths
     model_dir = Path('model_artifacts/')
+    
     # model_names = ['linear_regression', 'polynomial_regression', 'etc']
     model_names = [model.stem for model in model_dir.glob('*.pkl')]
 

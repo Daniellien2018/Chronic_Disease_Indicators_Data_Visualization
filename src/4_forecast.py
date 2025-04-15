@@ -86,6 +86,7 @@ if __name__ == "__main__":
 
     output_file = 'data/predictors/forecasted_income_medicaid.csv'
     expanded_forecast_df.to_csv(output_file,index=False)
+    
     print(f"✅ Forecast saved to '{output_file}'")
     
 

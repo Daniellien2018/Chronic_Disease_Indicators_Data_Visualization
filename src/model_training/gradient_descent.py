@@ -1,4 +1,3 @@
-import pandas as pd
 from sklearn.linear_model import SGDRegressor
 
 def train_gradient_descent(train_df):
