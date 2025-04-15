@@ -184,3 +184,6 @@ data/predictors/*
 !data/processed/.gitkeep
 !data/split/.gitkeep
 !data/predictors/.gitkeep
+
+#Un-ignore zipped dataset
+!data/raw/U.S._Chronic_Disease_Indicators__CDI___2023_Release copy.zip
