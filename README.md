@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ## 🚀 Project Execution - COPD Demo
 ### 00. Data Collection
-Before running this project, ensure that the proper data has been collected from the data sources listed above. Collect the rqeuired data into `data/raw/`. Do not rename any of the dataset filenames.
+Before running this project, ensure that the proper data has been collected from the data sources listed above. Collect the required data into `data/raw/`. Do not rename any of the dataset filenames.
 
 
 ### 0. Data Cleaning
