@@ -47,6 +47,7 @@ This project uses several public datasets collected from trusted government and 
 
     
 ## 🛠️ Setup Instructions
+Demo Set Up Video - https://youtu.be/_fmsY-HX-P0
 
 ### Clone the repository and set up Virtual Environment
 ```bash

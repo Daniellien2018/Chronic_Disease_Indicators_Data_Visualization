@@ -6,6 +6,10 @@ DESCRIPTION - Project Overview:
 This project aims to forecast mortality rates across U.S. states from 2021 to 2050, using historical public health data and socioeconomic indicators.
 A Random Forest regression model is trained to predict mortality outcomes based on variables such as Medicaid spending, median household income, and chronic disease stratifications (e.g., gender, race/ethnicity).
 
+---------------------------------------------------
+DEMO SET UP VIDEO: https://youtu.be/_fmsY-HX-P0
+---------------------------------------------------
+
 Objectives:
 -----------
 - Collect and process reliable state-level data from public sources.
