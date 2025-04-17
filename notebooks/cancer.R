@@ -46,25 +46,6 @@ print(cancer_strat_cats)
 # Filter by 'StratificationCategory1 = gender' and 'StratificationCategory1 = Race/Ethnicity'
 filtered_df <- df %>%
   filter(StratificationCategory1 == "Gender" | StratificationCategory1 == "Race/Ethnicity") %>%
-  # Filter to keep only specific cancer types (excluding screening tests)
-  filter(Question %in% c(
-    "Invasive cancer of the prostate, incidence",
-    "Cancer of the female breast, mortality",
-    "Invasive cancer of the oral cavity or pharynx, incidence",
-    "Cancer of the oral cavity and pharynx, mortality",
-    "Cancer of the prostate, mortality",
-    "Invasive cancer (all sites combined), mortality",
-    "Invasive cancer (all sites combined), incidence",
-    "Invasive cancer of the female breast, incidence",
-    "Cancer of the female cervix, mortality",
-    "Invasive cancer of the cervix, incidence",
-    "Cancer of the colon and rectum (colorectal), incidence",
-    "Cancer of the colon and rectum (colorectal), mortality",
-    "Cancer of the lung and bronchus, incidence",
-    "Cancer of the lung and bronchus, mortality",
-    "Melanoma, mortality",
-    "Invasive melanoma, incidence"
-  )) %>%
   select(YearStart, LocationDesc, Topic, Question, DataValue, StratificationCategory1, Stratification1) %>%
   rename(
     Year = YearStart,
@@ -79,8 +60,6 @@ filtered_df <- df %>%
 
 # View first 5 rows
 head(filtered_df, 5)
-
-print(unique(filtered_df$Type))
 
 # Remove rows with na in 'number_diagnosed'
 # Convert year to int
@@ -144,6 +123,8 @@ combined_df <- medicaid_df %>%
 # View first 5 rows
 head(combined_df, 5)
 
+# STOP HERE
+
 # Load median income df
 df3 <- read.csv("state_median_income.csv", header = TRUE)
 
@@ -191,32 +172,100 @@ final_df <- final_df %>%
 # View first 5 rows
 head(final_df, 5)
 
+# exploratory data analysis
+# summary stats for numeric columns
+summary(Filter(is.numeric, final_df))
+
+# average of number_diagnosed by cancer type
+final_df %>%
+  group_by(Type) %>%
+  summarise(average = mean(Number_Diagnosed, na.rm = TRUE))
+
+# average of number_diagnosed by race and gender
+final_df %>%
+  group_by(Stratification1) %>%
+  summarise(average = mean(Number_Diagnosed, na.rm = TRUE))
+
+# HERE final
+
 # Clean median_Income and convert to numeric
 final_df <- final_df %>%
   mutate(Median_Income = as.numeric(gsub(",", "", Median_Income)))
 
-# Exploratory data analysis
-# Summary stats for numeric columns
-summary(Filter(is.numeric, final_df))
+final_df %>%
+  group_by(State) %>%
+  summarise(across(c(Medicaid_Expenses, Number_Diagnosed, Median_Income), 
+                   list(mean = mean, median = median)))
 
-# Only factor categorical columns used in modeling
+# summary stats by state
+final_df %>%
+  group_by(State) %>%
+  summarise(across(c(Medicaid_Expenses, Number_Diagnosed, Median_Income), list(mean = mean, median = median)))
+
+# medicaid expenses frequency distribution
+ggplot(final_df, aes(x = Medicaid_Expenses)) +
+  geom_histogram(binwidth = 10000, fill = "cadetblue", color = "black") +
+  labs(title = "Histogram of Medicaid Expenses", x = "Medicaid Expenses (in millions)", y = "Frequency")
+
+# median income frequency distribution-- doesn't work
+ggplot(final_df, aes(x = Median_Income)) +
+  geom_histogram(binwidth = 1000, fill = "cadetblue3", color = "black") +
+  labs(title = "Histogram of Median Income", x = "Median Income (in thousands)", y = "Frequency")
+
+# Plot distribution by cancer type
+ggplot(final_df, aes(x = Type, y = Number_Diagnosed)) +
+  geom_boxplot(fill = "skyblue") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Number Diagnosed by Cancer Type", x = "Cancer Type", y = "Number Diagnosed")
+
+# filter to gender
+gender <- final_df %>%
+  filter(StratificationCategory1 == 'Gender')
+
+# filter to race/ethnicity
+race <- final_df %>%
+  filter(StratificationCategory1 == 'Race/Ethnicity')
+
+# number diagnosed by gender
+ggplot(gender, aes(x = Stratification1, y = Number_Diagnosed)) +
+  geom_boxplot(fill = "orange") +
+  facet_wrap(~Type, scales = "free_y") +
+  labs(title = "Number Diagnosed by Gender and Cancer Type", x = "Gender", y = "Number Diagnosed")
+
+# number diagnosed by race/ethnicity
+ggplot(race, aes(x = Stratification1, y = Number_Diagnosed)) +
+  geom_boxplot(fill = "orange") +
+  facet_wrap(~Type, scales = "free_y") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Number Diagnosed by Race/Ethnicity and Cancer Type", x = "Race/Ethnicity", y = "Number Diagnosed")
+
+# correlation analysis
+cor_matrix <- final_df %>%
+  select(where(is.numeric)) %>%
+  cor(use = "pairwise.complete.obs")
+
+corrplot::corrplot(cor_matrix, method = "circle")
+
+# only factor categorical columns used in modeling
 modified_df <- final_df %>%
   mutate(across(c(State, Stratification1, Type), as.factor))
 
-# View first 5 rows
+# view first 5 rows
 head(modified_df, 5)
 
-# Split data into training and testing sets
-# Training data uses data from 2010 - 2017 and testing data uses data from 2018 - 2020
+# split data into training and testing sets
+# training data uses data from 2010 - 2017 and testing data uses data from 2018 - 2020
 set.seed(123)
-train_df <- modified_df %>% filter(Year >= 2008 & Year <= 2013)
-test_df <- modified_df %>% filter(Year >= 2013 & Year <= 2015)
+train_df <- modified_df %>% filter(Year >= 2008 & Year <= 2017)
+test_df <- modified_df %>% filter(Year >= 2018 & Year <= 2020)
+
+# Want to make the model predict type of cancer 
 
 # Preprocessing
 train_df <- train_df %>%
   mutate(
     State = as.factor(State),
-    Year = as.numeric(Year),  # Keep Year as numeric, not factor!
+    Year = as.factor(Year),
     Stratification1 = as.factor(Stratification1),
     Type = as.factor(Type),
     Medicaid_Expenses = as.numeric(Medicaid_Expenses),
@@ -233,175 +282,143 @@ train_df_clean <- train_df %>%
     !is.na(Median_Income)
   )
 
-# REGRESSION: Predict Number_Diagnosed
+# 1. REGRESSION: Predict Number_Diagnosed
 rf_reg_model <- randomForest(Number_Diagnosed ~ State + Stratification1 + Medicaid_Expenses + Median_Income,
                              data = train_df_clean, ntree = 100)
 
 print(rf_reg_model)
 
-# CLASSIFICATION: Predict Type
+# 2. CLASSIFICATION: Predict Type
 unique(train_df_clean$Type)
 rf_class_model <- randomForest(Type ~ State + Stratification1 + Medicaid_Expenses + Median_Income,
                                data = train_df_clean, ntree = 100)
 
 print(rf_class_model)
 
-# PREDICTIONS ON TEST SET
+# STOP
+
+summary(train_df_clean$Number_Diagnosed)  # Should not be all NA
+print(rf_reg_model)  # Check if % Var explained is reasonable
+
+table(train_df_clean$Type)  # Ensure no empty categories
+print(rf_class_model)  # Check OOB error rate
+
+# STOP HERE
+
+# 3. PREDICTIONS ON TEST SET
 # Make sure test data has the same format as training data
 test_df <- test_df %>%
   mutate(
     State = as.factor(State),
-    Year = as.numeric(Year),  # Keep Year as numeric, not factor!
+    Year = as.factor(Year),
     Stratification1 = as.factor(Stratification1),
     Type = as.factor(Type),
     Medicaid_Expenses = as.numeric(Medicaid_Expenses),
     Median_Income = as.numeric(Median_Income)
   )
 
-# FUTURE PREDICTIONS (2021-2050)
+for(col in names(test_df)) {
+  if(is.factor(test_df[[col]])) {
+    test_df[[col]] <- factor(test_df[[col]], 
+                             levels = levels(train_df[[col]]))
+  }
+}
+
+# Regression prediction
+test_df$rf_pred_Number_Diagnosed <- predict(rf_reg_model, test_df)
+
+# Classification prediction
+test_df$rf_pred_Type <- predict(rf_class_model, test_df, type = "response")
+
+# Evaluation Metrics - only if test data has actual values
+if("Number_Diagnosed" %in% names(test_df) && "Type" %in% names(test_df)) {
+  reg_mae <- mean(abs(test_df$Number_Diagnosed - test_df$rf_pred_Number_Diagnosed), na.rm = TRUE)
+  reg_rmse <- sqrt(mean((test_df$Number_Diagnosed - test_df$rf_pred_Number_Diagnosed)^2, na.rm = TRUE))
+  class_acc <- mean(test_df$rf_pred_Type == test_df$Type, na.rm = TRUE)
+  
+  cat("Random Forest Regression:\nMAE:", reg_mae, "\nRMSE:", reg_rmse, "\n\n")
+  cat("Random Forest Classification Accuracy:", class_acc, "\n")
+}
+
+# -------------------------------
+# 4. FUTURE PREDICTIONS (2021–2030)
+# -------------------------------
 # Future years
-years <- 2021:2050
+years <- 2021:2030
 states <- unique(as.character(train_df$State))
 stratification_values <- unique(as.character(train_df$Stratification1))
 
-# ---------- FIXED PART STARTS HERE ----------
-
-# Calculate state-specific annual growth rates for Medicaid and Income
-# These will provide more realistic predictions by using compound growth
-medicaid_growth_rates <- train_df %>%
+# Modern approach to trend models using nested dataframes
+medicaid_trends <- train_df %>%
+  mutate(Year_numeric = as.numeric(as.character(Year))) %>%
   group_by(State) %>%
-  summarize(
-    start_year = min(Year),
-    end_year = max(Year),
-    start_medicaid = median(Medicaid_Expenses[Year == min(Year)]),
-    end_medicaid = median(Medicaid_Expenses[Year == max(Year)]),
-    # Calculate annual compound growth rate
-    medicaid_annual_growth = (end_medicaid / start_medicaid)^(1/(end_year - start_year)) - 1,
-    # Apply sanity checks to growth rates
-    medicaid_annual_growth = ifelse(
-      medicaid_annual_growth > 0.15, 0.15, 
-      ifelse(medicaid_annual_growth < -0.05, -0.05, medicaid_annual_growth)
-    )
-  ) %>%
-  # Handle cases where growth rate couldn't be calculated properly
-  mutate(
-    medicaid_annual_growth = ifelse(
-      is.na(medicaid_annual_growth) | !is.finite(medicaid_annual_growth), 
-      median(medicaid_annual_growth, na.rm = TRUE), 
-      medicaid_annual_growth
-    )
-  )
+  nest() %>%
+  mutate(model = map(data, ~lm(Medicaid_Expenses ~ Year_numeric, data = .x))) %>%
+  ungroup()
 
-income_growth_rates <- train_df %>%
+income_trends <- train_df %>%
+  mutate(Year_numeric = as.numeric(as.character(Year))) %>%
   group_by(State) %>%
-  summarize(
-    start_year = min(Year),
-    end_year = max(Year),
-    start_income = median(Median_Income[Year == min(Year)]),
-    end_income = median(Median_Income[Year == max(Year)]),
-    # Calculate annual compound growth rate  
-    income_annual_growth = (end_income / start_income)^(1/(end_year - start_year)) - 1,
-    # Apply sanity checks to growth rates
-    income_annual_growth = ifelse(
-      income_annual_growth > 0.08, 0.08, 
-      ifelse(income_annual_growth < -0.02, -0.02, income_annual_growth)
-    )
-  ) %>%
-  # Handle cases where growth rate couldn't be calculated properly
-  mutate(
-    income_annual_growth = ifelse(
-      is.na(income_annual_growth) | !is.finite(income_annual_growth), 
-      median(income_annual_growth, na.rm = TRUE), 
-      income_annual_growth
-    )
-  )
-
-print("Medicaid Growth Rates by State:")
-print(medicaid_growth_rates)
-
-print("Income Growth Rates by State:")
-print(income_growth_rates)
-
-# Get the most recent values as starting points for projections
-latest_values <- train_df %>%
-  group_by(State) %>%
-  filter(Year == max(Year)) %>%
-  summarize(
-    latest_year = max(Year),
-    latest_medicaid = median(Medicaid_Expenses),
-    latest_income = median(Median_Income)
-  )
+  nest() %>%
+  mutate(model = map(data, ~lm(Median_Income ~ Year_numeric, data = .x))) %>%
+  ungroup()
 
 # Create future data frame
 future_data <- expand.grid(
   State = factor(states, levels = levels(train_df$State)),
-  Year = years,  # Use numeric years, not factors
+  Year = factor(years, levels = c(levels(train_df$Year), as.character(years))),
   Stratification1 = factor(stratification_values, levels = levels(train_df$Stratification1)),
   stringsAsFactors = FALSE
 )
 
-# Apply compound growth to project future values
+# Function to predict future values 
+predict_future_value <- function(state_val, year_val, model_data) {
+  model_row <- model_data %>% filter(State == state_val)
+  if(nrow(model_row) == 0) return(NA)
+  
+  prediction <- predict(model_row$model[[1]], 
+                        newdata = data.frame(Year_numeric = as.numeric(year_val)))
+  return(prediction)
+}
+
+# Apply predictions
 future_data <- future_data %>%
-  left_join(latest_values, by = "State") %>%
-  left_join(medicaid_growth_rates %>% select(State, medicaid_annual_growth), by = "State") %>%
-  left_join(income_growth_rates %>% select(State, income_annual_growth), by = "State") %>%
   rowwise() %>%
   mutate(
-    # Use compound growth formula for projection
-    years_to_project = Year - latest_year,
-    Medicaid_Expenses = latest_medicaid * (1 + medicaid_annual_growth)^years_to_project,
-    Median_Income = latest_income * (1 + income_annual_growth)^years_to_project
+    Medicaid_Expenses = predict_future_value(State, Year, medicaid_trends),
+    Median_Income = predict_future_value(State, Year, income_trends)
   ) %>%
-  ungroup() %>%
-  select(-latest_year, -latest_medicaid, -latest_income, -medicaid_annual_growth, 
-         -income_annual_growth, -years_to_project)
-
-# Ensure State is a factor with the same levels as in training data
-future_data$State <- factor(future_data$State, levels = levels(train_df$State))
+  ungroup()
 
 # Make predictions with random forest models
 future_data$Predicted_Number_Diagnosed <- predict(rf_reg_model, future_data)
 future_data$Predicted_Cancer_Type <- predict(rf_class_model, future_data)
 
-# Add a new column to identify the stratification category
-future_data <- future_data %>%
-  mutate(StratificationCategory = case_when(
-    Stratification1 %in% c("Male", "Female") ~ "Gender",
-    TRUE ~ "Race/Ethnicity"
-  ))
-
-# Rename Stratification1 to make it clearer
-future_data <- future_data %>%
-  rename(StratificationValue = Stratification1)
-
-# Make sure all predictions and columns are properly formatted
-future_data <- future_data %>%
-  mutate(
-    Year = as.numeric(Year),
-    Predicted_Number_Diagnosed = round(Predicted_Number_Diagnosed, 1),
-    Medicaid_Expenses = round(Medicaid_Expenses, 2),
-    Median_Income = round(Median_Income, 2)
+# -------------------------------
+# 5. Summarize and Plot
+# -------------------------------
+# Grouped Summary
+summary_df <- future_data %>%
+  group_by(Year, Predicted_Cancer_Type) %>%
+  summarise(
+    Total_Cases = sum(Predicted_Number_Diagnosed, na.rm = TRUE),
+    .groups = 'drop'
   )
 
-# Sort in a logical order
-future_data <- future_data %>%
-  arrange(Year, State, StratificationCategory, StratificationValue, Predicted_Cancer_Type)
+# Plot by type over time
+ggplot(summary_df, aes(x = Year, y = Total_Cases, color = Predicted_Cancer_Type, group = Predicted_Cancer_Type)) +
+  geom_line(size = 1) +
+  geom_point() +
+  labs(title = "Predicted Diagnosed Cases by Cancer Type (2021–2030)",
+       x = "Year", y = "Total Predicted Cases", color = "Cancer Type") +
+  theme_minimal()
 
-# Export to Excel - include all columns including both StratificationCategory and StratificationValue
+# -------------------------------
+# 6. Export to Excel
+# -------------------------------
 write.xlsx(
   future_data,
-  file = "cancer_predictions_revised_2021_2050.xlsx",
+  file = "cancer_predictions_dual_output_2021_2030.xlsx",
   sheetName = "Predictions",
   rowNames = FALSE
 )
-
-# Make predictions
-test_df$predicted_number_diagnosed <- predict(rf_reg_model, test_df)
-
-# Calculate RMSE
-rmse <- sqrt(mean((test_df$Number_Diagnosed - test_df$predicted_number_diagnosed)^2))
-print(paste("RMSE for cancer prediction model:", round(rmse, 2)))
-
-mean_actual <- mean(test_df$Number_Diagnosed)
-mean_predicted <- mean(test_df$predicted_number_diagnosed)
-percent_error <- (3308.7 / mean_actual) * 100
