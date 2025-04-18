@@ -1,5 +1,8 @@
 # Chronic Disease Indicators Data Visualization
 
+## Dash Board
+![Dashboard](images/dashboard.png.png)
+
 ## 🩺 Project Overview:
 This project aims to forecast mortality rates across U.S. states from 2021 to 2050, leveraging a combination of historical public health data and socioeconomic indicators. Using a Random Forest regression model, we predict mortality outcomes based on key variables such as Medicaid spending, median household income, and chronic disease stratifications (e.g., gender, race/ethnicity).
 
