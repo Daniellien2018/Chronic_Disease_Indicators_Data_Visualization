@@ -1,6 +1,6 @@
 # Chronic Disease Indicators Data Visualization
 
-## Dash Board
+## Dashboard
 ![Dashboard](images/dashboard.png)
 
 ## 🩺 Project Overview:
